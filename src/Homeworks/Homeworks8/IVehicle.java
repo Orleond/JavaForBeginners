@@ -1,4 +1,4 @@
-package Exercises.Exercises9;
+package Homeworks.Homeworks8;
 
 public interface IVehicle {
     int range();

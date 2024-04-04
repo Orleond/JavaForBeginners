@@ -1,4 +1,4 @@
-package Exercises.Exercises9;
+package Homeworks.Homeworks8;
 
 public class Vehicle implements IVehicle{
     private int passengers; // Количество пассажиров

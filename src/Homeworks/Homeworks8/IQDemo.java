@@ -1,5 +1,4 @@
-package Exercises.Exercises9;
-import Exercises.Exercises9.qpack.*;
+package Homeworks.Homeworks8;
 
 /*
  * Демонстрация трех реализаций интерфейса ICharQ

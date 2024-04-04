@@ -1,4 +1,4 @@
-package Exercises.Exercises9.qpack;
+package Homeworks.Homeworks8;
 
 /*
  * Кольцевая очередь

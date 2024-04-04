@@ -1,4 +1,4 @@
-package Exercises.Exercises9;
+package Homeworks.Homeworks8;
 
 /*
  * Упражнение 7.1

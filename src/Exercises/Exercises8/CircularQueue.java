@@ -1,5 +1,6 @@
 package Exercises.Exercises8;
 /*
+ * Упражнение 8.1
  * Кольцевая очередь
  */
 public class CircularQueue implements ICharQ {

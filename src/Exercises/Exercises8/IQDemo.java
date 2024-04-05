@@ -1,5 +1,6 @@
 package Exercises.Exercises8;
 /*
+ * Упражнение 8.1
  * Демонстрация трех реализаций интерфейса ICharQ
  */
 public class IQDemo {

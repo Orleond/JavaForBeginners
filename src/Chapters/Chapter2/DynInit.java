@@ -1,16 +1,16 @@
 package Chapters.Chapter2;
 
 /**
- * Демонстрация динамической инициализации
+ * Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ РґРёРЅР°РјРёС‡РµСЃРєРѕР№ РёРЅРёС†РёР°Р»РёР·Р°С†РёРё
  */
 public class DynInit {
     public static void main(String[] args) {
         double radius = 4, height = 5;
 
-        // Переменная volume инициализируется динамически
-        // во время выполнения программы
+        // РџРµСЂРµРјРµРЅРЅР°СЏ volume РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµС‚СЃСЏ РґРёРЅР°РјРёС‡РµСЃРєРё
+        // РІРѕ РІСЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ РїСЂРѕРіСЂР°РјРјС‹
         double volume = 3.1416 * radius * radius * height;
 
-        System.out.println("Объем: " + volume);
+        System.out.println("РћР±СЉРµРј: " + volume);
     }
 }

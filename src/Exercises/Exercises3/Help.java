@@ -34,7 +34,7 @@ public class Help {
                 System.out.println("}");
                 break;
             default:
-                System.out.println("Запрос не найденю");
+                System.out.println("Запрос не найден");
         }
     }
 }

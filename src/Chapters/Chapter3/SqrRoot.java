@@ -1,7 +1,7 @@
 package Chapters.Chapter3;
 /*
  * Вывод квадратных корней чисел от 1 до 99
- * вместе с ошибкой окрушления
+ * вместе с ошибкой округления
  */
 public class SqrRoot {
     public static void main(String[] args) {

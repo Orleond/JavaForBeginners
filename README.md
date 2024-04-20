@@ -7,6 +7,7 @@ ____
  - [Глава 2. Знакомство с типами данных и операторами](#chapter2)
  - [Глава 3. Управляющие конструкции](#chapter3)
  - [Глава 4. Знакомство с классами, объектами и методами](#chapter4)
+ - [Глава 5. Подробнее о типах данных и операторах](#chapter5)
 ____
 ### <a name="chapter1">Глава 1. Основы Java</a>
 #### Листинг примеров
@@ -171,3 +172,64 @@ ____
 
 
 _В 4 главе отсутствуют упражнения для самопроверки, в которых необходимо писать код._
+____
+### <a name="chapter5">Глава 5. Подробнее о типах данных и операторах</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[ArrayDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/ArrayDemo.java)|Демонстрация одномерного массива|
+|[MinMax](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/MinMax.java)|Поиск минимального и максимального значений в массиве|
+|[MinMax2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/MinMax2.java)|Применение инициализаторов массива|
+|[TwoD](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/TwoD.java)|Демонстрация использования двумерного массива|
+|[Ragged](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/Ragged.java)|Выделение памяти по второму индексу массива вручную|
+|[Squares](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/Squares.java)|Инициализация двумерного массива|
+|[AssignARef](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/AssignARef.java)|Присваивание ссылок на массивы|
+|[LengthDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/LengthDemo.java)|Демонстрация использования переменной экземпляра length|
+|[ACopy](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/ACopy.java)|Пример использования переменной length для копирования массивов|
+|[ForEach](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/ForEach.java)|Использование цикла типа for-each|
+|[NoChange](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/NoChange.java)|Циклы for-each предназначены только для чтения|
+|[ForEach2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/ForEach2.java)|Использование расширенного цикла for для обработки двумерного массива|
+|[Search](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/Search.java)|Поиск в массиве с использованием расширенного цикла for|
+|[StringDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/StringDemo.java)|Знакомство с классом String|
+|[StrOps](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/StrOps.java)|Некоторые операции над строками|
+|[StringArrays](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/StringArrays.java)|Демонстрация использования массивов строк|
+|[SubStr](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/SubStr.java)|Применение метода substring()|
+|[StringSwitch](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/StringSwitch.java)|Использование строк для управления инструкцией switch|
+|[CLDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/CLDemo.java)|Отображение всех данных, указываемых в командной строке|Использование строк для управления инструкцией switch|
+|[Phone](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/Phone.java)|Простейший автоматизированный телефонный справочник|
+|[UpCase](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/UpCase.java)|Преобразование строчных букв английского алфавита в прописные|
+|[ShowBits](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/ShowBits.java)|Отображение битов, составляющих байт|
+|[LowCase](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/LowCase.java)|Преобразование прописных букв английского языка в строчные|
+|[Encode](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/Encode.java)|Использование побитовой операции исключающего ИЛИ для шифрования и дешифрования сообщений|
+|[NotDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/NotDemo.java)|Демонстрация побитовой операции НЕ|
+|[ShiftDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/ShiftDemo.java)|Демонстрация использования операторов << и >>|
+|[NoZeroDiv](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/NoZeroDiv.java)|Предотвращение деления на нуль с помощью оператора ?|
+|[NoZeroDiv2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter5/NoZeroDiv2.java)|Предотвращение деления на нуль с помощью оператора ?|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 5.1|[Bubble](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises5/Bubble.java)|Демонстрация алгоритма пузырьковой сортировки|
+|Упражнение 5.2|[QDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises5/QDemo.java)|Демонстрация использования класса [Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises5/Queue.java)|
+|Упражнение 5.3|[ShowBitsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises5/ShowBitsDemo.java)|Создание класса для отображения значений в двоичном виде. Реализуется при помощи класса [ShowBits](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises5/ShowBits.java)|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 3|[Avg](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests5/Avg.java)|Среднее арифметическое 10 значений типа double|
+|Задание 4|[StrBubble](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/StrBubble/Avg.java)|Демонстрация алгоритма пузырьковой сортировки строк|
+|Задание 7|[Encode](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/StrBubble/Encode.java)|Улучшенный вариант программы шифрования сообщений с помощью побитовой операции исключающего ИЛИ|
+|Задание 13|[MinMax](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/StrBubble/MinMax.java)|Поиск минимального и максимального значений в массиве|
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 3|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework1.java)|Среднее арифметическое 10 значений типа double|
+|Задание 4|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework2.java)|Демонстрация алгоритма пузырьковой сортировки строк|
+|Задание 7|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework3.java)|Улучшенный вариант программы шифрования сообщений с помощью побитовой операции исключающего ИЛИ|
+|Задание 13|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework4.java)|Поиск минимального и максимального значений в массиве|

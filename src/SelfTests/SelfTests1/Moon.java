@@ -1,21 +1,21 @@
 package SelfTests.SelfTests1;
 
 /**
- * Вычисление веса на луне
+ * Р’С‹С‡РёСЃР»РµРЅРёРµ РІРµСЃР° РЅР° Р»СѓРЅРµ
  *
- * Присвойте этому файлу имя Moon.java
+ * РџСЂРёСЃРІРѕР№С‚Рµ СЌС‚РѕРјСѓ С„Р°Р№Р»Сѓ РёРјСЏ Moon.java
  */
 public class Moon {
     public static void main(String[] args) {
-        double earthweight; // Вес на Земле
-        double moonweight;  // Вес на Луне
+        double earthweight; // Р’РµСЃ РЅР° Р—РµРјР»Рµ
+        double moonweight;  // Р’РµСЃ РЅР° Р›СѓРЅРµ
 
-        earthweight = 165;  // Вес на Земле в фунтах
+        earthweight = 165;  // Р’РµСЃ РЅР° Р—РµРјР»Рµ РІ С„СѓРЅС‚Р°С…
 
         moonweight = earthweight * 0.17;
 
-        System.out.println(earthweight + " земных фунтов" +
-                " эквивалентны " + moonweight +
-                " лунным фунтам.");
+        System.out.println(earthweight + " Р·РµРјРЅС‹С… С„СѓРЅС‚РѕРІ" +
+                " СЌРєРІРёРІР°Р»РµРЅС‚РЅС‹ " + moonweight +
+                " Р»СѓРЅРЅС‹Рј С„СѓРЅС‚Р°Рј.");
     }
 }

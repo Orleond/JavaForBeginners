@@ -221,8 +221,8 @@ ____
 |-----------|-------------|-------------|
 |Задание 3|[Avg](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests5/Avg.java)|Среднее арифметическое 10 значений типа double|
 |Задание 4|[StrBubble](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests5/StrBubble.java)|Демонстрация алгоритма пузырьковой сортировки строк|
-|Задание 7|[Encode](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests/Encode.java)|Улучшенный вариант программы шифрования сообщений с помощью побитовой операции исключающего ИЛИ|
-|Задание 13|[MinMax](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests/MinMax.java)|Поиск минимального и максимального значений в массиве|
+|Задание 7|[Encode](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests5/Encode.java)|Улучшенный вариант программы шифрования сообщений с помощью побитовой операции исключающего ИЛИ|
+|Задание 13|[MinMax](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests5/MinMax.java)|Поиск минимального и максимального значений в массиве|
 
 
 &nbsp;

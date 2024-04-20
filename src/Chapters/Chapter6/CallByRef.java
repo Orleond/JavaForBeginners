@@ -4,7 +4,7 @@ package Chapters.Chapter6;
  */
 public class CallByRef {
     public static void main(String[] args) {
-        Test ob = new Test(15, 20);
+        Test2 ob = new Test2(15, 20);
 
         System.out.println("ob.a и ob.b перед вызовом: " +
                 ob.a + " " + ob.b);

@@ -1,6 +1,6 @@
 package Chapters.Chapter6;
 /*
- * Методам можно передавать объекты
+ * Класс, реализующий класс Block
  */
 public class PassOb {
     public static void main(String[] args) {

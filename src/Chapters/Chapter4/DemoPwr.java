@@ -2,22 +2,6 @@ package Chapters.Chapter4;
 /*
  * Возведение в степень заданного числа
  */
-class Pwr {
-    double base;
-    int exp;
-    double val;
-
-    Pwr(double base, int exp) {
-        this.base = base;
-        this.exp = exp;
-
-        this.val = 1;
-        if (exp == 0) return;
-        for (; exp > 0; exp--) this.val *= base;
-    }
-
-    double getPwr() { return this.val; }
-}
 public class DemoPwr {
     public static void main(String[] args) {
         Pwr x = new Pwr(4.0, 2);

@@ -35,4 +35,4 @@ ____
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
 |Задание 9|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework1.java)|Вычисление веса на луне|
-|Задание 10|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework2.java)|Видоизмените программу, созданную в упражнении 1.2, таким образом, чтобы она выводила таблицу перевода дюймов в метры. Выведите значения длины до 12 футов через каждый дюйм. После каждых 12 дюймов выведите пустую строку. (Один метр приблизительно равен 39.37 дюймам.)|
+|Задание 10|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework2.java)|Эта программа отображает таблицу преобразования дюймов в метры.|

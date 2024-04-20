@@ -8,6 +8,7 @@ ____
  - [Глава 3. Управляющие конструкции](#chapter3)
  - [Глава 4. Знакомство с классами, объектами и методами](#chapter4)
  - [Глава 5. Подробнее о типах данных и операторах](#chapter5)
+ - [Глава 6. Подробнее о методах и классах](#chapter6)
 ____
 ### <a name="chapter1">Глава 1. Основы Java</a>
 #### Листинг примеров
@@ -233,3 +234,79 @@ ____
 |Задание 4|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework2.java)|Демонстрация алгоритма пузырьковой сортировки строк|
 |Задание 7|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework3.java)|Улучшенный вариант программы шифрования сообщений с помощью побитовой операции исключающего ИЛИ|
 |Задание 13|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework4.java)|Поиск минимального и максимального значений в массиве|
+____
+### <a name="chapter6">Глава 6. Подробнее о методах и классах</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/MyClass.java)|Сравнение модификаторов доступа public и private|
+|[AccessDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/AccessDemo.java)|Класс, реализующий сравнение модификаторов доступа public и private при помощи класса [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/MyClass.java)|
+|[FailSortArray](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/FailSortArray.java)|В этом классе реализуется "отказоустойчивый" массив, предотвращающий ошибки времени выполнения|
+|[FSDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/FSDemo.java)|Демонстрация работы с "отказоустойчивым" массивом при помощи класса [FailSortArray](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/FailSortArray.java) |
+|[Block](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Block.java)|Методам можно передавать объекты|
+|[PassOb](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/PassOb.java)|Класс, реализующий класс [Block](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Block.java)|
+|[Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Test.java)|Простые типы данных передаются методам по значению|
+|[CallByValue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/CallByValue.java)|Класс, реализующий класс [Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Test.java)|
+|[Test2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Test2.java)|Объекты передаются методам по ссылке|
+|[CallByRef](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/CallByRef.java)|Класс, реализующий класс [Test2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Test2.java)|
+|[ErrorMsg](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorMsg.java)|Возврат объекта типа String|
+|[ErrMsg](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrMsg.java)|Класс, реализующий класс [ErrorMsg](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorMsg.java)|
+|[Err](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Err.java)|Возврат объекта, определяемого разработчиком программы|
+|[ErrorInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorInfo.java)|Возврат объекта, определяемого разработчиком программы|
+|[ErrInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrMsg.ErrInfo)|Класс, реализующий классы [Err](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Err.java) и [ErrorInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorInfo.java)|
+|[Overload](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Overload.java)|Перегрузка методов|
+|[OverloadDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/OverloadDemo.java)|Класс, реализующий класс [Overload](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Overload.java)|
+|[Overload2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Overload2.java)|Автоматическое преобразование типов может влиять на выбор перегружаемого метода|
+|[TypeConv](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/TypeConv.java)|Класс, реализующий класс [Overload2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Overload2.java)|
+|[MyClass2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/MyClass2.java)|Демонстрация перегрузки конструкторов|
+|[OverloadConsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/OverloadConsDemo.java)|Класс, реализующий класс [MyClass2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/MyClass2.java)|
+|[Summation](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Summation.java)|Инициализация одного объекта посредством другого|
+|[SumDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/SumDemo.java)|Класс, реализующий класс [Summation](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Summation.java)|
+|[Factorial](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Factorial.java)|Простой пример рекурсии|
+|[Recursion](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Recursion.java)|Класс, реализующий класс [Factorial](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Factorial.java)|
+|[StaticDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/StaticDemo.java)|Применение статической переменной|
+|[SDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/SDemo.java)|Класс, реализующий класс [StaticDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/StaticDemo.java)|
+|[StaticMeth](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/StaticMeth.java)|Применение статического метода|
+|[SDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/SDemo2.java)|Класс, реализующий класс [StaticMeth](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/StaticMeth.java)|
+|[StaticBlock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/StaticBlock.java)|Применение статического блока|
+|[SDemo3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/SDemo3.java)|Класс, реализующий класс [StaticBlock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/StaticBlock.java)|
+|[Outer](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Outer.java)|Применение внутреннего класса|
+|[NestedClassDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/NestedClassDemo.java)|Класс, реализующий класс [Outer](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Outer.java)|
+|[LocalClassDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/LocalClassDemo.java)|Применение класса ShowBits в качестве локального|
+|[VarAargs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarAargs.java)|Демонстрация использования метода с переменным числом аргументов|
+|[VarAargs2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarAargs2.java)|Использование массива аргументов переменной длины наряду с обычными аргументами|
+|[VarAargs3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarAargs3.java)|Перегрузка метода с переменным числом аргументов|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 6.1, 6.2|[Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|Класс, реализующий очередь для хранения символов|
+|Упражнение 6.1|[QDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QDemo.java)|Демонстрация использования класса [Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|
+|Упражнение 6.2|[QDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QDemo2.java)|Демонстрация использования класса [Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|
+|Упражнение 6.3|[Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Quicksort.java)|Простая версия класса Quicksort, реализующего быструю сортировку|
+|Упражнение 6.2|[QSDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QSDemo.java)|Демонстрация использования класса [Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Quicksort.java)|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 3|[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Stack.java)|Класс, реализующий стек для хранения символов|
+|Задание 3|[SDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SDemo.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Stack.java)|
+|Задание 6|[Backwards](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Backwards.java)|Отображение символов строки в обратном порядке с помощью рекурсии|
+|Задание 6|[BWDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/BWDemo.java)|Демонстрация использования класса [Backwards](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Backwards.java)|
+|Задание 13|[SumIt](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumIt.java)|Суммирование переданных чисел|
+|Задание 13|[SumDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumDemo.java)|Демонстрация использования класса [SumIt](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumIt.java)|
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 3|[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Stack.java)|Класс, реализующий стек для хранения символов|
+|Задание 3|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework1.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Stack.java)|
+|Задание 4|[Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Test.java)|Решить задачу на основании этого класса|
+|Задание 4|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework2.java)|Класс, реализующий обмен данными между двумя объектами на основании класа [Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Test.java)|
+|Задание 6|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework3.java)|Отображение символов строки в обратном порядке с помощью рекурсии|
+|Задание 13|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework4.java)|Суммирование переданных чисел|

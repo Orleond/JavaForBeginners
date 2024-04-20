@@ -273,8 +273,8 @@ ____
 |[NestedClassDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/NestedClassDemo.java)|Класс, реализующий класс [Outer](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Outer.java)|
 |[LocalClassDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/LocalClassDemo.java)|Применение класса ShowBits в качестве локального|
 |[VarAargs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarAargs.java)|Демонстрация использования метода с переменным числом аргументов|
-|[VarAargs2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarAargs2.java)|Использование массива аргументов переменной длины наряду с обычными аргументами|
-|[VarAargs3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarAargs3.java)|Перегрузка метода с переменным числом аргументов|
+|[VarAargs2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarArgs2.java)|Использование массива аргументов переменной длины наряду с обычными аргументами|
+|[VarAargs3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/VarArgs3.java)|Перегрузка метода с переменным числом аргументов|
 
 
 &nbsp;
@@ -284,8 +284,8 @@ ____
 |Упражнение 6.1, 6.2|[Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|Класс, реализующий очередь для хранения символов|
 |Упражнение 6.1|[QDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QDemo.java)|Демонстрация использования класса [Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|
 |Упражнение 6.2|[QDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QDemo2.java)|Демонстрация использования класса [Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|
-|Упражнение 6.3|[Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Quicksort.java)|Простая версия класса Quicksort, реализующего быструю сортировку|
-|Упражнение 6.2|[QSDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QSDemo.java)|Демонстрация использования класса [Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Quicksort.java)|
+|Упражнение 6.3|[Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QuickSort.java)|Простая версия класса Quicksort, реализующего быструю сортировку|
+|Упражнение 6.2|[QSDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QSDemo.java)|Демонстрация использования класса [Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QuickSort.java)|
 
 
 &nbsp;

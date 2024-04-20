@@ -1,9 +1,9 @@
 package SelfTests.SelfTests1;
 
 /**
- * Эта программа отображает таблицу преобразования дюймов в метры.
+ * Р­С‚Р° РїСЂРѕРіСЂР°РјРјР° РѕС‚РѕР±СЂР°Р¶Р°РµС‚ С‚Р°Р±Р»РёС†Сѓ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РґСЋР№РјРѕРІ РІ РјРµС‚СЂС‹.
  *
- * Присвойте этому файлу имя InchToMeterTable.java
+ * РџСЂРёСЃРІРѕР№С‚Рµ СЌС‚РѕРјСѓ С„Р°Р№Р»Сѓ РёРјСЏ InchToMeterTable.java
  */
 public class InchToMeterTable {
     public static void main(String[] args) {
@@ -12,15 +12,15 @@ public class InchToMeterTable {
 
         counter = 0;
         for (inches = 1; inches <= 144 ; inches++) {
-            meters = inches * 39.37;    // Преобразование в метры
-            System.out.println(inches + " дюймов равно " +
-                    meters + " метров.");
+            meters = inches * 39.37;    // РџСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РІ РјРµС‚СЂС‹
+            System.out.println(inches + " РґСЋР№РјРѕРІ СЂР°РІРЅРѕ " +
+                    meters + " РјРµС‚СЂРѕРІ.");
 
             counter++;
-            // Каждая 12-я выводимая строка должна быть пустой
+            // РљР°Р¶РґР°СЏ 12-СЏ РІС‹РІРѕРґРёРјР°СЏ СЃС‚СЂРѕРєР° РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РїСѓСЃС‚РѕР№
             if (counter == 12) {
                 System.out.println();
-                counter = 0;    // Сбросить счетчик строк
+                counter = 0;    // РЎР±СЂРѕСЃРёС‚СЊ СЃС‡РµС‚С‡РёРє СЃС‚СЂРѕРє
             }
         }
     }

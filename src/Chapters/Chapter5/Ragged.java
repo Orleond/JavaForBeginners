@@ -24,7 +24,7 @@ public class Ragged {
                 riders[i][j] = i + j + 10;
 
         System.out.println("Количество пассажиров, перевезенных " +
-                "каждым рейсом, в бужние дни недели:");
+                "каждым рейсом, в будние дни недели:");
         for (i = 0; i < 5; i++) {
             for (j = 0; j < 10; j++)
                 System.out.print(riders[i][j] + " ");

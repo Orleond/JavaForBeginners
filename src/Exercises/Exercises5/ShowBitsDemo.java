@@ -15,7 +15,7 @@ public class ShowBitsDemo {
         System.out.println("\n87987 в двоичном представлении: ");
         i.show(87987);
 
-        System.out.println("\n237658768 в двоичном предствлении: ");
+        System.out.println("\n237658768 в двоичном представлении: ");
         li.show(237658768);
 
         // Можно также отобразить младшие

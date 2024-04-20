@@ -1,7 +1,7 @@
 package Exercises.Exercises1;
 /*
  * Упражнение 1.2
- * Эта программа отображает таблицу перевода галлогов в дитры
+ * Эта программа отображает таблицу перевода галлонов в литры
  */
 public class GalToLitTable {
     public static void main(String[] args) {

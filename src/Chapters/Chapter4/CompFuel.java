@@ -7,8 +7,8 @@ package Chapters.Chapter4;
  */
 public class CompFuel {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportcar = new Vehicle();
+        Vehicle4 minivan = new Vehicle4();
+        Vehicle4 sportcar = new Vehicle4();
         double gallons;
         int dist = 252;
 

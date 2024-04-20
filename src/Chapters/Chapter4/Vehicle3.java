@@ -1,5 +1,7 @@
 package Chapters.Chapter4;
-
+/*
+ * Использование возвращаемого значения
+ */
 public class Vehicle3 {
     int passengers; // Количество пассажиров
     int fuelcap;    // Емкость топливного бака

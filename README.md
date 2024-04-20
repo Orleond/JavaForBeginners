@@ -6,6 +6,7 @@ ____
  - [Глава 1. Основы Java](#chapter1)
  - [Глава 2. Знакомство с типами данных и операторами](#chapter2)
  - [Глава 3. Управляющие конструкции](#chapter3)
+ - [Глава 4. Знакомство с классами, объектами и методами](#chapter4)
 ____
 ### <a name="chapter1">Глава 1. Основы Java</a>
 #### Листинг примеров
@@ -83,7 +84,7 @@ ____
 |Задание 10|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks2/Homework2.java)|Нахождение простых чисел в диапазоне от 2 до 100|
 ____
 ### <a name="chapter3">Глава 3. Управляющие конструкции</a>
-#### Листинг примеров
+#### Листинг примеров</a>
 |Название класса|Описание|
 |-----------|-------------|
 |[KbIn](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter3/KbIn.java)|Чтение символа с клавиатуры|
@@ -142,3 +143,31 @@ ____
 |Задание 4|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks3/Homework2.java)|Цикл for с перебором от 1000 до 0 с шагом 2|
 |Задание 9|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks3/Homework3.java)|Использование цикла for для формирования геометрической прогрессии: 1, 2, 4, 8, 16, 32...|
 |Задание 10|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks3/Homework4.java)|Смена регистра символов|
+____
+### <a name="chapter4">Глава 4. Знакомство с классами, объектами и методами</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Vehicle.java)|Класс, предназначенный для тестирования другими классами|
+|[VehicleDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/VehicleDemo.java)|Программа, в которой используетс класс [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Vehicle.java)|
+|[TwoVehicles](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/TwoVehicles.java)|В этой программе создаются два объекта класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Vehicle.java)|
+|[AddMeth](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/AddMeth.java)|Добавление метода range() в класс [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Vehicle2.java)|
+|[RetMeth](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/RetMeth.java)|Использование возвращаемого значения в методе range() класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Vehicle3.java)|
+|[ChkNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/ChkNum.java)|Простой пример применения параметра в методе|
+|[ParmDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/ParmDemo.java)|Простой пример применения параметра в методе из класса [ChkNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/ChkNum.java)|
+|[Factor](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Factor.java)|Простой пример применения двух параметров в методе|
+|[IsFact](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/IsFact.java)|Простой пример применения двух параметров в методе из класса [Factor](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Factor.java)|
+|[CompFuel](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/CompFuel.java)|Добавление параметризированного метода, в котором выполняется расчет объема топлива, необходимого транспортному средству для преодоления заданного расстояния из класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Vehicle4.java)|
+|[ConsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/ConsDemo.java)|Класс, созданный для демонстрации работы конструктора класса [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/MyClass.java)|
+|[ParmDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/ParmDemo.java)|Класс, созданный для демонстрации работы параметризированного конструктора класса [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/MyClass2.java)|
+|[VehConsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/VehConsDemo.java)|Добавление конструктора в классе [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Vehicle5.java)|
+|[DemoPwr](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/DemoPwr.java)|Возведение в степень заданного числа через класс [Pwr](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter4/Pwr.java)|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 4.1|[HelpClassDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises4/HelpClassDemo.java)|Преобразование в класс [Help](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises4/Help.java) справочной системы из упражнения 3.3|
+
+
+_В 4 главе отсутствуют упражнения для самопроверки, в которых необходимо писать код._

@@ -2,9 +2,9 @@ package Chapters.Chapter4;
 /*
  * Класс, созданный для демонстрации работы конструктора
  */
-public class MyClass {
+public class MyClass2 {
     int x;
-    MyClass() {
-        x = 10;
+    MyClass2(int i) {
+        x = i;
     }
 }

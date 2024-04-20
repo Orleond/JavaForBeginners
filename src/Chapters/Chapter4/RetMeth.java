@@ -4,8 +4,8 @@ package Chapters.Chapter4;
  */
 public class RetMeth {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportcar = new Vehicle();
+        Vehicle3 minivan = new Vehicle3();
+        Vehicle3 sportcar = new Vehicle3();
 
         int range1, range2;
 

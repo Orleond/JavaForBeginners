@@ -1,21 +1,8 @@
 package Chapters.Chapter6;
 /*
- * Автоматичекое преобразование типов может
+ * Автоматическое преобразование типов может
  * влиять на выбор перегружаемого метода
  */
-class Overload2 {
-    void f(int x) {
-        System.out.println("Внутри f(int): " + x);
-    }
-
-    void f(double x) {
-        System.out.println("Внутри f(double): " + x);
-    }
-
-    void f(byte x) {
-        System.out.println("Внутри f(byte): " + x);
-    }
-}
 public class TypeConv {
     public static void main(String[] args) {
         Overload2 ob = new Overload2();

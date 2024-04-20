@@ -2,16 +2,6 @@ package Chapters.Chapter6;
 /*
  * Применение статической переменной
  */
-class StaticDemo {
-    int x;  // Обычная переменная экземпляра
-    static int y;   // Статическая переменная
-
-    // Возврат суммы значение переменной экземпляра x и
-    // статической переменной y
-    int sum() {
-        return x + y;
-    }
-}
 public class SDemo {
     public static void main(String[] args) {
         StaticDemo ob1 = new StaticDemo();

@@ -5,7 +5,7 @@ package Chapters.Chapter6;
 public class VarArgs3 {
     static void vaTest(int ... v) {
         System.out.println("vaTest(int ...): " +
-                "Колическтво аргументов:" + v.length);
+                "Количество аргументов:" + v.length);
         System.out.println("Содержимое: ");
 
         for (int i = 0; i < v.length; i++) {
@@ -16,7 +16,7 @@ public class VarArgs3 {
 
     static void vaTest(boolean ... v) {
         System.out.println("vaTest(boolean ...): " +
-                "Колическтво аргументов:" + v.length);
+                "Количество аргументов:" + v.length);
         System.out.println("Содержимое: ");
 
         for (int i = 0; i < v.length; i++) {

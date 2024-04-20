@@ -63,8 +63,8 @@ ____
 #### Листинг упражнений
 |Номер упражнения|Название класса|Описание|
 |-----------|-------------|-------------|
-|Упражнение 2.1|[Sound](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises1/Sound.java)|Вычисление расстояния до места вспышки молнии, звук от которого доходит до наблюдателя через 7.2 секунды|
-|Упражнение 2.2|[LogicalOpTable](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises1/LogicalOpTable.java)|Отображение таблицы истинности для логических операций|
+|Упражнение 2.1|[Sound](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises2/Sound.java)|Вычисление расстояния до места вспышки молнии, звук от которого доходит до наблюдателя через 7.2 секунды|
+|Упражнение 2.2|[LogicalOpTable](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises2/LogicalOpTable.java)|Отображение таблицы истинности для логических операций|
 
 
 &nbsp;

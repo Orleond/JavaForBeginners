@@ -4,7 +4,7 @@ package SelfTests.SelfTests2;
  * Нахождение простых чисел в диапазоне от 2 до 100
  */
 public class Prime {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int i, j;
         boolean isprime;
         for (i = 2; i < 100; i++) {

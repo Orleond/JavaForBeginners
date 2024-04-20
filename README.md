@@ -122,7 +122,7 @@ ____
 |-----------|-------------|-------------|
 |Упражнение 3.1|[Help](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises3/Help.java)|Простая справочная система|
 |Упражнение 3.2|[Help2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises3/Help2.java)|Расширенная справочная система, в которой для обработки результатов выбора из меню используется цикл do-while|
-|Упражнение 3.2|[Help3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises3/Help3.java)|Завершенная справочная система по управляющим инструкциям Java, обрабатывающая многократные запросы|
+|Упражнение 3.3|[Help3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises3/Help3.java)|Завершенная справочная система по управляющим инструкциям Java, обрабатывающая многократные запросы|
 
 
 &nbsp;

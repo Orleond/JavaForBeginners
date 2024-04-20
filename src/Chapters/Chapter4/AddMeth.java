@@ -4,8 +4,8 @@ package Chapters.Chapter4;
  */
 public class AddMeth {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportcar = new Vehicle();
+        Vehicle2 minivan = new Vehicle2();
+        Vehicle2 sportcar = new Vehicle2();
 
         // Присваивание значений полям объекта minivan
         minivan.passengers = 7;

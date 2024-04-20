@@ -1,5 +1,6 @@
 package Exercises.Exercises5;
 /**
+ * Упражнение 5.2
  * Демонстрация использования класса Queue
  */
 public class QDemo {

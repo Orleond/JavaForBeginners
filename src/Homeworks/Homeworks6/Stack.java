@@ -17,19 +17,30 @@ package Homeworks.Homeworks6;
  * изменив в нем лишь способ доступа к данным.)
  *
  */
-public class Homework1 {
-    public static void main(String[] args) {
-        Stack st1 = new Stack(10);
+public class Stack {
+    private final int size;
+    private final char[] array;
+    private int numSymbol;
 
-        // Помещение ряда символов в очередь q1
-        for (int i = 0; i < 11; i++) {
-            st1.push((char) ('A' + i));
-        }
+    Stack(int size) {
+        this.size = size;
+        array = new char[size];
+        numSymbol = -1;
+    }
 
-        // Отображение очередей
-        System.out.print("Содержимое st1: ");
-        for (int i = 0; i < 11; i++) {
-            System.out.print(st1.pop() + " ");
+    public void push(char symbol) {
+        if (numSymbol == size - 1)
+            System.out.println("Стек переполнен!");
+        else
+            array[++numSymbol] = symbol;
+    }
+
+    public char pop() {
+        if (numSymbol == -1) {
+            System.out.print("Стек пуст!");
+            return ' ';
+        } else {
+            return array[numSymbol--];
         }
     }
 }

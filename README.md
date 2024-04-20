@@ -252,7 +252,7 @@ ____
 |[ErrMsg](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrMsg.java)|Класс, реализующий класс [ErrorMsg](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorMsg.java)|
 |[Err](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Err.java)|Возврат объекта, определяемого разработчиком программы|
 |[ErrorInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorInfo.java)|Возврат объекта, определяемого разработчиком программы|
-|[ErrInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrMsg.ErrInfo)|Класс, реализующий классы [Err](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Err.java) и [ErrorInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorInfo.java)|
+|[ErrInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrInfo.java)|Класс, реализующий классы [Err](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Err.java) и [ErrorInfo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/ErrorInfo.java)|
 |[Overload](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Overload.java)|Перегрузка методов|
 |[OverloadDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/OverloadDemo.java)|Класс, реализующий класс [Overload](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Overload.java)|
 |[Overload2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter6/Overload2.java)|Автоматическое преобразование типов может влиять на выбор перегружаемого метода|

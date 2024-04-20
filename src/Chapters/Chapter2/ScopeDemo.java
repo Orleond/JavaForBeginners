@@ -2,7 +2,7 @@ package Chapters.Chapter2;
 /*
  * Демонстрация области действия блока кода
  */
-public class Scope {
+public class ScopeDemo {
     public static void main(String[] args) {
         int x;  // Эта переменная доступна для всего
                 // кода в методе main

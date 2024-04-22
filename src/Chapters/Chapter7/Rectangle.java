@@ -7,7 +7,7 @@ public class Rectangle extends TwoDShape {
 
     boolean isSquare() {
         if (width == height) return true;
-        return false
+        return false;
     }
 
     public double area() {

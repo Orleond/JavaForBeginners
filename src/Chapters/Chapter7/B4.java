@@ -3,7 +3,7 @@ package Chapters.Chapter7;
  * Методы с разными сигнатурами не переопределяются,
  * а перегружаются
  */
-class B4 extends A3 {
+class B4 extends A4 {
     int k;
     B4(int a, int b, int c) {
         super(a, b);

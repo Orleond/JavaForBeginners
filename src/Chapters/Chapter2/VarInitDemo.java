@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Демонстрация времени жизни переменной
  */
 public class VarInitDemo {

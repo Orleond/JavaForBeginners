@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Неожиданный результат повышения типов!
  */
 public class PromDemo {

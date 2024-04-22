@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Демонстрация использования логических значений
  */
 public class BoolDemo {

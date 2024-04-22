@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Расчет числа кубических дюймов в кубе объемом в 1 куб. милю
  */
 public class Inches {

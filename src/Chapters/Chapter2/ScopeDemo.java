@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Демонстрация области действия блока кода
  */
 public class ScopeDemo {

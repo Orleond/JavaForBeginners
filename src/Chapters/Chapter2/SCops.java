@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Демонстрация использования укороченных логических операторов
  */
 public class SCops {

@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Демонстрация использования оператора %
  */
 public class ModDemo {

@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Демонстрация роли побочных эффектов
  */
 public class SideEffects {

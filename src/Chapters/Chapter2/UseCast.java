@@ -1,5 +1,5 @@
 package Chapters.Chapter2;
-/*
+/**
  * Приведение типов для правильного вычисления выражений
  */
 public class UseCast {

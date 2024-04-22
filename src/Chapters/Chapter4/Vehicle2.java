@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * Добавление метода range() в класс Vehicle
  */
 public class Vehicle2 {

@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * В этой программе создаются два объекта класса Vehicle
  */
 public class TwoVehicles {

@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * Возведение в степень заданного числа
  */
 public class Pwr {

@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * Простой конструктор
  */
 public class ConsDemo {

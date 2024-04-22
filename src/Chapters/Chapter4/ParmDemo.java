@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * Простой пример применения параметра в методе
  */
 public class ParmDemo {

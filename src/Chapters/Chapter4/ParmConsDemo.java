@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * Параметризированный конструктор
  */
 public class ParmConsDemo {

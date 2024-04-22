@@ -1,8 +1,7 @@
 package Chapters.Chapter4;
-/*
- * Программа, в которой используетс класс Vehicle
+/**
+ * Программа, в которой используется класс Vehicle
  */
-
 // В этом классе объявляется объект типа Vehicle
 public class VehicleDemo {
     public static void main(String[] args) {

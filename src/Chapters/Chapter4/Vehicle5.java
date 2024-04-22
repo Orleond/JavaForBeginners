@@ -1,5 +1,7 @@
 package Chapters.Chapter4;
-
+/**
+ * Добавление конструктора
+ */
 public class Vehicle5 {
     int passengers; // Количество пассажиров
     int fuelcap;    // Емкость топливного бака

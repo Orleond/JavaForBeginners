@@ -1,8 +1,7 @@
 package Chapters.Chapter4;
-/*
+/**
  * Класс, предназначенный для тестирования другими классами
  */
-
 public class Vehicle {
     int passengers; // Количество пассажиров
     int fuelcap;    // Емкость топливного бака

@@ -1,11 +1,11 @@
 package Exercises.Exercises4;
-/*
+
+import java.io.IOException;
+/**
  * Упражнение 4.1
  * Преобразование в класс Help справочной системы
  * из упражнения 3.3
  */
-import java.io.IOException;
-
 public class HelpClassDemo {
     public static void main(String[] args) throws IOException {
         char choice, ignore;

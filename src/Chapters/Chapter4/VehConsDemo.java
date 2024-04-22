@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * Добавление конструктора
  */
 public class VehConsDemo {

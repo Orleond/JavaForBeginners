@@ -1,5 +1,5 @@
 package Chapters.Chapter4;
-/*
+/**
  * Использование возвращаемого значения
  */
 public class Vehicle3 {

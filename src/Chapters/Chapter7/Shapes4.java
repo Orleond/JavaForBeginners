@@ -5,8 +5,8 @@ package Chapters.Chapter7;
  */
 public class Shapes4 {
     public static void main(String[] args) {
-        Triangle3 t1 = new Triangle3("закрашенный", 4.0, 4.0);
-        Triangle3 t2 = new Triangle3("контурный", 8.0, 12.0);
+        Triangle4 t1 = new Triangle4("закрашенный", 4.0, 4.0);
+        Triangle4 t2 = new Triangle4("контурный", 8.0, 12.0);
 
         System.out.println("Информация о t1: ");
         t1.showStyle();

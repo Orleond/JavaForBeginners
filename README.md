@@ -11,6 +11,7 @@ ____
  - [Глава 6. Подробнее о методах и классах](#chapter6)
  - [Глава 7. Наследование](#chapter7)
  - [Глава 8. Пакеты и интерфейсы](#chapter8)
+ - [Глава 9. Обработка исключений](#chapter9)
 
 &nbsp;
 ____
@@ -479,3 +480,60 @@ ____
 |-----------|-------------|-------------|
 |Задание 1|[IQDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks8/IQDemo.java)|Добавление интерфейса [ICharQ](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks8/qpack/ICharQ.java) и 3 его реализации в пакет qpack и подключение этих файлов с помощью ключевого слова import|
 |Задание 9|[IVehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks8/IVehicle.java)|Добавление интерфейса Интерфейс для класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks8/Vehicle.java)|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter9">Глава 9. Обработка исключений</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[ExcDemo1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcDemo1.java)|Демонстрация обработки исключений|
+|[ExcTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcTest.java)|Исключение можеть быть сгенерировано одним методом, а перехваено другим.|
+|[ExcDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcDemo2.java)|Исключение можеть быть сгенерировано одним методом, а перехваено другим. Использует класс [ExcTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcTest.java)|
+|[NotHandled](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/NotHandled.java)|Обработка ошибки средствами виртуалльной машины Java|
+|[ExtTypeMismatch](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExtTypeMismatch.java)|Эта программа не будет работать!|
+|[ExcDemo3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcDemo3.java)|Корректная обработка исключения и продолжение выполнения программы|
+|[ExcDemo4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcDemo4.java)|Применение нескольких инструкций catch|
+|[ExcDemo5](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcDemo5.java)|В инструкциях catch исключения подкласса должны предшествовать исключениям суперкласса|
+|[NestTrys](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/NestTrys.java)|Использование вложенных блоков try|
+|[ThrowDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ThrowDemo.java)|Генерирование исключения вручную|
+|[Rethrow](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/Rethrow.java)|Повторное генерирование исключений|
+|[RethrowDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/RethrowDemo.java)|Повторное генерирование исключений. Использует класс [Rethrow](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/Rethrow.java)|
+|[UseThrowableMethods](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/UseThrowableMethods.java)|Использование методов класса Throwable. Использует класс [ExcTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/ExcTest.java)|
+|[UseFinally](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/UseFinally.java)|Использование блока finally|
+|[FinallyDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/FinallyDemo.java)|Использование блока finally. Использует класс [UseFinally](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/UseFinally.java)|
+|[TrowsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/TrowsDemo.java)|Использование ключевого слова throws|
+|[MultiCatch](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/MultiCatch.java)|Использование средства группового перехвата исключений. Примечание: для компиляции этого кода требуется JDK 7 или выше|
+|[NonIntResultException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/NonIntResultException.java)|Использование специально создаваемого исключения|
+|[CustomExceptDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/CustomExceptDemo.java)|Использование специально создаваемого исключения. Использует класс [NonIntResultException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter9/NonIntResultException.java)|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 9.1|[QueueFullException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises9/QueueFullException.java)|Исключение для ошибок, связанных с заполненной очередью|
+| |[QueueEmptyException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises9/QueueEmptyException.java)|Исключение для ошибок, связанных с пустой очередью|
+| |[ICharQ](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises9/ICharQ.java)|Интерфейс очереди для хранения символов с генерированием исключений|
+| |[FixedQueue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises9/FixedQueue.java)|Класс, реализующий очередь фиксированного размера для хранения символов|
+| |[QExcDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises9/QExcDemo.java)|Демонстрация исключений при работе с очередью|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 10|[StackFullException](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests9/StackFullException.java)|Исключение, возникающее при переполнении стека|
+| |[StackEmptyException](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests9/StackEmptyException.java)|Исключение, возникающее при обращении к пустому стеку|
+| |[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests9/Stack.java)|Класс, реализующий стек для хранения символов|
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 10|[FullStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/FullStackException.java)|Исключение, возникающее при переполнении стека|
+| |[EmptyStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/EmptyStackException.java)|Исключение, возникающее при обращении к пустому стеку|
+| |[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/Stack.java)|Класс, реализующий стек для хранения символов|
+| |[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/Homework1.java)|Демонстрация работы стека [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/Stack.java)|

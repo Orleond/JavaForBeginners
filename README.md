@@ -1,5 +1,5 @@
 ## Java. Руководство для начинающих. 7-е издание. Герберт Шилдт
-#### Java. A Begginer's Guide. Seventh Edition. Herbrt Schildt
+#### Java. A Begginer's Guide. Seventh Edition. Herbert Schildt
 ##### Собрание всех исходных кодов из книги
 ____
 ### Содержание:
@@ -9,6 +9,7 @@ ____
  - [Глава 4. Знакомство с классами, объектами и методами](#chapter4)
  - [Глава 5. Подробнее о типах данных и операторах](#chapter5)
  - [Глава 6. Подробнее о методах и классах](#chapter6)
+ - [Глава 7. Наследование](#chapter7)
 ____
 ### <a name="chapter1">Глава 1. Основы Java</a>
 #### Листинг примеров
@@ -33,14 +34,14 @@ ____
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
 |Задание 9|[Moon](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests1/Moon.java)|Вычисление веса на луне|
-|Задание 10|[InchToMeterTable](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests1/InchToMeterTable.java)|Эта программа отображает таблицу преобразования дюймов в метры.|
+|Задание 10|[InchToMeterTable](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests1/InchToMeterTable.java)|Эта программа отображает таблицу преобразования дюймов в метры|
 
 &nbsp;
 #### Листинг моих решений упражнений для самопроверки из книги
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
 |Задание 9|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework1.java)|Вычисление веса на луне|
-|Задание 10|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework2.java)|Видоизмените программу, созданную в упражнении 1.2, таким образом, чтобы она выводила таблицу перевода дюймов в метры. Выведите значения длины до 12 футов через каждый дюйм. После каждых 12 дюймов выведите пустую строку. (Один метр приблизительно равен 39.37 дюймам.)|
+|Задание 10|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework2.java)|Видоизмените программу, созданную в упражнении 1.2, таким образом, чтобы она выводила таблицу перевода дюймов в метры. Выведите значения длины до 12 футов через каждый дюйм. После каждых 12 дюймов выведите пустую строку. (Один метр приблизительно равен 39.37 дюймам)|
 ____
 ### <a name="chapter2">Глава 2. Знакомство с типами данных и операторами</a>
 #### Листинг примеров
@@ -285,7 +286,7 @@ ____
 |Упражнение 6.1|[QDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QDemo.java)|Демонстрация использования класса [Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|
 |Упражнение 6.2|[QDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QDemo2.java)|Демонстрация использования класса [Queue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/Queue.java)|
 |Упражнение 6.3|[Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QuickSort.java)|Простая версия класса Quicksort, реализующего быструю сортировку|
-|Упражнение 6.2|[QSDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QSDemo.java)|Демонстрация использования класса [Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QuickSort.java)|
+| |[QSDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QSDemo.java)|Демонстрация использования класса [Quicksort](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises6/QuickSort.java)|
 
 
 &nbsp;
@@ -293,11 +294,11 @@ ____
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
 |Задание 3|[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Stack.java)|Класс, реализующий стек для хранения символов|
-|Задание 3|[SDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SDemo.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Stack.java)|
+| |[SDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SDemo.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Stack.java)|
 |Задание 6|[Backwards](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Backwards.java)|Отображение символов строки в обратном порядке с помощью рекурсии|
-|Задание 6|[BWDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/BWDemo.java)|Демонстрация использования класса [Backwards](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Backwards.java)|
+| |[BWDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/BWDemo.java)|Демонстрация использования класса [Backwards](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Backwards.java)|
 |Задание 13|[SumIt](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumIt.java)|Суммирование переданных чисел|
-|Задание 13|[SumDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumDemo.java)|Демонстрация использования класса [SumIt](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumIt.java)|
+| |[SumDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumDemo.java)|Демонстрация использования класса [SumIt](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/SumIt.java)|
 
 
 &nbsp;
@@ -305,8 +306,85 @@ ____
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
 |Задание 3|[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Stack.java)|Класс, реализующий стек для хранения символов|
-|Задание 3|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework1.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Stack.java)|
+| |[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework1.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Stack.java)|
 |Задание 4|[Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Test.java)|Решить задачу на основании этого класса|
-|Задание 4|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework2.java)|Класс, реализующий обмен данными между двумя объектами на основании класа [Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Test.java)|
+| |[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework2.java)|Класс, реализующий обмен данными между двумя объектами на основании класа [Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Test.java)|
 |Задание 6|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework3.java)|Отображение символов строки в обратном порядке с помощью рекурсии|
 |Задание 13|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework4.java)|Суммирование переданных чисел|
+____
+### <a name="chapter7">Глава 7. Наследование</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape.java)|Класс, описывающий двумерные объекты|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape.java)|
+|[Shapes](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Shapes.java)|Простая иерархия классов. Реализует класс [Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle.java)|
+|[Rectangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Rectangle.java)|Подкласс для представления прямоугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape.java)|
+|[TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape2.java)|Класс, описывающий двумерные объекты|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle2.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape2.java)|
+|[Shapes2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Shapes2.java)|Использование методов доступа для установки и получения значений закрытых членов. Реализует класс [Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle2.java)|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle3.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape2.java)|
+|[Shapes3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Shapes3.java)|Добавление конструктора в класс [Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle3.java)|
+|[TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape3.java)|Добавление конструкторов в класс [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape2.java)|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle4.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape3.java)|
+|[Shapes4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Shapes4.java)|Добавление конструкторов в класс [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape3.java)|
+|[TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape4.java)|Добавление дополнительных конструкторов в класс [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape3.java)|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle5.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape4.java)|
+|[Shapes5](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Shapes5.java)|Добавление дополнительных конструкторов в класс [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape4.java)|
+|[UseSuper](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/UseSuper.java)|Использование ключевого слова super для предотвращения сокрытия имен. |
+|[A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A.java)|Использование ключевого слова super для предотвращения сокрытия имен. |
+|[B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B.java)|Создание подкласса, расширяющего класс [A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A.java)|
+|[UseSuper](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/UseSuper.java)|Использование ключевого слова super для предотвращения сокрытия имен. Реализует класс [B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B.java)|
+|[ColorTriangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/ColorTriangle.java)|Расширение класса [Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle5.java)|
+|[Shapes6](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Shapes6.java)|Многоуровневая иерархия. Реализует класс [ColorTriangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/ColorTriangle.java)|
+|[A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A2.java)|Создание суперкласса|
+|[B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B2.java)|Создание подкласса в результате расширения класса [A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A2.java)|
+|[OrderOfConstruction](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/OrderOfConstruction.java)|Демонстрация очередности вызова конструкторов. Реализует класс [B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B2.java)|
+|[X](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/X.java)|Обращение к объекту подкласса по ссылочной переменой суперкласса|
+|[Y](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Y.java)|Обращение к объекту подкласса по ссылочной переменой суперкласса. Расширяет класс [X](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/X.java)|
+|[SupSubRef](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/SupSubRef.java)|Обращение к объекту подкласса по ссылочной переменой суперкласса. Реализует классы [X](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/X.java) и [Y](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Y.java)|
+|[TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape5.java)|Добавление конструктора, принимающего в качестве параметра другой объект [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape5.java)|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle6.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape5.java)|
+|[Shapes7](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Shapes7.java)|Добавление конструкторов, принимающих в качестве параметра другие объекты. Реализует класс [Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle6.java)|
+|[A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A3.java)|Переопределение метода|
+|[B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B3.java)|Переопределение метода. Расширяет класс [A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A3.java)|
+|[Override](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Override.java)|Переопределение метода. Реализует класс [B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B3.java)|
+|[A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A4.java)|Методы с разными сигнатурами не переопределяются, а перегружаются|
+|[B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B4.java)|Методы с разными сигнатурами не переопределяются, а перегружаются. Расширяет класс [A](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/A4.java)|
+|[Overload](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Overload.java)|Методы с разными сигнатурами не переопределяются, а перегружаются. Реализует класс [B](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/B4.java)|
+|[Sup](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Sup.java)|Демонстрация динамической диспетчеризации методов|
+|[Sub1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Sub1.java)|Демонстрация динамической диспетчеризации методов. Расширяет класс [Sup](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Sup.java)|
+|[Sub2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Sub2.java)|Демонстрация динамической диспетчеризации методов. Расширяет класс [Sup](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Sup.java)|
+|[DynDispDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/DynDispDemo.java)|Демонстрация динамической диспетчеризации методов. Реализует классы [Sub1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Sub1.java) и [Sub2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Sub2.java)|
+|[TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape6.java)|Использование динамической диспетчеризации методов|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle7.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape6.java)|
+|[Rectangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Rectangle2.java)|Подкласс для представления прямоугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape6.java)|
+|[DynShapes](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/DynShapes.java)|Использование динамической диспетчеризации методов. Реализует классы [Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle7.java) и [Rectangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Rectangle2.java)|
+|[TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape7.java)|Создание абстрактного класса|
+|[Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle8.java)|Подкласс для представления треугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape7.java)|
+|[Rectangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Rectangle3.java)|Подкласс для представления прямоугольников, производный от класса [TwoDShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/TwoDShape7.java)|
+|[AbsShape](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/AbsShape.java)|Создание абстрактного класса. Реализует классы [Triangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Triangle8.java) и [Rectangle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/Rectangle3.java)|
+|[ErrorMsg](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/ErrorMsg.java)|Возврат объекта типа String|
+|[FinalD](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/FinalD.java)|Возврат объекта типа String. Реализует класс [ErrorMsg](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter7/ErrorMsg.java)|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 6.1|[Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Vehicle.java)|Создание подкласса класса Vehicle для грузовиков|
+||[Truck](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Truck.java)|Расширение класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Vehicle.java) для грузовиков|
+||[TruckDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/TruckDemo.java)|Создание подкласса класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Vehicle.java) для грузовиков|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 2|[Circle](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Stack.java)|Подкласс для окружностей, производный от класса TwoDShape|
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 2|[Circle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks7/Circle.java)|Подкласс для окружностей, производный от класса TwoDShape|

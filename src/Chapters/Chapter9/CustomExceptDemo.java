@@ -11,7 +11,7 @@ public class CustomExceptDemo {
         for (int i = 0; i < numer.length; i++) {
             try {
                 if ((numer[i] % 2) != 0)
-                    throw new NonOntResultException(numer[i], denom[i]);
+                    throw new NonIntResultException(numer[i], denom[i]);
                 System.out.println(numer[i] + " / " +
                         denom[i] + " равно " +
                         numer[i] / denom[i]);
@@ -21,7 +21,7 @@ public class CustomExceptDemo {
             } catch (ArrayIndexOutOfBoundsException exc) {
                 // Перехват исключения
                 System.out.println("Соответствующий элемент не найден");
-            } catch (NonOntResultException exc) {
+            } catch (NonIntResultException exc) {
                 System.out.println(exc);
             }
         }

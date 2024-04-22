@@ -1,6 +1,5 @@
-package Homeworks.Homeworks8;
-
-/*
+package SelfTests.SelfTests8.qpack;
+/**
  * Кольцевая очередь
  */
 public class CircularQueue implements ICharQ {
@@ -19,7 +18,7 @@ public class CircularQueue implements ICharQ {
     public void put(char ch) {
         // Очередь считается полной, если индекс putloc на единицу
         // меньше индекса getloc или если индекс putloc указывает
-        // на корец массива, а инлекс getloc - на его начало
+        // на корец массива, а индекс getloc - на его начало
         if (putloc + 1 == getloc | ((putloc == q.length - 1) & (getloc == 0))) {
             System.out.println(" - Очередь заполнена");
             return;

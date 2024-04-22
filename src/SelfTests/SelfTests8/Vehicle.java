@@ -1,8 +1,8 @@
-package Homeworks.Homeworks8;
+package SelfTests.SelfTests8;
 /**
  * Создание подкласса класса Vehicle для грузовиков
  */
-public class Vehicle implements IVehicle{
+public class Vehicle implements IVehicle {
     private int passengers; // Количество пассажиров
     private int fuelcap;    // Емкость топливного бака в галлонах
     private int mpg;        // Потребность топлива в милях на галлон
@@ -26,10 +26,10 @@ public class Vehicle implements IVehicle{
     }
 
     // Методы доступа к переменным экземпляра
-    int getPassengers() { return passengers; }
-    void setPassengers(int p) { passengers = p; }
-    int getFuelcap() { return fuelcap; }
-    void setFuelcap(int f) { fuelcap = f; }
-    int getMpg() { return mpg; }
-    void setMpg(int m) { mpg = m; }
+    public int getPassengers() { return passengers; }
+    public void setPassengers(int p) { passengers = p; }
+    public int getFuelcap() { return fuelcap; }
+    public void setFuelcap(int f) { fuelcap = f; }
+    public int getMpg() { return mpg; }
+    public void setMpg(int m) { mpg = m; }
 }

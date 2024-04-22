@@ -1,16 +1,14 @@
-package Homeworks.Homeworks8;
-
-/*
- * Класс, реализующий очередь фиксированного
- * размера для хранения символов.
+package SelfTests.SelfTests8.qpack;
+/**
+ * Динамическая модель
  */
-public class FixedQueue implements ICharQ {
+public class DynQueue implements ICharQ {
     private char[] q;   // Массив для хранения элементов очереди
     private int putloc, getloc; // Индексы вставляемых и
                                 // извлекаемых элементов
 
     // Создание пустой очереди заданного размера
-    public FixedQueue(int size) {
+    public DynQueue(int size) {
         q = new char[size]; // Выделение памяти для очереди
         putloc = getloc = 0;
     }
@@ -19,10 +17,15 @@ public class FixedQueue implements ICharQ {
     // Помещение символа в очередь
     public void put(char ch) {
         if (putloc == q.length) {
-            System.out.println(" - Очередь заполнена");
-            return;
-        }
+            // Увеличение размера очереди
+            char[] t = new char[q.length * 2];
 
+            // Копирование элементов в новую очередь
+            for (int i = 0; i < q.length; i++) {
+                t[i] = q[i];
+            }
+            q = t;
+        }
         q[putloc++] = ch;
     }
 

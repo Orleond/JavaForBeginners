@@ -1,6 +1,6 @@
-package Homeworks.Homeworks8;
+package SelfTests.SelfTests8;
 
-import Homeworks.Homeworks8.qpack.*;
+import SelfTests.SelfTests8.qpack.*;
 /**
  * Демонстрация трех реализаций интерфейса ICharQ
  */

@@ -1,4 +1,4 @@
-package Homeworks.Homeworks8;
+package SelfTests.SelfTests8;
 /**
  * Расширение класса Vehicle для грузовиков
  */

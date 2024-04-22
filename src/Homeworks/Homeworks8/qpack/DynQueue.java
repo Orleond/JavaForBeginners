@@ -1,6 +1,5 @@
-package Exercises.Exercises8;
+package Homeworks.Homeworks8.qpack;
 /**
- * Упражнение 8.1
  * Динамическая модель
  */
 public class DynQueue implements ICharQ {

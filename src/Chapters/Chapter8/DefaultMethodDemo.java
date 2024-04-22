@@ -6,7 +6,7 @@ public class DefaultMethodDemo {
     public static void main(String[] args) {
         MyIFImp obj = new MyIFImp();
 
-        // Вызов метода getUserID() возможнен, поскольку он явно
+        // Вызов метода getUserID() возможен, поскольку он явно
         // реализован классом MyIFImp
         System.out.println("Идентификатор пользователя " +
                 obj.getUserID());

@@ -1,4 +1,4 @@
-package Homeworks.Homeworks8;
+package SelfTests.SelfTests8;
 /**
  * Упражнение 7.1
  * Создание подкласса Vehicle для грузовиков

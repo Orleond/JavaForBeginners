@@ -1,5 +1,5 @@
-package Homeworks.Homeworks8;
-/*
+package Homeworks.Homeworks8.qpack;
+/**
  * Интерфейс для очереди символов
  */
 public interface ICharQ {

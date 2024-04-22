@@ -1,5 +1,5 @@
 package Chapters.Chapter8.bookpackext;
-/*
+/**
  * Использование класса Book из пакета bookpack
  */
 public class UseBook {

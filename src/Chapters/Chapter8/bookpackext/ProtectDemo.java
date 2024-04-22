@@ -1,5 +1,7 @@
 package Chapters.Chapter8.bookpackext;
-
+/**
+ * Пример использования модификатора protected
+ */
 public class ProtectDemo {
     public static void main(String[] args) {
         ExtBook[] books = new ExtBook[5];
@@ -15,8 +17,11 @@ public class ProtectDemo {
         books[4] = new ExtBook("В дороге", "Джек Керуак", 2012, "Азбука");
 
         // Поиск книги по автору
-        for (ExtBook b: books)
-            if (b.getAuthor() == "Герберт Шилдт")
-                System.out.println(b.getTitle());
+        System.out.println("Все книги Герберта Шилдта.");
+        for (int i = 0; i < books.length; i++)
+            if (books[i].getAuthor() == "Герберт Шилдт")
+                System.out.println(books[i].getTitle());
+
+        // books[0].title = "test title";   // Ошибка: доступ запрещен!
     }
 }

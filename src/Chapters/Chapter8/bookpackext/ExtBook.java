@@ -1,10 +1,8 @@
 package Chapters.Chapter8.bookpackext;
-
-import Chapters.Chapter8.bookpack3.Book;
 /**
  * Пример использования модификатора protected
  */
-public class ExtBook extends Book {
+public class ExtBook extends Chapters.Chapter8.bookpack3.Book {
     private String publisher;
 
     public ExtBook(String t, String a, int d, String p) {
@@ -28,29 +26,22 @@ public class ExtBook extends Book {
 
     // Следующие конструкции допустимы, поскольку подклассы имеют
     // право доступа к членам класса, объявленными защищенными
-
     public String getTitle() {
         return title;
     }
-
     public void setTitle(String title) {
         this.title = title;
     }
-
     public String getAuthor() {
         return author;
     }
-
     public void setAuthor(String author) {
         this.author = author;
     }
-
     public int getPubDate() {
         return pubDate;
     }
-
     public void setPubDate(int pubDate) {
         this.pubDate = pubDate;
     }
-
 }

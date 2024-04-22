@@ -1,5 +1,5 @@
-package Chapters.Chapter8.bookpack;
-/*
+package Chapters.Chapter8.bookpack2;
+/**
  * Объявление защищенными переменных экземпляра в классе Book
  */
 public class Book {

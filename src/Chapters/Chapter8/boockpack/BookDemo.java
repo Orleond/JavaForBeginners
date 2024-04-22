@@ -1,8 +1,7 @@
-package Chapters.Chapter8.bookpack;
-/*
+package Chapters.Chapter8.boockpack;
+/**
  * Простая программа, демонстрирующая применение пакетов
  */
-
 public class BookDemo {
     public static void main(String[] args) {
         Book[] books = new Book[5];
@@ -17,6 +16,6 @@ public class BookDemo {
                 "Том Клэнси", 2006);
         books[4] = new Book("В дороге", "Джек Керуак", 2012);
 
-        for (Book b: books) b.show();
+        for (int i = 0; i < books.length; i++) books[i].show();
     }
 }

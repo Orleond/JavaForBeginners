@@ -1,6 +1,7 @@
 package Chapters.Chapter8.bookpackext;
-import Chapters.Chapter8.bookpack.Book;
-/*
+
+import Chapters.Chapter8.bookpack2.Book;
+/**
  * Пример использования модификатора protected
  */
 public class ExtBook extends Book {

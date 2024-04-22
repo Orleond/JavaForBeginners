@@ -1,5 +1,5 @@
 package Chapters.Chapter8;
-/*
+/**
  * Еще одна реализация интерфейса Series
  */
 public class ByThrees implements Series {

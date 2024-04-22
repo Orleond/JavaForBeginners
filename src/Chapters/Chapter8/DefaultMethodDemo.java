@@ -1,5 +1,5 @@
 package Chapters.Chapter8;
-/*
+/**
  * Использование интерфейсного метода по умолчанию
  */
 public class DefaultMethodDemo {

@@ -1,5 +1,7 @@
 package Chapters.Chapter8;
-
+/**
+ * Реализация интерфейса Series
+ */
 public class SeriesDemo {
     public static void main(String[] args) {
         ByTwos ob = new ByTwos();

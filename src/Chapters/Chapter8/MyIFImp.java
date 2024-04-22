@@ -1,5 +1,5 @@
 package Chapters.Chapter8;
-/*
+/**
  * Реализация интерфейса MyIF
  */
 public class MyIFImp implements MyIF {

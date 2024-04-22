@@ -1,5 +1,5 @@
 package Chapters.Chapter8;
-/*
+/**
  * Интерфейс, содержащий только константы
  */
 public interface IConst {

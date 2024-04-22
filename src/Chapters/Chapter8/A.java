@@ -1,5 +1,5 @@
 package Chapters.Chapter8;
-/*
+/**
  * Наследование интерфейсов
  */
 public interface A {

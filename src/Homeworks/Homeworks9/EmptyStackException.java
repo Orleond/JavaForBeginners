@@ -1,5 +1,5 @@
 package Homeworks.Homeworks9;
-/*
+/**
  * Задание Homework1
  */
 public class EmptyStackException extends Exception {

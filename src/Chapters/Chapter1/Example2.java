@@ -1,8 +1,7 @@
 package Chapters.Chapter1;
-/*
+/**
  * Демонстрация использования переменных
  */
-
 public class Example2 {
     public static void main(String[] args) {
         int var1;   // Объявляется переменная

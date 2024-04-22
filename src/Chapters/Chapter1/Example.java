@@ -1,5 +1,5 @@
 package Chapters.Chapter1;
-/*
+/**
  * Это пример простой программы на Java
  */
 public class Example {

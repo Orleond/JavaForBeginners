@@ -1,5 +1,5 @@
 package Chapters.Chapter1;
-/*
+/**
  * Демонстрация применения блоков кода
  */
 public class BlockDemo {

@@ -1,6 +1,6 @@
 package Chapters.Chapter1;
-/*
- * Демонастрация применения цикла for
+/**
+ * Демонстрация применения цикла for
  */
 public class ForDemo {
     public static void main(String[] args) {

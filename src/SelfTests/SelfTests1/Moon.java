@@ -1,5 +1,4 @@
 package SelfTests.SelfTests1;
-
 /**
  * Вычисление веса на луне
  *

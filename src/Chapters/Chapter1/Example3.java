@@ -1,5 +1,5 @@
 package Chapters.Chapter1;
-/*
+/**
  * Демонстрация различий между типами int и double
  */
 public class Example3 {

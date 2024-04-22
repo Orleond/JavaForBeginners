@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Эта программа не будет работать!
  */
 public class ExtTypeMismatch {

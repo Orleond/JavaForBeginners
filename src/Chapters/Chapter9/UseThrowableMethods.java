@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Использование методов класса Throwable
  */
 public class UseThrowableMethods {

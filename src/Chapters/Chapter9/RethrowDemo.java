@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Повторное генерирование исключений
  */
 public class RethrowDemo {

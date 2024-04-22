@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Использование блока finally
  */
 public class UseFinally {

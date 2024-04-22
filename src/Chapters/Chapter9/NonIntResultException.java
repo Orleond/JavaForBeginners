@@ -1,12 +1,12 @@
 package Chapters.Chapter9;
-/*
+/**
  * Использование специально создаваемого исключения
  */
-public class NonOntResultException extends Exception {
+public class NonIntResultException extends Exception {
     int n;
     int d;
 
-    NonOntResultException(int i, int j) {
+    NonIntResultException(int i, int j) {
         n = i;
         d = j;
     }

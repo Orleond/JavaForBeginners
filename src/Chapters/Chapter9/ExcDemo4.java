@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Применение нескольких инструкций catch
  */
 public class ExcDemo4 {

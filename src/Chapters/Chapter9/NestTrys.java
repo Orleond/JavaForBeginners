@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Использование вложенных блоков try
  */
 public class NestTrys {

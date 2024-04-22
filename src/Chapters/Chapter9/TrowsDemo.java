@@ -1,8 +1,7 @@
 package Chapters.Chapter9;
 
 import java.io.IOException;
-
-/*
+/**
  * Использование ключевого слова throws
  */
 public class TrowsDemo {

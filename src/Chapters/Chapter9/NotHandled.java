@@ -1,6 +1,6 @@
 package Chapters.Chapter9;
-/*
- * JОбработка ошибки средствами виртуалльной
+/**
+ * Обработка ошибки средствами виртуальной
  * машины Java
  */
 public class NotHandled {

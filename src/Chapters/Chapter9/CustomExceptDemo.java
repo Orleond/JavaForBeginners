@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Использование специально создаваемого исключения
  */
 public class CustomExceptDemo {

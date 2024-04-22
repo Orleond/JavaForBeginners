@@ -1,5 +1,5 @@
 package Chapters.Chapter9;
-/*
+/**
  * Генерирование исключения вручную
  */
 public class ThrowDemo {

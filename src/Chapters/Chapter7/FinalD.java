@@ -1,5 +1,5 @@
 package Chapters.Chapter7;
-/*
+/**
  * Возврат объекта типа String
  */
 public class FinalD {

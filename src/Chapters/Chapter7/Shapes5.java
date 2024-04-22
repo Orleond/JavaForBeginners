@@ -1,5 +1,4 @@
 package Chapters.Chapter7;
-
 /**
  * Добавление дополнительных конструкторов в класс TwoDShape
  */

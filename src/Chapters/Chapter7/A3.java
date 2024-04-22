@@ -1,8 +1,7 @@
 package Chapters.Chapter7;
-/*
+/**
  * Переопределение метода
  */
-
 class A3 {
     int i, j;
 

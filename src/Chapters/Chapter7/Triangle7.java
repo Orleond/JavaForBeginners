@@ -3,36 +3,34 @@ package Chapters.Chapter7;
  * Подкласс для представления треугольников,
  * производный от класса TwoDShape
  */
-public class Triangle6 extends TwoDShape5 {
+public class Triangle7 extends TwoDShape6 {
     private String style;
 
     // Конструктор по умолчанию
-    Triangle6() {
+    Triangle7() {
         super();    // Вызов конструктора по умолчанию
         style = "none";
     }
 
     // Конструктор
-    Triangle6(String s, double w, double h) {
-        super(w, h);    // Вызов конструктора суперкласса с
-        // двумя аргументами
-
+    Triangle7(String s, double w, double h) {
+        super(w, h, "треугольник");
         style = s;
     }
 
     // Конструктор с одним аргументом для построения треугольника
-    protected Triangle6(double x) {
-        super(x);   // Вызов конструктора суперкласса
-
+    protected Triangle7(double x) {
+        super(x, "треугольник");   // Вызов конструктора суперкласса
         style = "закрашенный";
     }
 
     // Создание одного объекта на основе другого
-    Triangle6(Triangle6 ob) {
+    Triangle7(Triangle7 ob) {
         super(ob);  // Передача объекта конструктору класса TwoDShape
         style = ob.style;
     }
 
+    // Переопределение метода area() для класса Triangle
     public double area() {
         return getWidth() * getHeight() / 2;
     }

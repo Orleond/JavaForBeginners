@@ -1,5 +1,5 @@
 package Chapters.Chapter7;
-/*
+/**
  * Переопределение метода
  */
 public class Override {

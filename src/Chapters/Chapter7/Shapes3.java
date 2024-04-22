@@ -1,5 +1,4 @@
 package Chapters.Chapter7;
-
 /**
  * Добавление конструктора в класс Triangle
  */

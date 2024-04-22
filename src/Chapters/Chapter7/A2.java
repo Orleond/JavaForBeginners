@@ -1,5 +1,4 @@
 package Chapters.Chapter7;
-
 /**
  * Создание суперкласса
  */

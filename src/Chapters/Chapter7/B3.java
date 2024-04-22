@@ -1,8 +1,7 @@
 package Chapters.Chapter7;
-/*
+/**
  * Переопределение метода
  */
-
 class B3 extends A3 {
     int k;
     B3(int a, int b, int c) {

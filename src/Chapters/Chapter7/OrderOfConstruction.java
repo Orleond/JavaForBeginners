@@ -1,5 +1,5 @@
 package Chapters.Chapter7;
-/*
+/**
  * Демонстрация очередности вызова конструкторов
  */
 public class OrderOfConstruction {

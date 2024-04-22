@@ -1,5 +1,5 @@
 package Exercises.Exercises7;
-/*
+/**
  * Расширение класса Vehicle для грузовиков
  */
 public class Truck extends Vehicle{

@@ -1,4 +1,8 @@
 package Chapters.Chapter7;
+/**
+ * Методы с разными сигнатурами не переопределяются,
+ * а перегружаются
+ */
 class B4 extends A3 {
     int k;
     B4(int a, int b, int c) {

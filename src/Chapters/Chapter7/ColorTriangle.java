@@ -1,5 +1,5 @@
 package Chapters.Chapter7;
-/*
+/**
  * Расширение класса Triangle
  */
 public class ColorTriangle extends Triangle5 {

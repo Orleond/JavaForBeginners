@@ -1,5 +1,5 @@
 package Exercises.Exercises7;
-/*
+/**
  * Упражнение 7.1
  * Создание подкласса Vehicle для грузовиков
  */

@@ -1,5 +1,4 @@
 package Chapters.Chapter7;
-
 /**
  * Подкласс для представления треугольников,
  * производный от класса TwoDShape
@@ -30,7 +29,8 @@ public class Triangle5 extends TwoDShape4 {
     }
 
     public double area() {
-        return getWidth() * getHeight() / 2;
+        System.out.println("Метод area() должен быть переопределен");
+        return 0.0;
     }
 
     void showStyle() {

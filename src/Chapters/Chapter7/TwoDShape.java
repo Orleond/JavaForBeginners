@@ -1,5 +1,5 @@
 package Chapters.Chapter7;
-/*
+/**
  * Класс, описывающий двумерные объекты.
  */
 public abstract class TwoDShape {

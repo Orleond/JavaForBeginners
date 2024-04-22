@@ -1,5 +1,7 @@
 package Chapters.Chapter8;
-
+/**
+ * Пример наследования интерфейсов
+ */
 public class IFExtend {
     public static void main(String[] args) {
         MyClass ob = new MyClass();

@@ -1,10 +1,10 @@
 package Exercises.Exercises8;
-/*
+/**
  * Упражнение 8.1
  * Динамическая модель
  */
 public class DynQueue implements ICharQ {
-    private char[] q;   // Масси для хранения элементов очереди
+    private char[] q;   // Массив для хранения элементов очереди
     private int putloc, getloc; // Индексы вставляемых и
                                 // извлекаемых элементов
 

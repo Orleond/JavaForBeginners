@@ -1,5 +1,7 @@
 package Chapters.Chapter8;
-
+/**
+ * Реализация интерфейса для доступа к константам
+ */
 public class IConstD implements IConst {
     public static void main(String[] args) {
         int[] nums = new int[MAX];

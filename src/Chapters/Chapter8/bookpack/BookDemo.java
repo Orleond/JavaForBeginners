@@ -1,4 +1,4 @@
-package Chapters.Chapter8.boockpack2;
+package Chapters.Chapter8.bookpack;
 /**
  * Простая программа, демонстрирующая применение пакетов
  */

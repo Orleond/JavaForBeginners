@@ -1,23 +1,21 @@
 package Chapters.Chapter8.bookpackext;
-import Chapters.Chapter8.bookpack3.*;
-
 /*
  * Использование класса Book из пакета bookpack
  */
 public class UseBook {
     public static void main(String[] args) {
-        Book[] books = new Book[5];
+        Chapters.Chapter8.bookpack2.Book[] books = new Chapters.Chapter8.bookpack2.Book[5];
 
-        books[0] = new Book("Java: руководство для начинающих," +
+        books[0] = new Chapters.Chapter8.bookpack2.Book("Java: руководство для начинающих," +
                 "7-е издание", "Герберт Шилдт", 2018);
-        books[1] = new Book("Java: полное руководство, 10-е издание",
+        books[1] = new Chapters.Chapter8.bookpack2.Book("Java: полное руководство, 10-е издание",
                 "Герберт Шилдт", 2005);
-        books[2] = new Book("Искусство программирования на Java",
+        books[2] = new Chapters.Chapter8.bookpack2.Book("Искусство программирования на Java",
                 "Герберт Шилдт", 2005);
-        books[3] = new Book("Красный шторм поднимается",
+        books[3] = new Chapters.Chapter8.bookpack2.Book("Красный шторм поднимается",
                 "Том Клэнси", 2006);
-        books[4] = new Book("В дороге", "Джек Керуак", 2012);
+        books[4] = new Chapters.Chapter8.bookpack2.Book("В дороге", "Джек Керуак", 2012);
 
-        for (Book b: books) b.show();
+        for (int i = 0; i < books.length; i++) books[i].show();
     }
 }

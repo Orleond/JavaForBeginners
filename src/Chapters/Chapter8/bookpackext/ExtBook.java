@@ -1,6 +1,6 @@
 package Chapters.Chapter8.bookpackext;
 
-import Chapters.Chapter8.bookpack2.Book;
+import Chapters.Chapter8.bookpack3.Book;
 /**
  * Пример использования модификатора protected
  */

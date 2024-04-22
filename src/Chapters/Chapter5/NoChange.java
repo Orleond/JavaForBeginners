@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Циклы for-each предназначены только для чтения
  */
 public class NoChange {

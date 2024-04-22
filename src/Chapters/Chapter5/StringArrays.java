@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Демонстрация использования массивов строк
  */
 public class StringArrays {

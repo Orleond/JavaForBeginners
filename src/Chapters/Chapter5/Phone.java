@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Простейший автоматизированный телефонный справочник
  */
 public class Phone {

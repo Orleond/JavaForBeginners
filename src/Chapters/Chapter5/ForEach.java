@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Использование цикла типа for-each
  */
 public class ForEach {

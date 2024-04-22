@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Выделение памяти по второму индексу массива вручную
  */
 public class Ragged {

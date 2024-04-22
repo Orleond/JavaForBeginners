@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Демонстрация побитовой операции НЕ
  */
 public class NotDemo {

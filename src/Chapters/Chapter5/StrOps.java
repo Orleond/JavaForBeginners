@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Некоторые операции над строками
  */
 public class StrOps {

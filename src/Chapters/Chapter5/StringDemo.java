@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Знакомство с классом String
  */
 public class StringDemo {

@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Инициализация двумерного массива
  */
 public class Squares {

@@ -1,5 +1,4 @@
 package SelfTests.SelfTests5;
-
 /**
  * Среднее арифметическое 10 значений типа double
  */

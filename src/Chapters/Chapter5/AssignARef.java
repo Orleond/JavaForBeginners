@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Присваивание ссылок на массивы
  */
 public class AssignARef {

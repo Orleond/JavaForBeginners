@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Преобразование прописных букв английского языка в строчные
  */
 public class LowCase {

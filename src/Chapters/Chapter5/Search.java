@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Поиск в массиве с использованием расширенного цикла for
  */
 public class Search {

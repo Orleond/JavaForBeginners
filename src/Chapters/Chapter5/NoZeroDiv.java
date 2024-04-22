@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Предотвращение деления на нуль с помощью оператора ?
  */
 public class NoZeroDiv {

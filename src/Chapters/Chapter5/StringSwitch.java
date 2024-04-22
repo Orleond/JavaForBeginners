@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Использование строк для управления инструкцией switch
  */
 public class StringSwitch {

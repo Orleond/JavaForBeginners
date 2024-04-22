@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Отображение всех данных, указываемых в командной строке
  */
 public class CLDemo {

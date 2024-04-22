@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Демонстрация одномерного массива
  */
 public class ArrayDemo {

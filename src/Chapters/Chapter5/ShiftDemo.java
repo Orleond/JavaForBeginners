@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Демонстрация использования операторов << и >>
  */
 public class ShiftDemo {

@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Поиск минимального и максимального значений в массиве
  */
 public class MinMax {

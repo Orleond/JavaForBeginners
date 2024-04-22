@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Применение инициализаторов массива
  */
 public class MinMax2 {

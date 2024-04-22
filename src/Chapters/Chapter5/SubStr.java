@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Применение метода substring()
  */
 public class SubStr {

@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Пример использования переменной length для копирования массивов
  */
 public class ACopy {

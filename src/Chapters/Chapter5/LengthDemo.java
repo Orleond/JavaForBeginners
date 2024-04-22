@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Демонстрация использования переменной экземпляра length
  */
 public class LengthDemo {

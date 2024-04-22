@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Отображение битов, составляющих байт
  */
 public class ShowBits {

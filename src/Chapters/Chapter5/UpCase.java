@@ -1,5 +1,5 @@
 package Chapters.Chapter5;
-/*
+/**
  * Преобразование строчных букв английского алфавита в прописные
  */
 public class UpCase {

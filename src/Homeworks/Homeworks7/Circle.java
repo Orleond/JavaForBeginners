@@ -1,6 +1,5 @@
 package Homeworks.Homeworks7;
-import Chapters.Chapter7.TwoDShape;
-/*
+/**
  * Создайте подкласс Circle, производный от класса
  * TwoDShape. В нем должен быть переопределен метод
  * area(), вычисляющий площадь круга, а также
@@ -8,21 +7,22 @@ import Chapters.Chapter7.TwoDShape;
  * инициализации членов, унаследованных от класса
  * TwoDShape
  */
-class Circle extends TwoDShape {
+class Circle extends TwoDShape7 {
 
-    protected Circle() {
+    Circle() {
         super();
     }
-    protected Circle(double x) {
+
+    Circle(double x) {
         super(x, "круг");
     }
+
+    Circle(Circle c) {
+        super(c);
+    }
+
     @Override
     public double area() {
         return (Math.PI * getWidth() * getWidth()) / 2;
-    }
-}
-public class Homework1 {
-    public static void main(String[] args) {
-
     }
 }

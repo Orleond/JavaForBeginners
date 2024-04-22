@@ -4,7 +4,7 @@ package Exercises.Exercises6;
  * Простая версия класса Quicksort,
  * реализующего быструю сортировку
  */
-class QuickSort {
+public class QuickSort {
     // Вызов фактического метода быстрой сортировки
     static void qsort(char[] items) {
         qs(items, 0, items.length-1);

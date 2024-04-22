@@ -16,7 +16,7 @@ public class QSDemo {
         System.out.println();
 
         // Сортировка массива
-        Quicksort.qsort(a);
+        QuickSort.qsort(a);
 
         System.out.print("Отсортированный массив: ");
         for (i = 0; i < a.length; i++)

@@ -2,10 +2,10 @@ package Chapters.Chapter7;
 
 public class Shapes7 {
     public static void main(String[] args) {
-        Triangle t1 = new Triangle("контурный", 8.0, 12.0);
+        Triangle6 t1 = new Triangle6("контурный", 8.0, 12.0);
 
         // Создать копию объекта t1
-        Triangle t2 = new Triangle(t1);
+        Triangle6 t2 = new Triangle6(t1);
 
         System.out.println("Информация о t1: ");
         t1.showStyle();

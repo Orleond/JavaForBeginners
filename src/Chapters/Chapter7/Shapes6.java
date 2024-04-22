@@ -1,5 +1,8 @@
 package Chapters.Chapter7;
 
+/**
+ * Многоуровневая иерархия
+ */
 public class Shapes6 {
     public static void main(String[] args) {
         ColorTriangle t1 = new ColorTriangle("Синий", "контурный", 8.0, 12.0);

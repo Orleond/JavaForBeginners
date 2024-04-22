@@ -1,5 +1,10 @@
 package Exercises.Exercises7;
 
+/**
+ * Упражнение 7.1
+ *
+ * Создание подкласса класса Vehicle для грузовиков
+ */
 public class Vehicle {
     private int passengers; // Количество пассажиров
     private int fuelcap;    // Емкость топливного бака в галлонах

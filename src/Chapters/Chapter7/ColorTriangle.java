@@ -2,7 +2,7 @@ package Chapters.Chapter7;
 /*
  * Расширение класса Triangle
  */
-public class ColorTriangle extends Triangle{
+public class ColorTriangle extends Triangle5 {
     private String color;
 
     ColorTriangle(String c, String s, double w, double h) {

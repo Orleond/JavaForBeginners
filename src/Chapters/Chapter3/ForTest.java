@@ -1,8 +1,7 @@
 package Chapters.Chapter3;
 
 import java.io.IOException;
-
-/*
+/**
  * Выполнение цикла до тех пор, пока с клавиатуры
  * не будет введена буква S
  */

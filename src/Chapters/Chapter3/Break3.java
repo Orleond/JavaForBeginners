@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Применение инструкции break во вложенных циклах
  */
 public class Break3 {

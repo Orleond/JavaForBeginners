@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Расположение метки имеет большое значение
  */
 public class Break6 {

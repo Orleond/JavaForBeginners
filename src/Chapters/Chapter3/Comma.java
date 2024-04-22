@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Применение запятых в определении цикла for
  */
 public class Comma {

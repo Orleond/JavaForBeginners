@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Объявление переменной цикла в самом цикле for
  */
 public class ForVar {

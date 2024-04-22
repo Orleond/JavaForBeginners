@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Тело цикла for может быть пустым
  */
 public class Empty3 {

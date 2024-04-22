@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Вычисление целых степеней числа 2
  */
 public class Power {

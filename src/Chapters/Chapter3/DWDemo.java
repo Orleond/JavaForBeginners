@@ -1,8 +1,7 @@
 package Chapters.Chapter3;
 
 import java.io.IOException;
-
-/*
+/**
  * Демонстрация использования цикла do-while
  */
 public class DWDemo {

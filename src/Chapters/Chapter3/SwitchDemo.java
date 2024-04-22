@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Демонстрация использования инструкции switch
  */
 public class SwitchDemo {

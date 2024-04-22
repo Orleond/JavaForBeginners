@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Чтение символа с клавиатуры
  */
 public class KbIn {

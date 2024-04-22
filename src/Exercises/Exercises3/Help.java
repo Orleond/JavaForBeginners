@@ -1,8 +1,7 @@
 package Exercises.Exercises3;
 
 import java.io.IOException;
-
-/*
+/**
  * Упражнение 3.1
  * Простая справочная система
  */

@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Цикл for, выполняющийся с отрицательным приращением переменной
  */
 public class DecrFor {

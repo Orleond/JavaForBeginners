@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Пропуск отдельных составляющих в определении цикла for
  */
 public class Empty2 {

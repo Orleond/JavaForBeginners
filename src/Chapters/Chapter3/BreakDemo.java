@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Применение инструкции break для выхода из цикла
  */
 public class BreakDemo {

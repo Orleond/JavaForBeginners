@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Получение инструкции break с меткой
  */
 public class Break4 {

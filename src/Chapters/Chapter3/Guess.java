@@ -1,8 +1,7 @@
 package Chapters.Chapter3;
 
 import java.io.IOException;
-
-/*
+/**
  * Игра в угадывание букв
  */
 public class Guess {

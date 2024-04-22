@@ -1,5 +1,5 @@
 package Chapters.Chapter3;
-/*
+/**
  * Применение инструкции continue
  */
 public class ContDemo {

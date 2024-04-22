@@ -1,5 +1,4 @@
 package SelfTests.SelfTests3;
-
 /**
  * Смена регистра символов
  */

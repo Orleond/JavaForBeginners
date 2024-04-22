@@ -371,7 +371,7 @@ ____
 #### Листинг упражнений
 |Номер упражнения|Название класса|Описание|
 |-----------|-------------|-------------|
-|Упражнение 6.1|[Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Vehicle.java)|Создание подкласса класса Vehicle для грузовиков|
+|Упражнение 7.1|[Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Vehicle.java)|Создание подкласса класса Vehicle для грузовиков|
 ||[Truck](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Truck.java)|Расширение класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Vehicle.java) для грузовиков|
 ||[TruckDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/TruckDemo.java)|Создание подкласса класса [Vehicle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises7/Vehicle.java) для грузовиков|
 
@@ -380,7 +380,7 @@ ____
 #### Листинг ответов на упражнения для самопроверки из книги
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
-|Задание 2|[Circle](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests6/Stack.java)|Подкласс для окружностей, производный от класса TwoDShape|
+|Задание 2|[Circle](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests7/Circle.java)|Подкласс для окружностей, производный от класса TwoDShape|
 
 
 &nbsp;

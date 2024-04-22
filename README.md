@@ -11,7 +11,11 @@ ____
  - [Глава 6. Подробнее о методах и классах](#chapter6)
  - [Глава 7. Наследование](#chapter7)
  - [Глава 8. Пакеты и интерфейсы](#chapter8)
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter1">Глава 1. Основы Java</a>
 #### Листинг примеров
 |Название класса|Описание|
@@ -43,7 +47,11 @@ ____
 |-----------|-------------|-------------|
 |Задание 9|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework1.java)|Вычисление веса на луне|
 |Задание 10|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks1/Homework2.java)|Видоизмените программу, созданную в упражнении 1.2, таким образом, чтобы она выводила таблицу перевода дюймов в метры. Выведите значения длины до 12 футов через каждый дюйм. После каждых 12 дюймов выведите пустую строку. (Один метр приблизительно равен 39.37 дюймам)|
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter2">Глава 2. Знакомство с типами данных и операторами</a>
 #### Листинг примеров
 |Название класса|Описание|
@@ -86,7 +94,11 @@ ____
 |-----------|-------------|-------------|
 |Задание 7|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks2/Homework1.java)|Предотвращение деления на нуль с исользованием логического оператора|
 |Задание 10|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks2/Homework2.java)|Нахождение простых чисел в диапазоне от 2 до 100|
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter3">Глава 3. Управляющие конструкции</a>
 #### Листинг примеров</a>
 |Название класса|Описание|
@@ -147,7 +159,11 @@ ____
 |Задание 4|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks3/Homework2.java)|Цикл for с перебором от 1000 до 0 с шагом 2|
 |Задание 9|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks3/Homework3.java)|Использование цикла for для формирования геометрической прогрессии: 1, 2, 4, 8, 16, 32...|
 |Задание 10|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks3/Homework4.java)|Смена регистра символов|
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter4">Глава 4. Знакомство с классами, объектами и методами</a>
 |Название класса|Описание|
 |-----------|-------------|
@@ -175,7 +191,11 @@ ____
 
 
 _В 4 главе отсутствуют упражнения для самопроверки, в которых необходимо писать код._
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter5">Глава 5. Подробнее о типах данных и операторах</a>
 |Название класса|Описание|
 |-----------|-------------|
@@ -236,7 +256,11 @@ ____
 |Задание 4|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework2.java)|Демонстрация алгоритма пузырьковой сортировки строк|
 |Задание 7|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework3.java)|Улучшенный вариант программы шифрования сообщений с помощью побитовой операции исключающего ИЛИ|
 |Задание 13|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks5/Homework4.java)|Поиск минимального и максимального значений в массиве|
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter6">Глава 6. Подробнее о методах и классах</a>
 |Название класса|Описание|
 |-----------|-------------|
@@ -312,7 +336,11 @@ ____
 | |[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework2.java)|Класс, реализующий обмен данными между двумя объектами на основании класа [Test](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Test.java)|
 |Задание 6|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework3.java)|Отображение символов строки в обратном порядке с помощью рекурсии|
 |Задание 13|[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks6/Homework4.java)|Суммирование переданных чисел|
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter7">Глава 7. Наследование</a>
 |Название класса|Описание|
 |-----------|-------------|
@@ -389,12 +417,16 @@ ____
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
 |Задание 2|[Circle](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks7/Circle.java)|Подкласс для окружностей, производный от класса TwoDShape|
+
+&nbsp;
 ____
+
+&nbsp;
 ### <a name="chapter8">Глава 8. Пакеты и интерфейсы</a>
 |Название класса|Описание|
 |-----------|-------------|
-|[Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack/Book.java)|Простая программа, демонстрирующая применение пакетов|
-|[BookDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack/BookDemo.java)|Простая программа, демонстрирующая применение пакетов. Реализует класс [Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack/Book.java)|
+|[Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/bookpack/Book.java)|Простая программа, демонстрирующая применение пакетов|
+|[BookDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/bookpack/BookDemo.java)|Простая программа, демонстрирующая применение пакетов. Реализует класс [Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/bookpack/Book.java)|
 |[Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack2/Book.java)|Класс [Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack/Book.java), видоизмененный для открытого доступа|
 |[BookDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack2/BookDemo.java)|Простая программа, демонстрирующая применение пакетов. Реализует класс [Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack2/Book.java)|
 |[UseBook](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack2/UseBook.java)|Использование класса [Book](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter8/boockpack2/Book.java) из пакета bookpack|

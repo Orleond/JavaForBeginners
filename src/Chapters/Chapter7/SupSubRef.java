@@ -1,21 +1,8 @@
 package Chapters.Chapter7;
 /*
  * Обращение к объекту подкласса по ссылочной
- * переменоой суперкласса
+ * переменой суперкласса
  */
-class X {
-    int a;
-
-    X(int i) { a = i; }
-}
-
-class Y extends X {
-    int a;
-    Y(int i, int j) {
-        super(j);
-        a = i;
-    }
-}
 public class SupSubRef {
     public static void main(String[] args) {
         X x = new X(10);

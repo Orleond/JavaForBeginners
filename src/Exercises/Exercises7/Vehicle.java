@@ -23,7 +23,7 @@ public class Vehicle {
         return (double) miles / mpg;
     }
 
-    // Методы доступа к переменныз экземпляра
+    // Методы доступа к переменных экземпляра
     int getPassengers() { return passengers; }
     void setPassengers(int p) { passengers = p; }
     int getFuelcap() { return fuelcap; }

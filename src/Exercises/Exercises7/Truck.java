@@ -1,6 +1,6 @@
 package Exercises.Exercises7;
 /*
- * Расширение класса Vehicle для грузовиком
+ * Расширение класса Vehicle для грузовиков
  */
 public class Truck extends Vehicle{
     private int cargocap;   // Грузоподъемность в фунтах

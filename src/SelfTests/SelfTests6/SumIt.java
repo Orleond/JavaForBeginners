@@ -1,5 +1,7 @@
 package SelfTests.SelfTests6;
-
+/**
+ * Суммирование переданных чисел
+ */
 public class SumIt {
     int sum(int ... n) {
         int result = 0;

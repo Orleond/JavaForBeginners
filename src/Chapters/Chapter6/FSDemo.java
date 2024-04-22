@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Демонстрация работы с "отказоустойчивым" массивом
  */
 public class FSDemo {

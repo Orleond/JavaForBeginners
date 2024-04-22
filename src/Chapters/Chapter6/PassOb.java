@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Класс, реализующий класс Block
  */
 public class PassOb {

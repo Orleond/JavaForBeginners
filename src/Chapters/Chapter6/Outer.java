@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Применение внутреннего класса
  */
 public class Outer {

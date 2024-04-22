@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Применение статического метода
  */
 public class SDemo2 {

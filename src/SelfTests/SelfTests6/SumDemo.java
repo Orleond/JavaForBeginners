@@ -1,5 +1,7 @@
 package SelfTests.SelfTests6;
-
+/**
+ * Суммирование переданных чисел
+ */
 public class SumDemo {
     public static void main(String[] args) {
         SumIt siObj = new SumIt();

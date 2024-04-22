@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Применение класса ShowBits в качестве локального
  */
 public class LocalClassDemo {

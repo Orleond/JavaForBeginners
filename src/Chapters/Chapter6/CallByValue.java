@@ -1,8 +1,7 @@
 package Chapters.Chapter6;
-/*
+/**
  * Простые типы данных передаются методам по значению
  */
-
 public class CallByValue {
     public static void main(String[] args) {
         Test ob = new Test();

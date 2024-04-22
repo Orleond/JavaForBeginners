@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Инициализация одного объекта посредством другого
  */
 public class Summation {

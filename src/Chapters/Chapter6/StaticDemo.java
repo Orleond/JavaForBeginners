@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Применение статической переменной
  */
 public class StaticDemo {

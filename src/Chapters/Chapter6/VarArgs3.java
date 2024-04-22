@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Перегрузка метода с переменным числом аргументов
  */
 public class VarArgs3 {

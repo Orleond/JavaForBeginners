@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Возврат объекта типа String
  */
 public class ErrMsg {

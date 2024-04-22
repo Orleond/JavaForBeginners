@@ -1,9 +1,8 @@
 package Exercises.Exercises6;
-/*
+/**
  * Упражнение 6.1
  * Класс, реализующий очередь для хранения символов
  */
-
 class Queue {
     private char[] q;           // Массив для хранения элементов очереди
     private int putloc, getloc; // Индексы для вставки и извлечения

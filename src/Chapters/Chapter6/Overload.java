@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Перегрузка методов
  */
 public class Overload {

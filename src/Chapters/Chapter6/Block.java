@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Методам можно передавать объекты
  */
 public class Block {

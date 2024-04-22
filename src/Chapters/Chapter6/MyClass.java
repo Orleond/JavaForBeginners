@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Сравнение модификаторов доступа public и private
  */
 public class MyClass {

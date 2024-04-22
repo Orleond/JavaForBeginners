@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Объекты передаются методам по ссылке
  */
 public class CallByRef {

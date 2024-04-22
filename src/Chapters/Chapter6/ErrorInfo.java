@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Возврат объекта, определяемого разработчиком программы
  */
 public class ErrorInfo {

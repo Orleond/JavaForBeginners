@@ -1,5 +1,4 @@
 package SelfTests.SelfTests6;
-
 /**
  * Демонстрация использования класса Stack
  */

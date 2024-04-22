@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Простой пример рекурсии
  */
 public class Recursion {

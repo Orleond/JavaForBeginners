@@ -1,5 +1,5 @@
 package Chapters.Chapter6;
-/*
+/**
  * Демонстрация перегрузки конструкторов
  */
 public class OverloadConsDemo {

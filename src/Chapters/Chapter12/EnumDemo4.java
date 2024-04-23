@@ -2,7 +2,7 @@ package Chapters.Chapter12;
 /**
  * Использование методов ordinal() т compareTo()
  */
-public class EnunDemo4 {
+public class EnumDemo4 {
     public static void main(String[] args) {
         Transport tp, tp2, tp3;
 

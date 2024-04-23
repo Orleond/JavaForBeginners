@@ -1,5 +1,5 @@
 package Chapters.Chapter13;
-/*
+/**
  * Демонстрация класса NumericFns
  */
 public class BoundsDemo {

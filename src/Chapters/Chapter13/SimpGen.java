@@ -1,5 +1,5 @@
 package Chapters.Chapter13;
-/*
+/**
  * Демонстрация класса TwoGen
  */
 public class SimpGen {

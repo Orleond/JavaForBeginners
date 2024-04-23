@@ -1,5 +1,5 @@
 package Chapters.Chapter13;
-/*
+/**
  * Пример простого обобщенного метода
  */
 public class GenericMethodDemo {

@@ -1,6 +1,6 @@
 package Chapters.Chapter13;
-/*
- * Реализовать интерфейс Containment с помозью массива,
+/**
+ * Реализовать интерфейс Containment с помощью массива,
  * предназначенного для хранения значений
  */
 public class MyClass<T> implements Containment<T> {

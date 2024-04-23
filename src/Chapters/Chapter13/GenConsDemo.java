@@ -1,5 +1,5 @@
 package Chapters.Chapter13;
-/*
+/**
  * Использование обобщенного конструктора
  */
 public class GenConsDemo {

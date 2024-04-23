@@ -1,5 +1,5 @@
 package Chapters.Chapter13;
-/*
+/**
  * Простой обобщенный класс с двумя параметрами типа: T и V
  */
 public class TwoGen<T, V> {

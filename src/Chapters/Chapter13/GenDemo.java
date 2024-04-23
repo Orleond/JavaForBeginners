@@ -1,5 +1,5 @@
 package Chapters.Chapter13;
-/*
+/**
  * Демонстрация использования обобщенного класса
  */
 public class GenDemo {

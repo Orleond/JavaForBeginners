@@ -1,12 +1,12 @@
 package Chapters.Chapter13;
-/*
+/**
  * Демонстрация использования шаблона аргумента
  */
 public class WildCardDemo {
     public static void main(String[] args) {
-        NumericFns<Integer> iOb = new NumericFns<>(6);
-        NumericFns<Double> dOb = new NumericFns<>(-6.0);
-        NumericFns<Long> lOb = new NumericFns<>(5L);
+        NumericFns2<Integer> iOb = new NumericFns2<>(6);
+        NumericFns2<Double> dOb = new NumericFns2<>(-6.0);
+        NumericFns2<Long> lOb = new NumericFns2<>(5L);
 
         System.out.println("Сравнение iOb и dOb");
         if (iOb.absEqual(dOb))

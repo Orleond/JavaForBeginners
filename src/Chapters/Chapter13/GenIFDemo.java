@@ -1,5 +1,5 @@
 package Chapters.Chapter13;
-/*
+/**
  * Пример обобщенного интерфейса
  */
 public class GenIFDemo {
@@ -22,7 +22,7 @@ public class GenIFDemo {
         // является вариантом реализации интерфейса Containment для
         // типа Integer, а значение 9.25 относится к типу Double
         // if (ob.contains(9.25)) // Недопустимо!
-        //      System.out.println("9.25 не содержитмя в ob");
+        //      System.out.println("9.25 не содержится в ob");
 
     }
 }

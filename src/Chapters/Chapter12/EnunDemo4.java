@@ -1,5 +1,5 @@
 package Chapters.Chapter12;
-/*
+/**
  * Использование методов ordinal() т compareTo()
  */
 public class EnunDemo4 {

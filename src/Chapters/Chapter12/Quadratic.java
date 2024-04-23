@@ -1,5 +1,5 @@
 package Chapters.Chapter12;
-/*
+/**
  * Нахождение корней квадратного уравнения
  */
 public class Quadratic {

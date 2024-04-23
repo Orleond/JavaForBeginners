@@ -1,10 +1,10 @@
 package Chapters.Chapter12;
-/*
+import static java.lang.Math.sqrt;
+import static java.lang.Math.pow;
+/**
  * Использование статического импорта для
  * помещения методов sqrt() и pow() в область видимости
  */
-import static java.lang.Math.sqrt;
-import static java.lang.Math.pow;
 public class Quadratic2 {
     public static void main(String[] args) {
 

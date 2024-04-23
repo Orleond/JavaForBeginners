@@ -1,5 +1,5 @@
 package Chapters.Chapter12;
-/*
+/**
  * Упаковка и распаковка значений вручную
  */
 public class Wrap {

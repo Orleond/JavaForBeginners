@@ -1,5 +1,5 @@
 package Chapters.Chapter12;
-/*
+/**
  * Автоупаковка и автораспаковка в выражениях
  */
 public class AutoBox3 {

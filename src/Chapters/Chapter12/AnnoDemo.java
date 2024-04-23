@@ -1,6 +1,6 @@
 package Chapters.Chapter12;
-/*
- * Пример использования аннтоации @Deprecated.
+/**
+ * Пример использования аннотации @Deprecated.
  */
 public class AnnoDemo {
     public static void main(String[] args) {

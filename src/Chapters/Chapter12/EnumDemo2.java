@@ -1,5 +1,5 @@
 package Chapters.Chapter12;
-/*
+/**
  * Использование встроенных методов перечислений
  */
 public class EnumDemo2 {
@@ -8,8 +8,8 @@ public class EnumDemo2 {
         System.out.println("Константы Transport:");
 
         // Применение метода values()
-        //Transport[] allTransports = Transport.values();
-        for (Transport t: Transport.values())
+        Transport[] allTransports = Transport.values();
+        for (Transport t: allTransports)
             System.out.println(t);
 
         System.out.println();

@@ -1,9 +1,12 @@
-package Homeworks.Homeworks12;
+package SelfTests.SelfTests12;
 /**
- * Упражнение 12.1
- * Автоматизированное управление светофором
+ * Усовершенствованная версия программы, имитирующей
+ * работу светофора. Значения задержки теперь хранятся
+ * в классе TrafficLightColor.
+ *
+ * Имитация автоматизированного светофора
  */
-public class TrafficLightSimulator implements Runnable {
+class TrafficLightSimulator implements Runnable {
     private TrafficLightColor tlc;  // Текущий цвет светофора
     boolean stop = false;   // Для остановки имитации установить в true
     boolean changed = false;    // true, если светофор переключился
@@ -19,6 +22,8 @@ public class TrafficLightSimulator implements Runnable {
     // Запуск имитации автоматизированного светофора
     public void run() {
         while (!stop) {
+            // По сравнению с предыдущей версией программы
+            // код значительно упростился!
             try {
                 Thread.sleep(tlc.getDelay());
             } catch (InterruptedException exc) {
@@ -30,13 +35,19 @@ public class TrafficLightSimulator implements Runnable {
 
     // Переключение цвета светофора
     synchronized void changeColor() {
-        if (tlc.ordinal() == (TrafficLightColor.values().length - 1))
-            tlc = TrafficLightColor.values()[0];
-        else
-            tlc = TrafficLightColor.values()[tlc.ordinal() + 1];
+        switch (tlc) {
+            case RED:
+                tlc = TrafficLightColor.GREEN;
+                break;
+            case YELLOW:
+                tlc = TrafficLightColor.RED;
+                break;
+            case GREEN:
+                tlc = TrafficLightColor.YELLOW;
+                break;
+        }
 
         changed = true;
-
         notify();   // Уведомить о переключении светофора
     }
 

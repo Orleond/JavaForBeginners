@@ -1,5 +1,5 @@
 package Chapters.Chapter12;
-/*
+/**
  * Использование перечисления Transport
  */
 public class EnumDemo {

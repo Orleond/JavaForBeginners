@@ -1,5 +1,5 @@
 package Chapters.Chapter12;
-/*
+/**
  * Демонстрация автоупаковки и автораспаковки
  */
 public class AutoBox {

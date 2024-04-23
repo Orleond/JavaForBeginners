@@ -1,5 +1,5 @@
 package Chapters.Chapter11;
-/*
+/**
  * Демонстрация потоков с разными приоритетами
  */
 public class Priority implements Runnable {

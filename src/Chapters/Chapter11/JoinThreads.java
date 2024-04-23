@@ -1,5 +1,5 @@
 package Chapters.Chapter11;
-/*
+/**
  * Использование метода join()
  */
 public class JoinThreads {
@@ -18,7 +18,7 @@ public class JoinThreads {
             mt3.thrd.join();
             System.out.println("Порожденный поток #3 - присоединен.");
         } catch (InterruptedException exc) {
-            System.out.println("Прерываение основного потока.");
+            System.out.println("Прерывание основного потока.");
         }
         System.out.println("Завершение основного потока.");
     }

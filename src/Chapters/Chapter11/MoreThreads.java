@@ -1,5 +1,5 @@
 package Chapters.Chapter11;
-/*
+/**
  * Создание нескольких потоков
  */
 public class MoreThreads {

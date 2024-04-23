@@ -1,9 +1,9 @@
 package Exercises.Exercises11;
-/*
+/**
  * Упражнение 11.1
  * Расширение класса Thread
  */
-public class ExtendThread{
+public class ExtendThread {
     public static void main(String[] args) {
         System.out.println("Запуск основного потока.");
 

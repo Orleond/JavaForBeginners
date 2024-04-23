@@ -1,6 +1,6 @@
 package Chapters.Chapter11;
-/*
- * Создание нескольких потоков
+/**
+ * Использование метода isAlive().
  */
 public class MoreThreads2 {
     public static void main(String[] args) {

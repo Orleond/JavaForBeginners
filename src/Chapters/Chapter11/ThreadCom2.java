@@ -2,11 +2,11 @@ package Chapters.Chapter11;
 /**
  * Использование методов wait() и notify() для имитации часов
  */
-public class ThreadCom {
+public class ThreadCom2 {
     public static void main(String[] args) {
-        TickTock tt = new TickTock();
-        MyThread5 mt1 = MyThread5.createAndStart("Tick", tt);
-        MyThread5 mt2 = MyThread5.createAndStart("Tock", tt);
+        TickTock2 tt = new TickTock2();
+        MyThread6 mt1 = MyThread6.createAndStart("Tick", tt);
+        MyThread6 mt2 = MyThread6.createAndStart("Tock", tt);
 
         try {
             mt1.thrd.join();

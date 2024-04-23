@@ -1,5 +1,5 @@
 package Chapters.Chapter11;
-/*
+/**
  * Использование ключевого слова synchronized для
  * управления доступом
  */

@@ -1,5 +1,5 @@
 package Chapters.Chapter11;
-/*
+/**
  * Создание потока путем реализации интерфейса Runnable
  */
 public class UseThreads {

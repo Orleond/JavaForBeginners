@@ -1,8 +1,5 @@
 package Exercises.Exercises11;
-
-import Chapters.Chapter11.MyThread2;
-
-/*
+/**
  * Упражнение 11.1
  * Расширение класса Thread
  */

@@ -1,10 +1,10 @@
 package Chapters.Chapter11;
-/*
+/**
  * Приостановка, возобновление и остановка потока
  */
 public class Suspend {
     public static void main(String[] args) {
-        MyThread6 mt1 = MyThread6.createAndStart("Мой поток");
+        MyThread7 mt1 = MyThread7.createAndStart("Мой поток");
 
         try {
             Thread.sleep(1000); // Позволить потоку mt1 начать выполнение

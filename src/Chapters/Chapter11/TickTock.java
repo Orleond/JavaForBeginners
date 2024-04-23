@@ -1,5 +1,5 @@
 package Chapters.Chapter11;
-/*
+/**
  * Использование методов wait() и notify() для имитации часов
  */
 public class TickTock {

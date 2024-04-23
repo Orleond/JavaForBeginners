@@ -1,11 +1,9 @@
 package Chapters.Chapter14;
 
-// Импортировать интерфейс Predicate
 import java.util.function.Predicate;
 /**
  * Использование встроенного функционального интерфейса Predicate
  */
-
 public class UsePredicateInterface {
     public static void main(String[] args) {
         // Данное лямбда-выражение использует интерфейс

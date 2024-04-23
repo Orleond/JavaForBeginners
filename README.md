@@ -600,7 +600,6 @@ ____
 |[UseThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/UseThreads.java)|Создание потока путем реализации интерфейса Runnable. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread.java)|
 |[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|Изменения класса [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread.java). Эта версия класса MyThread создает объект Thread путем вызова его конструктора и сохранения в переменной экземпляра thrd. Также присваивается имя потоку и используется фабричный метод создания и запуска потока.|
 |[ThreadVariations](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/ThreadVariations.java)|Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
-|[ThreadVariations](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/ThreadVariations.java)|Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
 |[MoreThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MoreThreads.java)|Создание нескольких потоков. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
 |[MoreThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MoreThreads2.java)|Использование метода isAlive(). Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
 |[JoinThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/JoinThreads.java)|Использование метода join(). Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
@@ -625,7 +624,7 @@ ____
 |Номер упражнения|Название класса|Описание|
 |-----------|-------------|-------------|
 |Упражнение 11.1|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/MyThread.java)|Расширение класса Thread|
-| |[ExtendThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/ExtendThread.java)|Расширение класса Thread. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises10/MyThread.java)|
+| |[ExtendThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/ExtendThread.java)|Расширение класса Thread. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/MyThread.java)|
 |Упражнение 11.2|[UseMain](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/UseMain.java)|Расширение класса Thread|
 
 

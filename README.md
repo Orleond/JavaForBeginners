@@ -577,11 +577,13 @@ ____
 #### Листинг ответов на упражнения для самопроверки из книги
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
-|Задание 10|[StackFullException](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests9/StackFullException.java)|Исключение, возникающее при переполнении стека|
+|Задание 7|[Hyphen](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests10/Hyphen.java)|Копирование текстового файла с заменой пробелов дефисами. В этой версии программы используются байтовые потоки|
+|Задание 8|[Hyphen2](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests10/Hyphen2.java)|Копирование текстового файла с заменой пробелов дефисами. В этой версии программы используются символьные потоки|
 
 
 &nbsp;
 #### Листинг моих решений упражнений для самопроверки из книги
 |Номер задания|Название класса|Описание|
 |-----------|-------------|-------------|
-|Задание 10|[FullStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/FullStackException.java)|Исключение, возникающее при переполнении стека|
+|Задание 7|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks10/Homework1.java)|Копирование текстового файла с заменой пробелов дефисами. В этой версии программы используются байтовые потоки|
+|Задание 8|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks10/Homework1.java)|Копирование текстового файла с заменой пробелов дефисами. В этой версии программы используются символьные потоки|

@@ -13,6 +13,7 @@ ____
  - [Глава 8. Пакеты и интерфейсы](#chapter8)
  - [Глава 9. Обработка исключений](#chapter9)
  - [Глава 10. Ввод-вывод данных](#chapter10)
+ - [Глава 11. Многопоточное программирование](#chapter11)
 
 &nbsp;
 ____
@@ -587,3 +588,58 @@ ____
 |-----------|-------------|-------------|
 |Задание 7|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks10/Homework1.java)|Копирование текстового файла с заменой пробелов дефисами. В этой версии программы используются байтовые потоки|
 |Задание 8|[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks10/Homework1.java)|Копирование текстового файла с заменой пробелов дефисами. В этой версии программы используются символьные потоки|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter11">Глава 11. Многопоточное программирование</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread.java)|Создание потока путем реализации интерфейса Runnable|
+|[UseThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/UseThreads.java)|Создание потока путем реализации интерфейса Runnable. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread.java)|
+|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|Изменения класса [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread.java). Эта версия класса MyThread создает объект Thread путем вызова его конструктора и сохранения в переменной экземпляра thrd. Также присваивается имя потоку и используется фабричный метод создания и запуска потока.|
+|[ThreadVariations](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/ThreadVariations.java)|Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
+|[MoreThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MoreThreads.java)|Создание нескольких потоков. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
+|[MoreThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MoreThreads2.java)|Использование метода isAlive(). Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
+|[JoinThreads](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/JoinThreads.java)|Использование метода join(). Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread2.java)|
+|[Priority](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/Priority.java)|Демонстрация потоков с разными приоритетами|
+|[PriorityDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/PriorityDemo.java)|Демонстрация потоков с разными приоритетами. Реализует класс [Priority](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/Priority.java)|
+|[SumArray](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/SumArray.java)|Использование ключевого слова synchronized для управления доступом|
+|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread3.java)|Использование ключевого слова synchronized для управления доступом. Реализует класс [SumArray](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/SumArray.java)|
+|[Sync](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/Sync.java)|Использование ключевого слова synchronized для управления доступом. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread3.java)|
+|[SumArray](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/SumArray2.java)|Использование синхронизированного блока для управления доступом к SumArray|
+|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread4.java)|Использование синхронизированного блока для управления доступом к [SumArray](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/SumArray2.java)|
+|[Sync](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/Sync2.java)|Использование синхронизированного блока для управления доступом к [SumArray](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/SumArray2.java). Реализует [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread4.java)|
+|[TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/TickTock.java)|Использование методов wait() и notify() для имитации часов|
+|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread5.java)|Использование методов wait() и notify() для имитации часов. Использует класс [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/TickTock.java)|
+|[ThreadCom](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/ThreadCom.java)|Использование методов wait() и notify() для имитации часов. Использует классы [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/TickTock.java) и [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread5.java)|
+|[ThreadCom](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/ThreadCom2.java)|В этой версии вызовы методов wait() и notify() отсутствуют. Использует классы [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/TickTock2.java) и [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread6.java)|
+|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread7.java)|Приостановка, возобновление и остановка потока|
+|[Suspend](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/Suspend.java)|Приостановка, возобновление и остановка потока. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/MyThread7.java)|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 11.1|[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/MyThread.java)|Расширение класса Thread|
+| |[ExtendThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/ExtendThread.java)|Расширение класса Thread. Реализует класс [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/MyThread.java)|
+|Упражнение 11.2|[UseMain](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises11/UseMain.java)|Расширение класса Thread|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 8|[TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests11/TickTock.java)|Вариант класса [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/TickTock.java), в который добавлены вызовы метода sleep() для организации отсчета времени|
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 4|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/Homework1.java)|Ожидание завершения потокового объекта [MyThrd](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/MyThrd.java) помощью метода join()|
+|Задание 8|[TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/TickTock.java)|Вариант класса [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/TickTock.java), в который добавлены вызовы метода sleep() для организации отсчета времени|
+| |[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/MyThread.java)|Использует класс [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/TickTock.java)|
+| |[ThreadCom](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/ThreadCom.java)|Демонстрация работы классов [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/TickTock.java) и [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/MyThread.java)|

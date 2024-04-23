@@ -15,6 +15,7 @@ ____
  - [Глава 10. Ввод-вывод данных](#chapter10)
  - [Глава 11. Многопоточное программирование](#chapter11)
  - [Глава 12. Перечисления, автоупаковка, статический импорт и аннотации](#chapter12)
+ - [Глава 13. Обобщения](#chapter13)
 
 &nbsp;
 ____
@@ -696,3 +697,67 @@ ____
 |Задание 4|[TrafficLightColor](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightColor.java)|Перечисление, представляющее цвета светофора|
 | |[TrafficLightSimulator](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightSimulator.java)|Имитация автоматизированного светофора|
 | |[TrafficLightDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightDemo.java)|Демонстрация работы светофора. Реализует класс [TrafficLightSimulator](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightSimulator.java)|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter13">Глава 13. Обобщения</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen.java)|Простой обобщенный класс|
+|[GenDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenDemo.java)|Демонстрация использования обобщенного класса [Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen.java)|
+|[TwoGen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/TwoGen.java)|Простой обобщенный класс с двумя параметрами типа: T и V|
+|[SimpGen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/SimpGen.java)|Демонстрация класса [TwoGen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/TwoGen.java)|
+|[NumericFns](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/NumericFns.java)|В этой версии класса NumericFns аргументом типа, заменяющим параметр типа Т, должен выступать класс Number или производный от него подкласс|
+|[BoundsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/BoundsDemo.java)|Демонстрация класса [NumericFns](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/NumericFns.java)|
+|[NumericFns](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/NumericFns2.java)|Использование шаблона аргумента|
+|[WildCardDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/WildCardDemo.java)|Демонстрация использования шаблона аргумента. Реализует класс [NumericFns](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/NumericFns2.java)|
+|[UseBoundedWildcard](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/UseBoundedWildcard.java)|Пример класса, демонстрирующий типы объектов класса [Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen.java), которые могут быть переданы методу test()|
+|[GenericMethodDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenericMethodDemo.java)|Пример простого обобщенного метода|
+|[Summation](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Summation.java)|Использование обобщенного конструктора|
+|[GenConsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenConsDemo.java)|Использование обобщенного конструктора. Реализует класс [Summation](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Summation.java)|
+|[Containment](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Containment.java)|Пример обобщенного интерфейса|
+|[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/MyClass.java)|Реализовать интерфейс [Containment](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Containment.java) с помощью массива, предназначенного для хранения значений|
+|[GenIFDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenIFDemo.java)|Пример обобщенного интерфейса. Реализует класс [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/MyClass.java)|
+|[RawDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/RawDemo.java)|Продемонстрировать использование базового типа|
+|[Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen.java)|Обобщенные типы и массивы|
+|[GenArrays](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenArrays.java)|Обобщенные типы и массивы. Реализует класс [Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen.java)|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 13.1|[IGenQ](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises13/IGenQ.java)|Обобщенный интерфейс очереди|
+| |[QueueFullException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises13/QueueFullException.java)|Исключение, указывающее на переполнение|
+| |[QueueEmptyException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises13/QueueEmptyException.java)|Исключение, указывающее на исчерпание очереди|
+| |[GenQueue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises13/GenQueue.java)|Обобщенный класс, реализующий очередь фиксированного размера|
+| |[GenQDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises13/GenQDemo.java)|Демонстрация обобщенного класса очереди|
+| |[CircularQueue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises13/CircularQueue.java)|Кольцевая очередь|
+| |[DynQueue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises13/DynQueue.java)|Динамическая модель|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 12|[IGenStack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests13/IGenStack.java)|Обобщенный стек|
+| |[StackFullException](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests13/StackFullException.java)|Исключение, возникающее при переполнении стека|
+| |[StackEmptyException](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests13/StackEmptyException.java)|Исключение, возникающее при обращении к пустому стеку|
+| |[GenStack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests13/GenStack.java)|Класс, реализующий стек для хранения символов|
+| |[GenStackDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests13/GenStackDemo.java)|Демонстрация использования класса [GenStack](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests13/GenStack.java)|
+
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 9|[IGenIF](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/IGenIF.java)|Интерфейс, который необходимо реализовать|
+| |[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/MyClass.java)|Реализация интерфейса [IGenIF](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/IGenIF.java)|
+|Задание 12|[IGenStack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/IGenStack.java)|Обобщенный стек|
+| |[FullStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/FullStackException.java)|Исключение, возникающее при переполнении стека|
+| |[EmptyStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/EmptyStackException.java)|Исключение, возникающее при обращении к пустому стеку|
+| |[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/Stack.java)|Класс, реализующий стек для хранения символов|
+| |[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/Homework2.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/Stack.java)|

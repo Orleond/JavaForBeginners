@@ -1,9 +1,7 @@
 package Chapters.Chapter10;
 
-import java.io.IOException;
-import java.io.RandomAccessFile;
-
-/*
+import java.io.*;
+/**
  * Демонстрация произвольного доступа к файлам
  */
 public class RandomAccessDemo {

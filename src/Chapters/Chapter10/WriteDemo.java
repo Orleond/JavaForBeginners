@@ -1,5 +1,5 @@
 package Chapters.Chapter10;
-/*
+/**
  * Демонстрация метода System.out.write()
  */
 public class WriteDemo {

@@ -1,11 +1,9 @@
 package Chapters.Chapter10;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
-/*
+import java.io.*;
+/**
  * Отображение текстового файла
+ *
  * При вызове этой программы следует указать имя файла,
  * содержимое которого требуется посмотреть.
  * Например, для вывода на экран содержимого файла TEST.TXT

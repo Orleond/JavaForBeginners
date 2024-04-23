@@ -1,10 +1,7 @@
 package Chapters.Chapter10;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
-/*
+import java.io.*;
+/**
  * Версия программы CopyFile, в которой используется инструкция
  * try с ресурсами. В ней демонстрируется управление двумя
  * ресурсами (в данном случае - файлами) с помощью единственной

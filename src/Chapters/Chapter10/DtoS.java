@@ -1,13 +1,9 @@
 package Chapters.Chapter10;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-/*
+import java.io.*;
+/**
  * Пример простой утилиты для чтения данных с диска и вывода их
- * на экран, демонстрирующий использование класса FileREader
+ * на экран, демонстрирующий использование класса FileReader
  */
 public class DtoS {
     public static void main(String[] args) {

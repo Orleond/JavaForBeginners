@@ -1,8 +1,7 @@
 package Chapters.Chapter10;
 
-import java.io.PrintWriter;
-
-/*
+import java.io.*;
+/**
  * Использование класса PrintWriter
  */
 public class PrintWriterDemo {

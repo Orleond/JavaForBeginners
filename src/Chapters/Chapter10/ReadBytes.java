@@ -1,10 +1,9 @@
 package Chapters.Chapter10;
-/*
+
+import java.io.*;
+/**
  * Чтение байтов с клавиатуры в массив
  */
-
-import java.io.IOException;
-
 public class ReadBytes {
     public static void main(String[] args) throws IOException {
         byte[] data = new byte[10];

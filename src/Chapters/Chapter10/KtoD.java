@@ -1,11 +1,7 @@
 package Chapters.Chapter10;
 
-import java.io.BufferedReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-/*
+import java.io.*;
+/**
  * Пример простой утилиты для ввода данных с клавиатуры и
  * записи их на диск, демонстрирующий использование класса
  * FileWriter

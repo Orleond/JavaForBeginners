@@ -1,10 +1,7 @@
 package Chapters.Chapter10;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
-/*
+import java.io.*;
+/**
  * В этой версии программы ShowFile инструкция try с ресурсами
  * применяется для автоматического закрытия файла, когда в нем
  * больше нет необходимости

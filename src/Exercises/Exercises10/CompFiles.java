@@ -1,9 +1,7 @@
 package Exercises.Exercises10;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-
-/*
+import java.io.*;
+/**
  * Упражнение 10.1
  * Сравнение двух файлов.
  *

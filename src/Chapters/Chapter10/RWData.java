@@ -1,8 +1,7 @@
 package Chapters.Chapter10;
 
 import java.io.*;
-
-/*
+/**
  * Запись и чтение двоичных данных
  */
 public class RWData {

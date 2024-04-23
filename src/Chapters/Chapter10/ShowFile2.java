@@ -1,10 +1,7 @@
 package Chapters.Chapter10;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
-/*
+import java.io.*;
+/**
  * В этой версии программы те ее части, которые отвечают
  * за открытие файла и получение доступа к нему, помещены
  * в один блок try. Файл закрывается в блоке finally

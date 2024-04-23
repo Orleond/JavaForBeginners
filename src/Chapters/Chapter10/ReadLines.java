@@ -1,10 +1,7 @@
 package Chapters.Chapter10;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-/*
+import java.io.*;
+/**
  * Чтение символьных строк с консоли с использованием
  * класса BufferedReader
  */

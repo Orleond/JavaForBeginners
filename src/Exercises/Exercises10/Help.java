@@ -1,15 +1,13 @@
 package Exercises.Exercises10;
-/*
+
+import java.io.*;
+/**
  * В классе Help открывается файл со справочной информацией,
  * выполняется поиск указанной темы, а затем отображается
  * справочная информация. Обратите внимание на то, что данный
  * класс обрабатывает все исключения, освобождая от этого
  * вызывающий код
  */
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Help {
     String helpfile;    // Имя файла справки

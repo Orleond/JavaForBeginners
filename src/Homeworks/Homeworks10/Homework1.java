@@ -4,8 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-/*
+/**
  * Напишите программу для копирования текстовых
  * файлов. Видоизмените ее таким образом, чтобы
  * все пробелы заменялись дефисами. Используйте

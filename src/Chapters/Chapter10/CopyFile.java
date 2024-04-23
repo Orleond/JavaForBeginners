@@ -1,13 +1,10 @@
 package Chapters.Chapter10;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
-/*
+import java.io.*;
+/**
  * Копирование текстового файла.
  * При вызове этой программы следует указать имена исходного
- * и целевого файлов. Например, для копирования файла FIRT.TXT
+ * и целевого файлов. Например, для копирования файла FIRST.TXT
  * в файл SECOND.TXT в командной строке нужно ввести следующую
  * команду:
  * java CopyFile FIRST.TXT SECOND.TXT

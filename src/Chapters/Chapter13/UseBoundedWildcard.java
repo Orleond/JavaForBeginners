@@ -17,21 +17,12 @@ class D {
     // ...
 }
 
-// Простой обобщенный класс
-class Gen2<T> {
-    T ob;
-
-    Gen2(T o) {
-        ob = o;
-    }
-}
-
 // Пример класса, демонстрирующий типы объектов класса
 // Gen, которые могут быть переданы методу test()
 public class UseBoundedWildcard {
     // Здесь знак ? устанавливает соответствие
     // классу А или производным от него подклассам.
-    static void test(Gen2<? extends A> o) {
+    static void test(Gen<? extends A> o) {
         // ...
     }
 
@@ -41,10 +32,10 @@ public class UseBoundedWildcard {
         C c = new C();
         D d = new D();
 
-        Gen2<A> w = new Gen2<>(a);
-        Gen2<B> w2 = new Gen2<>(b);
-        Gen2<C> w3 = new Gen2<>(c);
-        Gen2<D> w4 = new Gen2<>(d);
+        Gen<A> w = new Gen<>(a);
+        Gen<B> w2 = new Gen<>(b);
+        Gen<C> w3 = new Gen<>(c);
+        Gen<D> w4 = new Gen<>(d);
 
         // Эти вызовы метода test() допустимы
         test(w);

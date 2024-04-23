@@ -1,11 +1,11 @@
 package Exercises.Exercises13;
-/*
+/**
  * Упражнение 13.1
  *
  * Обобщенный класс, реализующий очередь фиксированного размера
  */
 public class GenQueue<T> implements IGenQ<T> {
-    private T[] q;  // Массив для хранения элементов оереди
+    private T[] q;  // Массив для хранения элементов очереди
     private int putloc, getloc; // Индексы вставки и извлечения
                                 // элементов очереди
 

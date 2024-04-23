@@ -1,6 +1,7 @@
 package Exercises.Exercises13;
-/*
+/**
  * Упражнение 13.1
+ * Кольцевая очередь
  */
 public class CircularQueue<T> implements IGenQ<T> {
     private T[] arr;   // Массив для хранения элементов очереди

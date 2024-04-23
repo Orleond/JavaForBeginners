@@ -16,6 +16,7 @@ ____
  - [Глава 11. Многопоточное программирование](#chapter11)
  - [Глава 12. Перечисления, автоупаковка, статический импорт и аннотации](#chapter12)
  - [Глава 13. Обобщения](#chapter13)
+ - [Глава 14. Лямбда-выражения и ссылки на методы](#chapter14)
 
 &nbsp;
 ____
@@ -761,3 +762,75 @@ ____
 | |[EmptyStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/EmptyStackException.java)|Исключение, возникающее при обращении к пустому стеку|
 | |[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/Stack.java)|Класс, реализующий стек для хранения символов|
 | |[Homework2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/Homework2.java)|Демонстрация использования класса [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks13/Stack.java)|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter14">Глава 14. Лямбда-выражения и ссылки на методы</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[MyValue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyValue.java)|Функциональный интерфейс|
+|[LambdaDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/LambdaDemo.java)|Демонстрация двух простых лямбда-выражений с использованием интерфейса [MyValue](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyValue.java)|
+|[NumericTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/NumericTest.java)|Функциональный интерфейс имеет два параметра типа int и возвращает результат типа boolean|
+|[LambdaDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/LambdaDemo2.java)|Использование одного и того же функционального интерфейса с тремя различными лямбда-выражениями. Используется интерфейс [NumericTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/NumericTest.java)|
+|[StringTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/StringTest.java)|Функциональный интерфейс, тестирующий две строки|
+|[LambdaDemo3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/LambdaDemo3.java)|Демонстрация использования функционального интерфеса [StringTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/StringTest.java)|
+|[NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/NumericFunc.java)|Блочное лямбда-выражение, предназначенное для нахождения наименьшего положительного делителя заданного целого числа|
+|[BlockLambdaDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/BlockLambdaDemo.java)|Демонстрация использования интерфейса [NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/NumericFunc.java)|
+|[SomeTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/SomeTest.java)|Обобщенный функциональный интерфейс с двумя параметрами, который возвращает результат типа boolean|
+|[GenericFunctionalInterfaceDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/GenericFunctionalInterfaceDemo.java)|Использование обобщенного функционального интерфейса [SomeTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/SomeTest.java)|
+|[MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyFunc.java)|Функциональный интерфейс|
+|[VarCapture](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/VarCapture.java)|Пример захвата локальной переменной из охватывающей лямбда-выражение области видимости с использованием функционального интерфейса [MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyFunc.java)|
+|[MyIOAction](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIOAction.java)|Функциональный интерфейс|
+|[LambdaExceptionDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/LambdaExceptionDemo.java)|Генерация исключений в лямбда-выражениях. Используется функциональный интерфейс [MyIOAction](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIOAction.java)|
+|[IntPredicate](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/IntPredicate.java)|Функциональный интерфейс для числовых предикатов, которые воздействуют на целочисленные значения|
+|[MyIntPredicates](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntPredicates.java)|Данный класс определяет три статических метода, которые проверяют целое число на соответствие определенным условиям|
+|[MethodRefDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MethodRefDemo.java)|Демонстрация использования ссылок на статические методы класса [MyIntPredicates](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntPredicates.java) при помощи интерфейса [IntPredicate](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/IntPredicate.java)|
+|[MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java)|Данный класс хранит значение типа int и определяет метод isFactor(), который возвращает значение true, если его аргумент является делителем числа, хранящегося в классе|
+|[MethodRefDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MethodRefDemo2.java)|ДИспользование ссылки на метод экземпляра класса [MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java) при помощи интерфейса [IntPredicate](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/IntPredicate.java)|
+|[MyIntNumPredicate](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNumPredicate.java)|Функциональный интерфейс для числовых предикатов, которые воздействуют на объект типа [MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java) и целочисленное значение|
+|[MethodRefDemo3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MethodRefDemo3.java)|Использование ссылки на метод экземпляра для обращения к любому интерфейсу. Используется класс [MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java) и интерфейса [MyIntNumPredicate](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNumPredicate.java)|
+|[MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyFunc2.java)|MyFunc - функциональный интерфейс, метод которого возвращает ссылку на [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyClass2.java)|
+|[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyClass2.java)|Демонстрация использования ссылок на конструкторы|
+|[ConstructorRefDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/ConstructorRefDemo.java)|Демонстрация использования ссылок на конструкторы с использованием класса [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyClass2.java) и интерфейса [MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyFunc2.java)|
+|[UsePredicateInterface](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/UsePredicateInterface.java)|Использование встроенного функционального интерфейса Predicate|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 14.1|[StringFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises14/StringFunc.java)|Функциональный интерфейс|
+| |[LambdaArgumentDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises14/LambdaArgumentDemo.java)|Использование лямбда-выражения в качестве аргумента метода|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 7|[NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/NumericFunc.java)|Блочное лямбда-выражение, предназначенное для нахождения наименьшего положительного делителя заданного целого числа|
+| |[FactorialLambdaDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/FactorialLambdaDemo.java)|Демонстрация использования блочного лямбда-выражения и использованием функционального интерфейса [NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/NumericFunc.java)|
+|Задание 8|[MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/MyFunc.java)|Функциональный интерфейс с абстрактным методом func()|
+| |[FactorialLambdaDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/FactorialLambdaDemo2.java)|Демонстрация использования функционального интерфейса [MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/MyFunc.java)|
+|Задание 16|[MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/MyIntNum.java)|Добавление метода hasCommonFactor() в класс [MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java)|
+
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 5|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/Homework1.java)|Лямбда-выражение, которое возвращает true, если число принадлежит диапазону чисел 10-20, включая граничные значения|
+|Задание 6|[MyTest](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MyTest.java)|Функциональный интерфейс, способный поддерживать лямбда-выражение, предложенное в Homework1 с абстрактным методом - testing()|
+|Задание 7|[NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/NumericFunc.java)|Блочное лямбда-выражение, предназначенное для нахождения наименьшего положительного делителя заданного целого числа|
+| |[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/Homework3.java)|Демонстрация использования блочного лямбда-выражения и использованием функционального интерфейса [NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/NumericFunc.java)|
+|Задание 8|[MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MyFunc.java)|Функциональный интерфейс с абстрактным методом func()|
+| |[Homework4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/Homework4.java)|Демонстрация использования функционального интерфейса [MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MyFunc.java)|
+|Задание 9|[Homework5](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/Homework5.java)|Лямбда-выражение, удаляющее пробелы из заданной строки|
+| |[StringFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/StringFunc.java)|Функциональный интерфейс, используемый в классе [Homework5](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/Homework5.java)|
+|Задание 14|[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MyClass.java)|Демонстрация способа указания ссылки на метод. Используется функциональный интерфейс [HomeworkInterface6and7](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/HomeworkInterface6and7.java)|
+|Задание 15|[MyClass2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MyClass2.java)|Демонстрация создания ссылки на метод,ассоциированный с объектом. Используется функциональный интерфейс [HomeworkInterface6and7](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/HomeworkInterface6and7.java)|
+|Задание 16|[MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MyIntNum.java)|Добавление метода hasCommonFactor() в класс [MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java)|
+| |[IntPredicate](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/IntPredicate.java)|Функциональный интерфейс|
+| |[MethodRefDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MethodRefDemo2.java)|Демонстрация работы метода hasCommonFactor() с использованием ссылки на метод|

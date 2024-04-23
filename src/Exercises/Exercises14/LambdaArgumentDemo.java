@@ -1,5 +1,5 @@
 package Exercises.Exercises14;
-/*
+/**
  * Упражнение 14.1
  */
 public class LambdaArgumentDemo {

@@ -1,7 +1,7 @@
 package Chapters.Chapter14;
-/*
+/**
  * Использование одного и того же функционального интерфейса
- * я тремя различными лямбда-выражениями.
+ * с тремя различными лямбда-выражениями.
  */
 public class LambdaDemo2 {
     public static void main(String[] args) {

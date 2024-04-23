@@ -1,5 +1,5 @@
 package Chapters.Chapter14;
-/*
+/**
  * Демонстрация использования ссылок на статические методы.
  */
 public class MethodRefDemo {

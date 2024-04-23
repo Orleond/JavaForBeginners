@@ -2,8 +2,7 @@ package Homeworks.Homeworks14;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/*
+/**
  * В программе MethodRefDemo2 добавьте в класс
  * MyIntNum новый метод hasCommonFactor(). Этот
  * метод должен возвращать true, если его аргумент
@@ -37,7 +36,6 @@ public class MyIntNum {
 
     MyIntNum(int x) { v = x; }
     int getNum() { return v; }
-
 
     // Вернуть true, если n - делитель
     boolean isFactor(int n) {

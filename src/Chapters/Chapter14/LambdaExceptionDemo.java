@@ -1,5 +1,7 @@
 package Chapters.Chapter14;
-
+/**
+ * Генерация исключений в лямбда-выражениях
+ */
 public class LambdaExceptionDemo {
     public static void main(String[] args) {
         double[] values = { 1.0, 2.0, 3.0, 4.0 };

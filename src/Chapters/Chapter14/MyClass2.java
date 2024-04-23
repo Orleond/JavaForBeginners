@@ -1,5 +1,5 @@
 package Chapters.Chapter14;
-/*
+/**
  * Демонстрация использования ссылок на конструкторы
  */
 public class MyClass2 {

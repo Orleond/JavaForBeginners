@@ -1,5 +1,5 @@
 package Homeworks.Homeworks14;
-/*
+/**
  * В программе MethodRefDemo2 добавьте в класс
  * MyIntNum новый метод hasCommonFactor(). Этот
  * метод должен возвращать true, если его аргумент

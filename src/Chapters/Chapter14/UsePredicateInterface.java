@@ -1,10 +1,10 @@
 package Chapters.Chapter14;
-/*
- * Использование встроенного функционального интерфейса Predicate
- */
 
 // Импортировать интерфейс Predicate
 import java.util.function.Predicate;
+/**
+ * Использование встроенного функционального интерфейса Predicate
+ */
 
 public class UsePredicateInterface {
     public static void main(String[] args) {

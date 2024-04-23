@@ -1,5 +1,5 @@
 package Chapters.Chapter14;
-/*
+/**
  * Использование обобщенного функционального интерфейса
  */
 public class GenericFunctionalInterfaceDemo {

@@ -1,5 +1,5 @@
 package Chapters.Chapter14;
-/*
+/**
  * Демонстрация двух простых лямбда-выражений
  */
 public class LambdaDemo {

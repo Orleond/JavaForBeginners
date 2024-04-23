@@ -1,5 +1,5 @@
 package Chapters.Chapter14;
-/*
+/**
  * Использование ссылки на метод экземпляра
  */
 public class MethodRefDemo2 {

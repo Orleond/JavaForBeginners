@@ -1,5 +1,5 @@
 package appsupport.supportfuncs;
-/*
+/**
  * Функции поддержки
  */
 public class SupportFuncs {

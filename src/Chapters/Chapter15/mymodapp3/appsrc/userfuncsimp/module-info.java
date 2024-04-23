@@ -1,4 +1,4 @@
-/*
+/**
  * Файл определения модуля userfuncsimp
  */
 module userfuncsimp {

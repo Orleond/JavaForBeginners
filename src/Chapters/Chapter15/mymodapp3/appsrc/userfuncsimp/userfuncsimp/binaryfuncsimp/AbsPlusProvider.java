@@ -1,7 +1,7 @@
 package userfuncsimp.binaryfuncsimp;
 
 import userfuncs.binaryfuncs.*;
-/*
+/**
  * Провайдер для функции AbsPlus
  */
 public class AbsPlusProvider implements BinFuncProvider {

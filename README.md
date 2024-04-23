@@ -12,6 +12,7 @@ ____
  - [Глава 7. Наследование](#chapter7)
  - [Глава 8. Пакеты и интерфейсы](#chapter8)
  - [Глава 9. Обработка исключений](#chapter9)
+ - [Глава 10. Ввод-вывод данных](#chapter10)
 
 &nbsp;
 ____
@@ -537,3 +538,50 @@ ____
 | |[EmptyStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/EmptyStackException.java)|Исключение, возникающее при обращении к пустому стеку|
 | |[Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/Stack.java)|Класс, реализующий стек для хранения символов|
 | |[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/Homework1.java)|Демонстрация работы стека [Stack](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/Stack.java)|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter10">Глава 10. Ввод-вывод данных</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[ReadBytes](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/ReadBytes.java)|Чтение байтов с клавиатуры в массив|
+|[WriteDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/WriteDemo.java)|Демонстрация метода System.out.write()|
+|[ShowFile](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/ShowFile.java)|Отображение текстового файла|
+|[ShowFile](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/ShowFile2.java)|В этой версии программы те ее части, которые отвечают за открытие файла и получение доступа к нему, помещены в один блок try. Файл закрывается в блоке finally|
+|[CopyFile](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/CopyFile.java)|Копирование текстового файла|
+|[ShowFile](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/ShowFile3.java)|В этой версии программы [ShowFile](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/ShowFile2.java) инструкция try с ресурсами применяется для автоматического закрытия файла, когда в нем больше нет необходимости|
+|[CopyFile](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/CopyFile2.java)|Версия программы [CopyFile](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/CopyFile.java), в которой используется инструкция try с ресурсами. В ней демонстрируется управление двумя ресурсами (в данном случае - файлами) с помощью единственной инструкции try.|
+|[RWData](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/RWData.java)|Запись и чтение двоичных данных|
+|[RandomAccessDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/RandomAccessDemo.java)|Демонстрация произвольного доступа к файлам|
+|[ReadChars](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/ReadChars.java)|Использование класса BufferedReader для чтения символов с консоли|
+|[ReadLines](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/ReadLines.java)|Чтение символьных строк с консоли с использованием класса BufferedReader|
+|[PrintWriterDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/PrintWriterDemo.java)|Использование класса PrintWriter|
+|[KtoD](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/KtoD.java)|Пример простой утилиты для ввода данных с клавиатуры и записи их на диск, демонстрирующий использование класса FileWriter|
+|[DtoS](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/DtoS.java)|Пример простой утилиты для чтения данных с диска и вывода их на экран, демонстрирующий использование класса FileREader|
+|[AvgNums](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter10/AvgNums.java)|Данная программа находит среднее арифметическое для ряда чисел, введенных пользователем с клавиатуры|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 10.1|[CompFiles](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises10/CompFiles.java)|Сравнение двух файлов|
+|Упражнение 10.2|[Help](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises10/Help.java)|В этом классе открывается файл со справочной информацией, выполняется поиск указанной темы, а затем отображается справочная информация|
+| |[FileHelp](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises10/FileHelp.java)|Демонстрация работы справочной системы на основе файла|
+| |[helpfile.txt](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises10/helpfile.txt)|Файл со справочной информацией|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 10|[StackFullException](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests9/StackFullException.java)|Исключение, возникающее при переполнении стека|
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 10|[FullStackException](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks9/FullStackException.java)|Исключение, возникающее при переполнении стека|

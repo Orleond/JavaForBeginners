@@ -1,6 +1,5 @@
 package Homeworks.Homeworks13;
-
-/*
+/**
  * Допустим, обобщенный интерфейс объявлен так:
  * interface IGenIF<T, V extends T> { //... }
  * Напишите объявление класса MyClass, который

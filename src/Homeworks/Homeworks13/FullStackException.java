@@ -1,5 +1,5 @@
 package Homeworks.Homeworks13;
-/*
+/**
  * Задание Homework1
  */
 public class FullStackException extends Exception {

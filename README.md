@@ -721,8 +721,8 @@ ____
 |[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/MyClass.java)|Реализовать интерфейс [Containment](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Containment.java) с помощью массива, предназначенного для хранения значений|
 |[GenIFDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenIFDemo.java)|Пример обобщенного интерфейса. Реализует класс [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/MyClass.java)|
 |[RawDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/RawDemo.java)|Продемонстрировать использование базового типа|
-|[Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen.java)|Обобщенные типы и массивы|
-|[GenArrays](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenArrays.java)|Обобщенные типы и массивы. Реализует класс [Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen.java)|
+|[Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen2.java)|Обобщенные типы и массивы|
+|[GenArrays](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/GenArrays.java)|Обобщенные типы и массивы. Реализует класс [Gen](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter13/Gen2.java)|
 
 
 &nbsp;

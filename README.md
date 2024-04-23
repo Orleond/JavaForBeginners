@@ -14,6 +14,7 @@ ____
  - [Глава 9. Обработка исключений](#chapter9)
  - [Глава 10. Ввод-вывод данных](#chapter10)
  - [Глава 11. Многопоточное программирование](#chapter11)
+ - [Глава 12. Перечисления, автоупаковка, статический импорт и аннотации](#chapter12)
 
 &nbsp;
 ____
@@ -643,3 +644,55 @@ ____
 |Задание 8|[TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/TickTock.java)|Вариант класса [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter11/TickTock.java), в который добавлены вызовы метода sleep() для организации отсчета времени|
 | |[MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/MyThread.java)|Использует класс [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/TickTock.java)|
 | |[ThreadCom](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/ThreadCom.java)|Демонстрация работы классов [TickTock](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/TickTock.java) и [MyThread](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks11/MyThread.java)|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter12">Глава 12. Перечисления, автоупаковка, статический импорт и аннотации</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[Transport](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Transport.java)|Перечисление, представляющее разновидности транспортных средств|
+|[EnumDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/EnumDemo.java)|Использование перечисления [Transport](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Transport.java)|
+|[EnumDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/EnumDemo2.java)|Использование встроенных методов перечислений. Использование перечисления [Transport](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Transport.java)|
+|[Transport](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Transport2.java)|Использование конструктора, переменной экземпляра и метода перечисления|
+|[EnumDemo3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/EnumDemo3.java)|Использование конструктора, переменной экземпляра и метода перечисления. Использование перечисления [Transport](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Transport2.java)|
+|[EnumDemo4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/EnumDemo4.java)|Использование методов ordinal() т compareTo(). Использование перечисления [Transport](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Transport.java)|
+|[Wrap](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Wrap.java)|Упаковка и распаковка значений вручную|
+|[AutoBox](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/AutoBox.java)|Демонстрация автоупаковки и автораспаковки|
+|[AutoBox2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/AutoBox2.java)|Автоупаковка и автораспаковка при передаче параметров и возврате значений из методов|
+|[AutoBox3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/AutoBox3.java)|Автоупаковка и автораспаковка в выражениях|
+|[Quadratic](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Quadratic.java)|Нахождение корней квадратного уравнения|
+|[Quadratic2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/Quadratic2.java)|Использование статического импорта для помещения методов sqrt() и pow() в область видимости|
+|[MyAnno](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/MyAnno.java)|Простой пример аннотации|
+|[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/MyClass.java)|Пример использования аннтоации @Deprecated|
+|[AnnoDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/AnnoDemo.java)|Пример использования аннтоации @Deprecated. Реализует класс [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter12/MyClass.java)|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 12.1|[TrafficLightColor](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises12/TrafficLightColor.java)|Перечисление, представляющее цвета светофора|
+| |[TrafficLightSimulator](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises12/TrafficLightSimulator.java)|Автоматизированное управление светофором. Использует перечисление [TrafficLightColor](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises12/TrafficLightColor.java)|
+| |[TrafficLightDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises12/TrafficLightDemo.java)|Демонстрация работы светофора. Реализует класс [TrafficLightSimulator](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises12/TrafficLightSimulator.java)|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 4|[TrafficLightColor](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests12/TrafficLightColor.java)|Перечисление, представляющее цвета светофора|
+| |[TrafficLightSimulator](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests12/TrafficLightSimulator.java)|Имитация автоматизированного светофора|
+| |[TrafficLightDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests12/TrafficLightDemo.java)|Усовершенствованная версия программы, имитирующей работу светофора. Значения задержки теперь хранятся в классе [TrafficLightColor](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests12/TrafficLightColor.java)|
+
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 3|[Homework1](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/Homework1.java)|Использование метода values() для отображения списка констант перечисления [Tools](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/Tools.java) и их значений|
+|Задание 4|[TrafficLightColor](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightColor.java)|Перечисление, представляющее цвета светофора|
+| |[TrafficLightSimulator](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightSimulator.java)|Имитация автоматизированного светофора|
+| |[TrafficLightDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightDemo.java)|Демонстрация работы светофора. Реализует класс [TrafficLightSimulator](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks12/TrafficLightSimulator.java)|

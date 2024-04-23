@@ -1,14 +1,11 @@
 package appfuncs.simplefuncs;
+
+import appsupport.supportfuncs.SupportFuncs;
 /**
- * Несколько простых математических функций
+ * Несколько простых математических функций.
+ * На этот раз метод isFactor() удален.
 */
 public class SimpleMathFuncs {
-		
-	// Определить, является ли a множителем b
-	public static boolean isFactor(int a, int b) {
-		if ((b % a) == 0) return true;
-		return false;
-	}
 	
 	// Вернуть меньший положительный
 	// общий множитель для a и b
@@ -20,7 +17,8 @@ public class SimpleMathFuncs {
 		int min = a < b ? a : b;
 		
 		for (int i = 2; i <= min / 2; i++) {
-			if (isFactor(i, a) && isFactor(i, b))
+			if (SupportFuncs.isFactor(i, a) && 
+			    SupportFuncs.isFactor(i, b))
 				return i;
 		}
 		
@@ -36,7 +34,8 @@ public class SimpleMathFuncs {
 		int min = a < b ? a : b;
 		
 		for (int i = min / 2; i >= 2; i--) {
-			if (isFactor(i, a) && isFactor(i, b))
+			if (SupportFuncs.isFactor(i, a) && 
+			    SupportFuncs.isFactor(i, b))
 				return i;
 		}
 		return 1;

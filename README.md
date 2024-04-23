@@ -812,7 +812,7 @@ ____
 |Задание 7|[NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/NumericFunc.java)|Блочное лямбда-выражение, предназначенное для нахождения наименьшего положительного делителя заданного целого числа|
 | |[FactorialLambdaDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/FactorialLambdaDemo.java)|Демонстрация использования блочного лямбда-выражения и использованием функционального интерфейса [NumericFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/NumericFunc.java)|
 |Задание 8|[MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/MyFunc.java)|Функциональный интерфейс с абстрактным методом func()|
-| |[FactorialLambdaDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/FactorialLambdaDemo2.java)|Демонстрация использования функционального интерфейса [MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/MyFunc.java)|
+| |[FactorialLambdaDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/FactorialLambdaDemo2.java)|Демонстрация использования функционального интерфейса [MyFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/MyFunc.java)|
 |Задание 16|[MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests14/MyIntNum.java)|Добавление метода hasCommonFactor() в класс [MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java)|
 
 

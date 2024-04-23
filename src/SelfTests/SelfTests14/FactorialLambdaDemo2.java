@@ -2,12 +2,12 @@ package SelfTests.SelfTests14;
 /**
  * Демонстрация использования блочного лямбда-выражения
  */
-class FactorialLambdaDemo {
+class FactorialLambdaDemo2 {
     public static void main(String[] args) {
 
         // Это блочное выражение вычисляет факториал
         // целочисленного значения
-        NumericFunc factorial = (n) -> {
+        MyFunc<Integer> factorial = (n) -> {
             int result = 1;
 
             for (int i = 1; i <= n; i++)

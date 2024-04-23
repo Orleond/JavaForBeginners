@@ -1,12 +1,12 @@
 package Homeworks.Homeworks11;
-/*
+/**
  * Использование методов wait() и notify() для имитации часов
  */
 public class ThreadCom {
     public static void main(String[] args) {
         TickTock tt = new TickTock();
-        MyThread5 mt1 = MyThread5.createAndStart("Tick", tt);
-        MyThread5 mt2 = MyThread5.createAndStart("Tock", tt);
+        MyThread mt1 = MyThread.createAndStart("Tick", tt);
+        MyThread mt2 = MyThread.createAndStart("Tock", tt);
 
         try {
             mt1.thrd.join();

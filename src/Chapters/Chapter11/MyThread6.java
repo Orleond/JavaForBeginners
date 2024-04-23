@@ -1,6 +1,6 @@
 package Chapters.Chapter11;
 /**
- * Использование методов wait() и notify() для имитации часов
+ * В этой версии вызовы методов wait() и notify() отсутствуют
  */
 public class MyThread6 implements  Runnable {
     Thread thrd;

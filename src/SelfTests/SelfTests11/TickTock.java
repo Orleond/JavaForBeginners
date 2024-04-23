@@ -1,15 +1,10 @@
-package Homeworks.Homeworks11;
+package SelfTests.SelfTests11;
 /**
- * Внесите в класс TickTock изменения для
- * организации фактического отсчета времени.
- * Первую половину секунды должен занимать вывод
- * на экран слова "Tick", а вторую - слова "Tock".
- * Таким образом, сообщение "Tick-Tock" должно
- * соответствовать одной секунде отсчитываемого
- * времени. (Время переключения контекстов можно не
- * учитывать).
+ * Вариант класса TickTock, в который добавлены вызовы
+ * метода sleep() для организации отсчета времени
  */
 public class TickTock {
+
     String state;   // Содержит сведения о состоянии часов
 
     synchronized void tick(boolean running) {
@@ -20,20 +15,24 @@ public class TickTock {
         }
 
         System.out.print("Tick ");
+
+        // Ожидать пол секунды
         try {
             Thread.sleep(500);
 
-        } catch (InterruptedException e) {
-            System.out.println(e.getMessage());
+        } catch (InterruptedException exc) {
+            System.out.println("Выполнение потока прервано.");
         }
+
         state = "ticked";   // Установить текущее состояние
                             // после такта "тик"
+
         notify();   // Позволить выполняться методу tock()
         try {
             while (!state.equals("tocked"))
                 wait(); // Ожидать до завершения метода tock()
         } catch (InterruptedException exc) {
-            System.out.println("Прерывание потока");
+            System.out.println("Выполнение потока прервано.");
         }
     }
 
@@ -45,21 +44,24 @@ public class TickTock {
         }
 
         System.out.println("Tock");
+
+        // Ожидать пол секунды
         try {
             Thread.sleep(500);
 
         } catch (InterruptedException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Выполнение потока прервано.");
         }
 
         state = "tocked";   // Установить текущее состояние
                             // после такта "так"
+
         notify();   // Позволить выполняться методу tick()
         try {
             while (!state.equals("ticked"))
                 wait(); // Ожидать до завершения метода tick()
         } catch (InterruptedException exc) {
-            System.out.println("Прерывание потока");
+            System.out.println("Выполнение потока прервано.");
         }
     }
 }

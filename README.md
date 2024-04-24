@@ -20,6 +20,7 @@ ____
  - [Глава 15. Модули](#chapter15)
  - [Глава 16. Введение в Swing](#chapter16)
  - [Глава 17. Введение в JavaFX](#chapter17)
+ - [Приложение Б. Применение документирующих комментариев в Java](#appendixb)
 
 &nbsp;
 ____
@@ -953,3 +954,12 @@ ____
 |Задание 10|[JavaFXEventDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks17/JavaFXEventDemo.java)|Демонстрация использования метода Platform.exit()|
 |Задание 13|[JavaFXFC](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks17/JavaFXFC.java)|Реализация средствами JavaFX версии утилиты сравнения файлов|
 |Задание 14|[EffectsAndTransformsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks17/EffectsAndTransformsDemo.java)|Модификация программы [EffectsAndTransformsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/EffectsAndTransformsDemo.java) таким образом, чтобы размытие применялось также к кнопке "Повернуть"|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="appendixb">Приложение Б. Применение документирующих комментариев в Java</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[SquareNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixB/SquareNum.java)|Класс, демонстрирующий использование документирующих комментариев.|

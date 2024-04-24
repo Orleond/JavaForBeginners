@@ -21,6 +21,7 @@ ____
  - [Глава 16. Введение в Swing](#chapter16)
  - [Глава 17. Введение в JavaFX](#chapter17)
  - [Приложение Б. Применение документирующих комментариев в Java](#appendixb)
+ - [Приложение B. Применение документирующих комментариев в Java](#appendixc)
 
 &nbsp;
 ____
@@ -962,4 +963,16 @@ ____
 ### <a name="appendixb">Приложение Б. Применение документирующих комментариев в Java</a>
 |Название класса|Описание|
 |-----------|-------------|
-|[SquareNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixB/SquareNum.java)|Класс, демонстрирующий использование документирующих комментариев.|
+|[SquareNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixB/SquareNum.java)|Класс, демонстрирующий использование документирующих комментариев|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="appendixc">Приложение B. Применение документирующих комментариев в Java</a>
+При генерации сертификата вместо команды из книги необходимо использовать команду: _keytool -genkeypair -alias devName -keystore devFeys -keyalg RSA_
+|Название класса|Описание|
+|-----------|-------------|
+|[ButtonDemo.jnlp](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/Appendix%D0%A1/ButtonDemo.jnlp)|Файл, необходимый для запуска приложения|
+|[MyMan.txt](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/Appendix%D0%A1/MyMan.txt)|MANIFEST-файл|
+|[StartBD.html](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/Appendix%D0%A1/StartBD.html)|HTMLL-файл для загрузки приложения|

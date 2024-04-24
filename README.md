@@ -18,6 +18,7 @@ ____
  - [Глава 13. Обобщения](#chapter13)
  - [Глава 14. Лямбда-выражения и ссылки на методы](#chapter14)
  - [Глава 15. Модули](#chapter15)
+ - [Глава 16. Введение в Swing](#chapter16)
 
 &nbsp;
 ____
@@ -873,3 +874,41 @@ _Компилировать примеры рекомендуется вручн
 
 
 _В 15 главе отсутствуют упражнения для самопроверки, в которых необходимо писать код._
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter16">Глава 16. Введение в Swing</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[SwingDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter16/SwingDemo.java)|Простая Swing-программа|
+|[ButtonDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter16/ButtonDemo.java)|Демонстрация создания кнопки и обработки событий действий|
+|[TFDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter16/TFDemo.java)|Использование текстового поля|Демонстрация создания кнопки и обработки событий действий|
+|[CBDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter16/CBDemo.java)|Демонстрация использования флажков|
+|[ListDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter16/ListDemo.java)|Демонстрация использования простого списка JList|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 16.1|[SwingFC](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises16/SwingFC.java)|Утилита сравнения файлов на основе swing|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 15|[SwingFC](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests16/SwingFC.java)|В этой версии предусмотрен флажок, установка которого задает отображение позиции первого расхождения в содержимом сравниваемых файлов|
+|Задание 16|[ListDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests16/ListDemo.java)|Демонстрация выбора нескольких элементов из списка с помощью компонента JList|
+
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 15|[SwingFC](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks16/SwingFC.java)|В этой версии предусмотрен флажок, установка которого задает отображение позиции первого расхождения в содержимом сравниваемых файлов|
+|Задание 16|[ListDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks16/ListDemo.java)|Демонстрация выбора нескольких элементов из списка с помощью компонента JList|
+|Задание 17|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks16/Homework3.java)|Задание повышенной сложности. Преобразование класса Help в программу Swing с графическим пользовательским интерфейсом|

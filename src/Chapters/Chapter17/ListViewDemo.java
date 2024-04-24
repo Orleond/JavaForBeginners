@@ -1,20 +1,15 @@
 package Chapters.Chapter17;
 
-import javafx.application.Application;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.MultipleSelectionModel;
-import javafx.scene.layout.FlowPane;
-import javafx.stage.Stage;
-
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.stage.*;
+import javafx.scene.layout.*;
+import javafx.scene.control.*;
+import javafx.geometry.*;
+import javafx.beans.value.*;
+import javafx.collections.*;
 /**
- * Демонстрация использования списка
+ * Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЃРїРёСЃРєР°
  */
 public class ListViewDemo extends Application {
 
@@ -22,66 +17,66 @@ public class ListViewDemo extends Application {
 
     public static void main(String[] args) {
 
-        // Запустить приложение JavaFX, вызвав метод launch()
+        // Р—Р°РїСѓСЃС‚РёС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ JavaFX, РІС‹Р·РІР°РІ РјРµС‚РѕРґ launch()
         launch(args);
     }
 
-    // Переопределить метод start()
+    // РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РјРµС‚РѕРґ start()
     @Override
     public void start(Stage myStage) throws Exception {
 
-        // Задать заголовок окна приложения
-        myStage.setTitle("Демонстрация списка");
+        // Р—Р°РґР°С‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° РїСЂРёР»РѕР¶РµРЅРёСЏ
+        myStage.setTitle("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ СЃРїРёСЃРєР°");
 
-        // Использовать компоновку FlowPane для корневого узла.
-        // В данном случае величина вертикального и горизонтального
-        // зазоров составляет 10.
+        // РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРјРїРѕРЅРѕРІРєСѓ FlowPane РґР»СЏ РєРѕСЂРЅРµРІРѕРіРѕ СѓР·Р»Р°.
+        // Р’ РґР°РЅРЅРѕРј СЃР»СѓС‡Р°Рµ РІРµР»РёС‡РёРЅР° РІРµСЂС‚РёРєР°Р»СЊРЅРѕРіРѕ Рё РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕРіРѕ
+        // Р·Р°Р·РѕСЂРѕРІ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 10.
         FlowPane rootNode = new FlowPane(10, 10);
 
-        // Центрировать компоненты на сцене
+        // Р¦РµРЅС‚СЂРёСЂРѕРІР°С‚СЊ РєРѕРјРїРѕРЅРµРЅС‚С‹ РЅР° СЃС†РµРЅРµ
         rootNode.setAlignment(Pos.CENTER);
 
-        // Создать сцену
+        // РЎРѕР·РґР°С‚СЊ СЃС†РµРЅСѓ
         Scene myScene = new Scene(rootNode, 200, 120);
 
-        // Установить сцену на платформе
+        // РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС†РµРЅСѓ РЅР° РїР»Р°С‚С„РѕСЂРјРµ
         myStage.setScene(myScene);
 
-        // Создать мметку
-        response = new Label("Выбор устройства");
+        // РЎРѕР·РґР°С‚СЊ РјРјРµС‚РєСѓ
+        response = new Label("Р’С‹Р±РѕСЂ СѓСЃС‚СЂРѕР№СЃС‚РІР°");
 
-        // Создать объект типа ObservableList для списка
+        // РЎРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚ С‚РёРїР° ObservableList РґР»СЏ СЃРїРёСЃРєР°
         ObservableList<String> computerTypes =
-                FXCollections.observableArrayList("Смартфон", "Планшет",
-                        "Ноутбук", "ПК");
+                FXCollections.observableArrayList("РЎРјР°СЂС‚С„РѕРЅ", "РџР»Р°РЅС€РµС‚",
+                        "РќРѕСѓС‚Р±СѓРє", "РџРљ");
 
-        // Создать список
+        // РЎРѕР·РґР°С‚СЊ СЃРїРёСЃРѕРє
         ListView<String> lvComputers =
                 new ListView<>(computerTypes);
 
-        // Задать предпочтительные значения высоты и ширины
+        // Р—Р°РґР°С‚СЊ РїСЂРµРґРїРѕС‡С‚РёС‚РµР»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РІС‹СЃРѕС‚С‹ Рё С€РёСЂРёРЅС‹
         lvComputers.setPrefSize(100, 70);
 
-        // Получить модель выбора из списка
+        // РџРѕР»СѓС‡РёС‚СЊ РјРѕРґРµР»СЊ РІС‹Р±РѕСЂР° РёР· СЃРїРёСЃРєР°
         MultipleSelectionModel<String> lvSelModel =
                 lvComputers.getSelectionModel();
 
-        // Использовать слушатель для реагирования на изменения
-        // выделения внутри списка
+        // РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃР»СѓС€Р°С‚РµР»СЊ РґР»СЏ СЂРµР°РіРёСЂРѕРІР°РЅРёСЏ РЅР° РёР·РјРµРЅРµРЅРёСЏ
+        // РІС‹РґРµР»РµРЅРёСЏ РІРЅСѓС‚СЂРё СЃРїРёСЃРєР°
         lvSelModel.selectedItemProperty().addListener(
                 new ChangeListener<String>() {
                     @Override
                     public void changed(ObservableValue<? extends String> changed, String oldVal, String newVal) {
-                        // Отобразить выбор
-                        response.setText("Выбрано устройство: " + newVal);
+                        // РћС‚РѕР±СЂР°Р·РёС‚СЊ РІС‹Р±РѕСЂ
+                        response.setText("Р’С‹Р±СЂР°РЅРѕ СѓСЃС‚СЂРѕР№СЃС‚РІРѕ: " + newVal);
                     }
                 }
         );
 
-        // Добавить метку и список в граф сцены
+        // Р”РѕР±Р°РІРёС‚СЊ РјРµС‚РєСѓ Рё СЃРїРёСЃРѕРє РІ РіСЂР°С„ СЃС†РµРЅС‹
         rootNode.getChildren().addAll(lvComputers, response);
 
-        // Отобразить платформу вместе с ее сценой
+        // РћС‚РѕР±СЂР°Р·РёС‚СЊ РїР»Р°С‚С„РѕСЂРјСѓ РІРјРµСЃС‚Рµ СЃ РµРµ СЃС†РµРЅРѕР№
         myStage.show();
     }
 }

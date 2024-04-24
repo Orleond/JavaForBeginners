@@ -1,22 +1,17 @@
 package Chapters.Chapter17;
 
-import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.effect.BoxBlur;
-import javafx.scene.effect.Reflection;
-import javafx.scene.layout.FlowPane;
-import javafx.scene.transform.Rotate;
-import javafx.scene.transform.Scale;
-import javafx.stage.Stage;
-
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.stage.*;
+import javafx.scene.layout.*;
+import javafx.scene.control.*;
+import javafx.event.*;
+import javafx.geometry.*;
+import javafx.scene.transform.*;
+import javafx.scene.effect.*;
 /**
- * Демонстрация эффектов поворота, масштабирования,
- * отражения и размытия компонента
+ * Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ СЌС„С„РµРєС‚РѕРІ РїРѕРІРѕСЂРѕС‚Р°, РјР°СЃС€С‚Р°Р±РёСЂРѕРІР°РЅРёСЏ,
+ * РѕС‚СЂР°Р¶РµРЅРёСЏ Рё СЂР°Р·РјС‹С‚РёСЏ РєРѕРјРїРѕРЅРµРЅС‚Р°
  */
 public class EffectsAndTransformsDemo extends Application {
 
@@ -24,64 +19,64 @@ public class EffectsAndTransformsDemo extends Application {
     double scaleFactor = 0.4;
     double blurVal = 1.0;
 
-    // Создать начальные объекты преобразований и эффектов
+    // РЎРѕР·РґР°С‚СЊ РЅР°С‡Р°Р»СЊРЅС‹Рµ РѕР±СЉРµРєС‚С‹ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёР№ Рё СЌС„С„РµРєС‚РѕРІ
     Reflection reflection = new Reflection();
     BoxBlur blur = new BoxBlur(1.0, 1.0, 1);
     Rotate rotate = new Rotate();
     Scale scale = new Scale(scaleFactor, scaleFactor);
 
-    // Создать кнопки
-    Button btnRotate = new Button("Повернуть");
-    Button btnBlur = new Button("Размыть");
-    Button btnScale = new Button("Масштабировать");
+    // РЎРѕР·РґР°С‚СЊ РєРЅРѕРїРєРё
+    Button btnRotate = new Button("РџРѕРІРµСЂРЅСѓС‚СЊ");
+    Button btnBlur = new Button("Р Р°Р·РјС‹С‚СЊ");
+    Button btnScale = new Button("РњР°СЃС€С‚Р°Р±РёСЂРѕРІР°С‚СЊ");
 
-    Label reflect = new Label("Отображение добавляет визуальный блеск");
+    Label reflect = new Label("РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РґРѕР±Р°РІР»СЏРµС‚ РІРёР·СѓР°Р»СЊРЅС‹Р№ Р±Р»РµСЃРє");
 
     public static void main(String[] args) {
-        // Запустить приложение JavaFX, вызвав метод launch()
+        // Р—Р°РїСѓСЃС‚РёС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ JavaFX, РІС‹Р·РІР°РІ РјРµС‚РѕРґ launch()
         launch(args);
     }
 
-    // Переопределить метод start()
+    // РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РјРµС‚РѕРґ start()
     @Override
     public void start(Stage myStage) throws Exception {
 
-        // Задать заголовок окна приложения
-        myStage.setTitle("Демонстрация эффектов и преобразований");
+        // Р—Р°РґР°С‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° РїСЂРёР»РѕР¶РµРЅРёСЏ
+        myStage.setTitle("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ СЌС„С„РµРєС‚РѕРІ Рё РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёР№");
 
-        // Использовать компоновку FlowPane для корневого узла.
-        // В данном случае величина вертикального и горизонтального
-        // зазора составляет 20.
+        // РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРјРїРѕРЅРѕРІРєСѓ FlowPane РґР»СЏ РєРѕСЂРЅРµРІРѕРіРѕ СѓР·Р»Р°.
+        // Р’ РґР°РЅРЅРѕРј СЃР»СѓС‡Р°Рµ РІРµР»РёС‡РёРЅР° РІРµСЂС‚РёРєР°Р»СЊРЅРѕРіРѕ Рё РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕРіРѕ
+        // Р·Р°Р·РѕСЂР° СЃРѕСЃС‚Р°РІР»СЏРµС‚ 20.
         FlowPane rootNode = new FlowPane(20, 20);
 
-        // Центрировать компоненты на сцене
+        // Р¦РµРЅС‚СЂРёСЂРѕРІР°С‚СЊ РєРѕРјРїРѕРЅРµРЅС‚С‹ РЅР° СЃС†РµРЅРµ
         rootNode.setAlignment(Pos.CENTER);
 
-        // Создать сцену
+        // РЎРѕР·РґР°С‚СЊ СЃС†РµРЅСѓ
         Scene myScene = new Scene(rootNode, 300, 120);
 
-        // Установить сцену на платформу
+        // РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС†РµРЅСѓ РЅР° РїР»Р°С‚С„РѕСЂРјСѓ
         myStage.setScene(myScene);
 
-        // Добавить поворот в список преобразований для
-        // кнопки "Повернуть"
+        // Р”РѕР±Р°РІРёС‚СЊ РїРѕРІРѕСЂРѕС‚ РІ СЃРїРёСЃРѕРє РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёР№ РґР»СЏ
+        // РєРЅРѕРїРєРё "РџРѕРІРµСЂРЅСѓС‚СЊ"
         btnRotate.getTransforms().add(rotate);
 
-        // Добавить масштабирование в список преобразований
-        // для кнопки "Масштабировать"
+        // Р”РѕР±Р°РІРёС‚СЊ РјР°СЃС€С‚Р°Р±РёСЂРѕРІР°РЅРёРµ РІ СЃРїРёСЃРѕРє РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёР№
+        // РґР»СЏ РєРЅРѕРїРєРё "РњР°СЃС€С‚Р°Р±РёСЂРѕРІР°С‚СЊ"
         btnScale.getTransforms().add(scale);
 
-        // Задать эффект отражения для метки
+        // Р—Р°РґР°С‚СЊ СЌС„С„РµРєС‚ РѕС‚СЂР°Р¶РµРЅРёСЏ РґР»СЏ РјРµС‚РєРё
         reflection.setTopOpacity(0.7);
         reflection.setBottomOpacity(0.3);
         reflect.setEffect(reflection);
 
-        // Обработать события действий для кнопки "Повернуть"
+        // РћР±СЂР°Р±РѕС‚Р°С‚СЊ СЃРѕР±С‹С‚РёСЏ РґРµР№СЃС‚РІРёР№ РґР»СЏ РєРЅРѕРїРєРё "РџРѕРІРµСЂРЅСѓС‚СЊ"
         btnRotate.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                // При каждом нажатии кнопки она поворачивается
-                // на 15 градусов вокруг центра
+                // РџСЂРё РєР°Р¶РґРѕРј РЅР°Р¶Р°С‚РёРё РєРЅРѕРїРєРё РѕРЅР° РїРѕРІРѕСЂР°С‡РёРІР°РµС‚СЃСЏ
+                // РЅР° 15 РіСЂР°РґСѓСЃРѕРІ РІРѕРєСЂСѓРі С†РµРЅС‚СЂР°
                 angle += 15.0;
 
                 rotate.setAngle(angle);
@@ -90,11 +85,11 @@ public class EffectsAndTransformsDemo extends Application {
             }
         });
 
-        // Обработать события действий для кнопки "Масштабировать"
+        // РћР±СЂР°Р±РѕС‚Р°С‚СЊ СЃРѕР±С‹С‚РёСЏ РґРµР№СЃС‚РІРёР№ РґР»СЏ РєРЅРѕРїРєРё "РњР°СЃС€С‚Р°Р±РёСЂРѕРІР°С‚СЊ"
         btnScale.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                // При каждом нажатии кнопки изменяются ее размеры
+                // РџСЂРё РєР°Р¶РґРѕРј РЅР°Р¶Р°С‚РёРё РєРЅРѕРїРєРё РёР·РјРµРЅСЏСЋС‚СЃСЏ РµРµ СЂР°Р·РјРµСЂС‹
                 scaleFactor += 0.1;
                 if (scaleFactor > 2.0) scaleFactor = 0.4;
 
@@ -103,30 +98,30 @@ public class EffectsAndTransformsDemo extends Application {
             }
         });
 
-        // Обработать события действий для кнопки "Размыть"
+        // РћР±СЂР°Р±РѕС‚Р°С‚СЊ СЃРѕР±С‹С‚РёСЏ РґРµР№СЃС‚РІРёР№ РґР»СЏ РєРЅРѕРїРєРё "Р Р°Р·РјС‹С‚СЊ"
         btnBlur.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                // При каждом нажатии кнопки изменяется
-                // степень размытия ее изображения
+                // РџСЂРё РєР°Р¶РґРѕРј РЅР°Р¶Р°С‚РёРё РєРЅРѕРїРєРё РёР·РјРµРЅСЏРµС‚СЃСЏ
+                // СЃС‚РµРїРµРЅСЊ СЂР°Р·РјС‹С‚РёСЏ РµРµ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
                 if (blurVal == 10.0) {
                     blurVal = 1.0;
                     btnBlur.setEffect(null);
-                    btnBlur.setText("Отменить размытие");
+                    btnBlur.setText("РћС‚РјРµРЅРёС‚СЊ СЂР°Р·РјС‹С‚РёРµ");
                 } else {
                     blurVal++;
                     btnBlur.setEffect(blur);
-                    btnBlur.setText("Добавить размытие");
+                    btnBlur.setText("Р”РѕР±Р°РІРёС‚СЊ СЂР°Р·РјС‹С‚РёРµ");
                 }
                 blur.setWidth(blurVal);
                 blur.setHeight(blurVal);
             }
         });
 
-        // Добавить метку и кнопки в граф сцены
+        // Р”РѕР±Р°РІРёС‚СЊ РјРµС‚РєСѓ Рё РєРЅРѕРїРєРё РІ РіСЂР°С„ СЃС†РµРЅС‹
         rootNode.getChildren().addAll(btnRotate, btnScale, btnBlur, reflect);
 
-        // Отобразить платформу вместе с ее сценой
+        // РћС‚РѕР±СЂР°Р·РёС‚СЊ РїР»Р°С‚С„РѕСЂРјСѓ РІРјРµСЃС‚Рµ СЃ РµРµ СЃС†РµРЅРѕР№
         myStage.show();
     }
 }

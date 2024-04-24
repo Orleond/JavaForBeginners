@@ -1,14 +1,13 @@
-package Chapters.Chapter17;
+package SelfTests.SelfTests17;
 
 import javafx.application.*;
 import javafx.scene.*;
 import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
-import javafx.event.*;
 import javafx.geometry.*;
 /**
- * Демонстрация обработки событий JavaFX для кнопок
+ * Демонстрация использования метода Platform.exit()
  */
 public class JavaFXEventDemo extends Application {
 
@@ -21,7 +20,6 @@ public class JavaFXEventDemo extends Application {
     }
 
     // Переопределить метод start()
-    @Override
     public void start(Stage myStage) throws Exception {
 
         // Задать заголовок окна приложения
@@ -45,24 +43,15 @@ public class JavaFXEventDemo extends Application {
         response = new Label("Нажмите кнопку");
 
         // Создать две кнопки
-        Button btnUp = new Button("Вверх");
-        Button btnDown = new Button("Вниз");
+        Button btnUp = new Button("Выполнить");
+        Button btnDown = new Button("Выход");
 
-        // Обработать события действий для кнопки "Вверх"
-        btnUp.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                response.setText("Вы нажали вверх.");
-            }
-        });
+        // Обработать события действий для кнопки "Выполнить"
+        btnUp.setOnAction(actionEvent ->
+                response.setText("Вы нажали Выполнить."));
 
-        // Обработка события действий для кнопки "Вниз"
-        btnDown.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                response.setText("Вы нажали Вниз.");
-            }
-        });
+        // Обработка события действий для кнопки "Выход"
+        btnDown.setOnAction((ae) -> Platform.exit());
 
         // Добавить метку и кнопки в граф сцены
         rootNode.getChildren().addAll(btnUp, btnDown, response);

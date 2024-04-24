@@ -1,25 +1,5 @@
 package Homeworks.Homeworks17;
 
-/**
- * Преобразуйте Swing-программу для сравнения файлов
- * из упражнения 16.1 в приложение JavaFX. При этом
- * воспользуйтесь предоставляемой в JavaFX возможностью
- * запускать события действий для кнопки программными
- * средствами. Это делается путем вызова fire() для
- * экземпляра кнопки. К примеру, если имеется экземпляр
- * класса Button, который вы навали myButton, то для
- * запуска события необходимо вызвать метод
- * myButton.fire(). Воспользуйтесь этим при реализации
- * обработчиков событий для текстовых полей, в которых
- * хранятся имена сравниваемых файлов. В тех случаях,
- * когда пользователь нажмет клавишу <ENTER> и при
- * этом фокус ввода находится в одном из указанных
- * текстовых полей, запускайте событие действия для
- * кнопки Сравнить. После этого код обработчика
- * событий для кнопки Сравнить должен выполнить
- * сравнение файлов.
- */
-
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -32,10 +12,23 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 
-import javax.swing.*;
 import java.io.FileInputStream;
 import java.io.IOException;
-
+/**
+ * РџСЂРµРѕР±СЂР°Р·СѓР№С‚Рµ Swing-РїСЂРѕРіСЂР°РјРјСѓ РґР»СЏ СЃСЂР°РІРЅРµРЅРёСЏ С„Р°Р№Р»РѕРІ РёР· СѓРїСЂР°Р¶РЅРµРЅРёСЏ 16.1
+ * РІ РїСЂРёР»РѕР¶РµРЅРёРµ JavaFX. РџСЂРё СЌС‚РѕРј РІРѕСЃРїРѕР»СЊР·СѓР№С‚РµСЃСЊ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµРјРѕР№ РІ JavaFX
+ * РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊСЋ Р·Р°РїСѓСЃРєР°С‚СЊ СЃРѕР±С‹С‚РёСЏ РґРµР№СЃС‚РІРёР№ РґР»СЏ РєРЅРѕРїРєРё
+ * РїСЂРѕРіСЂР°РјРјРЅС‹РјРё СЃСЂРµРґСЃС‚РІР°РјРё. Р­С‚Рѕ РґРµР»Р°РµС‚СЃСЏ РїСѓС‚РµРј РІС‹Р·РѕРІР° РјРµС‚РѕРґР° fire() РґР»СЏ
+ * СЌРєР·РµРјРїР»СЏСЂР° РєРЅРѕРїРєРё. Рљ РїСЂРёРјРµСЂСѓ, РµСЃР»Рё РёРјРµРµС‚СЃСЏ СЌРєР·РµРјРїР»СЏСЂ РєР»Р°СЃСЃР° Button, РєРѕС‚РѕСЂС‹Р№
+ * РІС‹ РЅР°Р·РІР°Р»Рё myButton, С‚Рѕ РґР»СЏ Р·Р°РїСѓСЃРєР° СЃРѕР±С‹С‚РёСЏ РЅРµРѕР±С…РѕРґРёРјРѕ РІС‹Р·РІР°С‚СЊ РјРµС‚РѕРґ
+ * myButton.fire(). Р’РѕСЃРїРѕР»СЊР·СѓР№С‚РµСЃСЊ СЌС‚РёРј РїСЂРё СЂРµР°Р»РёР·Р°С†РёРё РѕР±СЂР°Р±РѕС‚С‡РёРєРѕРІ
+ * СЃРѕР±С‹С‚РёР№ РґР»СЏ С‚РµРєСЃС‚РѕРІС‹С… РїРѕР»РµР№, РІ РєРѕС‚РѕСЂС‹С… С…СЂР°РЅСЏС‚СЃСЏ РёРјРµРЅР° СЃСЂР°РІРЅРёРІР°РµРјС‹С…
+ * С„Р°Р№Р»РѕРІ. Р’ С‚РµС… СЃР»СѓС‡Р°СЏС…, РєРѕРіРґР° РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅР°Р¶РёРјР°РµС‚ РєР»Р°РІРёС€Сѓ <Enter> Рё
+ * РїСЂРё СЌС‚РѕРј С„РѕРєСѓСЃ РІРІРѕРґР° РЅР°С…РѕРґРёС‚СЃСЏ РІ РѕРґРЅРѕРј РёР· СѓРєР°Р·Р°РЅРЅС‹С… С‚РµРєСЃС‚РѕРІС‹С… РїРѕР»РµР№,
+ * Р·Р°РїСѓСЃРєР°Р№С‚Рµ СЃРѕР±С‹С‚РёРµ РґРµР№СЃС‚РІРёСЏ РґР»СЏ РєРЅРѕРїРєРё РЎСЂР°РІРЅРёС‚СЊ. РџРѕСЃР»Рµ СЌС‚РѕРіРѕ РєРѕРґ
+ * РѕР±СЂР°Р±РѕС‚С‡РёРєР° СЃРѕР±С‹С‚РёР№ РґР»СЏ РєРЅРѕРїРєРё РЎСЂР°РІРЅРёС‚СЊ РґРѕР»Р¶РµРЅ РІС‹РїРѕР»РЅРёС‚СЊ СЃСЂР°РІРЅРµРЅРёРµ
+ * С„Р°Р№Р»РѕРІ.
+ */
 public class JavaFXFC extends Application {
 
     TextField tfFirst;
@@ -53,7 +46,7 @@ public class JavaFXFC extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setTitle("Сравнение файлов");
+        stage.setTitle("РЎСЂР°РІРЅРёС‚СЊ С„Р°Р№Р»С‹");
         FlowPane rootNode = new FlowPane(Orientation.VERTICAL, 20, 20);
         rootNode.setAlignment(Pos.CENTER);
         Scene scene = new Scene(rootNode, 500, 400);
@@ -64,7 +57,7 @@ public class JavaFXFC extends Application {
         tfSecond = new TextField();
         tfSecond.setPrefColumnCount(14);
 
-        Button btnComp = new Button("Сравнить");
+        Button btnComp = new Button("РЎСЂР°РІРЅРёС‚СЊ");
 
         tfFirst.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -86,11 +79,11 @@ public class JavaFXFC extends Application {
                 int i = 0, j = 0;
 
                 if (tfFirst.getText().isEmpty()) {
-                    labResult.setText("Отсутствует имя первого файла.");
+                    labResult.setText("РћС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РёРјСЏ РїРµСЂРІРѕРіРѕ С„Р°Р№Р»Р°.");
                     return;
                 }
                 if (tfSecond.getText().isEmpty()) {
-                    labResult.setText("Отсутствует имя второго файла");
+                    labResult.setText("РћС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РёРјСЏ РІС‚РѕСЂРѕРіРѕ С„Р°Р№Р»Р°.");
                     return;
                 }
 
@@ -103,16 +96,16 @@ public class JavaFXFC extends Application {
                     } while (i != -1 && j != -1);
 
                     if (i != j)
-                        labResult.setText("Файлы отличаются");
+                        labResult.setText("Р¤Р°Р№Р»С‹ РѕС‚Р»РёС‡Р°СЋС‚СЃСЏ");
                     else
-                        labResult.setText("Файлы одинаковы");
+                        labResult.setText("Р¤Р°Р№Р»С‹ РѕРґРёРЅР°РєРѕРІС‹.");
                 } catch (IOException exc) {
-                    labResult.setText("Ошибка файла");
+                    labResult.setText("РћС€РёР±РєР° С„Р°Р№Р»Р°");
                 }
             }
         });
-        labFirst = new Label("Первый файл:");
-        labSecond = new Label("Второй файл: ");
+        labFirst = new Label("РџРµСЂРІС‹Р№ С„Р°Р№Р»:");
+        labSecond = new Label("Р’С‚РѕСЂРѕР№ С„Р°Р№Р»: ");
         labResult = new Label("");
 
         rootNode.getChildren().addAll(labFirst, tfFirst,

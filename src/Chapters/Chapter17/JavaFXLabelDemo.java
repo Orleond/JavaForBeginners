@@ -1,46 +1,44 @@
 package Chapters.Chapter17;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.FlowPane;
-import javafx.stage.Stage;
-
-
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.stage.*;
+import javafx.scene.layout.*;
+import javafx.scene.control.*;
 /**
- * Демонстрация использования меток JavaFX
+ * Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РјРµС‚РѕРє JavaFX
  */
 public class JavaFXLabelDemo extends Application {
 
     public static void main(String[] args) {
 
-        // Запустить приложение JavaFX, вызвав метод launch()
+        // Р—Р°РїСѓСЃС‚РёС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ JavaFX, РІС‹Р·РІР°РІ РјРµС‚РѕРґ launch()
         launch(args);
     }
 
-    // Переопределить метод start()
+    // РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РјРµС‚РѕРґ start()
 
     @Override
     public void start(Stage myStage) throws Exception {
 
-        // Задать заголовок окна приложения
-        myStage.setTitle("Использование метки JavaFX");
+        // Р—Р°РґР°С‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° РїСЂРёР»РѕР¶РµРЅРёСЏ
+        myStage.setTitle("РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РјРµС‚РєРё JavaFX");
 
-        // Использовать компновку FlowPane для корневого узла
+        // РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРјРїРѕРЅРѕРІРєСѓ FlowPane РґР»СЏ РєРѕСЂРЅРµРІРѕРіРѕ СѓР·Р»Р°
         FlowPane rootNode = new FlowPane();
 
-        // Создать сцену
+        // РЎРѕР·РґР°С‚СЊ СЃС†РµРЅСѓ
         Scene myScene = new Scene(rootNode, 300, 200);
 
-        // Установить сцену на платформе
+        // РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС†РµРЅСѓ РЅР° РїР»Р°С‚С„РѕСЂРјРµ
         myStage.setScene(myScene);
 
-        // Создать метку
-        Label myLabel = new Label("JavaFX - это мощный GUI");
-        // Добавить метку в граф сцены
+        // РЎРѕР·РґР°С‚СЊ РјРµС‚РєСѓ
+        Label myLabel = new Label("JavaFX - СЌС‚Рѕ РјРѕС‰РЅС‹Р№ GUI");
+        // Р”РѕР±Р°РІРёС‚СЊ РјРµС‚РєСѓ РІ РіСЂР°С„ СЃС†РµРЅС‹
         rootNode.getChildren().add(myLabel);
 
-        // Отобразить платформу вместе с ее сценой
+        // РћС‚РѕР±СЂР°Р·РёС‚СЊ РїР»Р°С‚С„РѕСЂРјСѓ РІРјРµСЃС‚Рµ СЃ РµРµ СЃС†РµРЅРѕР№
         myStage.show();
 
     }

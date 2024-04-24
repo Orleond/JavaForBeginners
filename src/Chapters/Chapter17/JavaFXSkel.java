@@ -1,56 +1,55 @@
 package Chapters.Chapter17;
 
-/**
- * Каркас приложения JavaFX
- */
 import javafx.application.*;
 import javafx.scene.Scene;
-import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
-
+import javafx.scene.layout.*;
+/**
+ * РљР°СЂРєР°СЃ РїСЂРёР»РѕР¶РµРЅРёСЏ JavaFX
+ */
 public class JavaFXSkel extends Application {
 
     public static void main(String[] args) {
-        System.out.println("Запуск приложения JavaFX");
+        System.out.println("Р—Р°РїСѓСЃРє РїСЂРёР»РѕР¶РµРЅРёСЏ JavaFX");
 
-        // Запустить приложение JavaFX, вызвав метод launch()
+        // Р—Р°РїСѓСЃС‚РёС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ JavaFX, РІС‹Р·РІР°РІ РјРµС‚РѕРґ launch()
         launch(args);
     }
 
-    // Переопределить метод init()
+    // РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РјРµС‚РѕРґ init()
     @Override
     public void init() throws Exception {
-        System.out.println("В теле метода init");
+        System.out.println("Р’ С‚РµР»Рµ РјРµС‚РѕРґР° init");
     }
 
-    // Переопределить метода start()
+    // РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РјРµС‚РѕРґР° start()
     @Override
     public void start(Stage myStage) throws Exception {
-        System.out.println("В теле метода start()");
+        System.out.println("Р’ С‚РµР»Рµ РјРµС‚РѕРґР° start()");
 
-        // Задать заголовок окна приложения
-        myStage.setTitle("Каркас приложения JavaFX");
+        // Р—Р°РґР°С‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° РїСЂРёР»РѕР¶РµРЅРёСЏ
+        myStage.setTitle("РљР°СЂРєР°СЃ РїСЂРёР»РѕР¶РµРЅРёСЏ JavaFX");
 
-        // Создать корневой узел. В данном случае
-        // используется плавающая компоновка, но
-        // возможны и другие варианты
+        // РЎРѕР·РґР°С‚СЊ РєРѕСЂРЅРµРІРѕР№ СѓР·РµР». Р’ РґР°РЅРЅРѕРј СЃР»СѓС‡Р°Рµ
+        // РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїР»Р°РІР°СЋС‰Р°СЏ РєРѕРјРїРѕРЅРѕРІРєР°, РЅРѕ
+        // РІРѕР·РјРѕР¶РЅС‹ Рё РґСЂСѓРіРёРµ РІР°СЂРёР°РЅС‚С‹
         FlowPane rootNode = new FlowPane();
 
-        // Создать сцену
+        // РЎРѕР·РґР°С‚СЊ СЃС†РµРЅСѓ
         Scene myScene = new Scene(rootNode, 300, 200);
 
-        // Установить сцену на платформе
+        // РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС†РµРЅСѓ РЅР° РїР»Р°С‚С„РѕСЂРјРµ
         myStage.setScene(myScene);
 
-        // Отобразить платформу вместе со сценой
+        // РћС‚РѕР±СЂР°Р·РёС‚СЊ РїР»Р°С‚С„РѕСЂРјСѓ РІРјРµСЃС‚Рµ СЃРѕ СЃС†РµРЅРѕР№
         myStage.show();
     }
 
-    // Переопределить метод stop()
+    // РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РјРµС‚РѕРґ stop()
 
     @Override
     public void stop() throws Exception {
         super.stop();
-        System.out.println("В теле метода stop()");
+        System.out.println("Р’ С‚РµР»Рµ РјРµС‚РѕРґР° stop()");
     }
 }

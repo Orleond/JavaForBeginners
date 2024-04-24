@@ -1,18 +1,14 @@
 package Chapters.Chapter17;
 
-import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.geometry.Orientation;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.Label;
-import javafx.scene.layout.FlowPane;
-import javafx.stage.Stage;
-
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.stage.*;
+import javafx.scene.layout.*;
+import javafx.scene.control.*;
+import javafx.event.*;
+import javafx.geometry.*;
 /**
- * Демонстрация использования флажков
+ * Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С„Р»Р°Р¶РєРѕРІ
  */
 public class CheckBoxDemo extends Application {
 
@@ -28,53 +24,53 @@ public class CheckBoxDemo extends Application {
 
     public static void main(String[] args) {
 
-        // Запустить приложение JavaFX, вызвав метод launch()
+        // Р—Р°РїСѓСЃС‚РёС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ JavaFX, РІС‹Р·РІР°РІ РјРµС‚РѕРґ launch()
         launch(args);
     }
 
-    // Переопределить метод start()
+    // РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РјРµС‚РѕРґ start()
     @Override
     public void start(Stage myStage) throws Exception {
 
-        // Задать заголовок окна приложения
-        myStage.setTitle("Демонстрация флажков");
+        // Р—Р°РґР°С‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° РїСЂРёР»РѕР¶РµРЅРёСЏ
+        myStage.setTitle("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ С„Р»Р°Р¶РєРѕРІ");
 
-        // Использовать компоновку FlowPane для корневого узла.
-        // В данном случае величина вертикального и горизонтального
-        // зазоров составляет 10.
+        // РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРјРїРѕРЅРѕРІРєСѓ FlowPane РґР»СЏ РєРѕСЂРЅРµРІРѕРіРѕ СѓР·Р»Р°.
+        // Р’ РґР°РЅРЅРѕРј СЃР»СѓС‡Р°Рµ РІРµР»РёС‡РёРЅР° РІРµСЂС‚РёРєР°Р»СЊРЅРѕРіРѕ Рё РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕРіРѕ
+        // Р·Р°Р·РѕСЂРѕРІ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 10.
         FlowPane rootNode = new FlowPane(Orientation.VERTICAL, 10, 10);
 
-        // Центрировать компоненты на сцене
+        // Р¦РµРЅС‚СЂРёСЂРѕРІР°С‚СЊ РєРѕРјРїРѕРЅРµРЅС‚С‹ РЅР° СЃС†РµРЅРµ
         rootNode.setAlignment(Pos.CENTER);
 
-        // Создать сцену
+        // РЎРѕР·РґР°С‚СЊ СЃС†РµРЅСѓ
         Scene myScene = new Scene(rootNode, 230, 200);
 
-        // Установить сцену на платформе
+        // РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС†РµРЅСѓ РЅР° РїР»Р°С‚С„РѕСЂРјРµ
         myStage.setScene(myScene);
 
-        Label heading = new Label("Какие у вас есть устройства?");
+        Label heading = new Label("РљР°РєРёРµ Сѓ РІР°СЃ РµСЃС‚СЊ СѓСЃС‚СЂРѕР№СЃС‚РІР°?");
 
-        // Создать метку, извещающую об изменении состояния флажка
+        // РЎРѕР·РґР°С‚СЊ РјРµС‚РєСѓ, РёР·РІРµС‰Р°СЋС‰СѓСЋ РѕР± РёР·РјРµРЅРµРЅРёРё СЃРѕСЃС‚РѕСЏРЅРёСЏ С„Р»Р°Р¶РєР°
         response = new Label("");
 
-        // Создать метку, извещающую о выборе любого флажка
+        // РЎРѕР·РґР°С‚СЊ РјРµС‚РєСѓ, РёР·РІРµС‰Р°СЋС‰СѓСЋ Рѕ РІС‹Р±РѕСЂРµ Р»СЋР±РѕРіРѕ С„Р»Р°Р¶РєР°
         selected = new Label("");
 
-        // Создать флажки
-        cbSmartphone = new CheckBox("Смартфон");
-        cbTablet = new CheckBox("Планшет");
-        cbNotebook = new CheckBox("Ноутбук");
-        cbDesktop = new CheckBox("ПК");
+        // РЎРѕР·РґР°С‚СЊ С„Р»Р°Р¶РєРё
+        cbSmartphone = new CheckBox("РЎРјР°СЂС‚С„РѕРЅ");
+        cbTablet = new CheckBox("РџР»Р°РЅС€РµС‚");
+        cbNotebook = new CheckBox("РќРѕСѓС‚Р±СѓРє");
+        cbDesktop = new CheckBox("РџРљ");
 
-        // Обработка событий действий для флажков
+        // РћР±СЂР°Р±РѕС‚РєР° СЃРѕР±С‹С‚РёР№ РґРµР№СЃС‚РІРёР№ РґР»СЏ С„Р»Р°Р¶РєРѕРІ
         cbSmartphone.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 if (cbSmartphone.isSelected())
-                    response.setText("Был выбран смартфон.");
+                    response.setText("Р‘С‹Р» РІС‹Р±СЂР°РЅ СЃРјР°СЂС‚С„РѕРЅ.");
                 else
-                    response.setText("Выбор смартфона отменен.");
+                    response.setText("Р’С‹Р±РѕСЂ СЃРјР°СЂС‚С„РѕРЅР° РѕС‚РјРµРЅРµРЅ.");
 
                 showAll();
             }
@@ -84,9 +80,9 @@ public class CheckBoxDemo extends Application {
             @Override
             public void handle(ActionEvent actionEvent) {
                 if (cbTablet.isSelected())
-                    response.setText("Был выбран планшет.");
+                    response.setText("Р‘С‹Р» РІС‹Р±СЂР°РЅ РїР»Р°РЅС€РµС‚.");
                 else
-                    response.setText("Выбор планшета отменен.");
+                    response.setText("Р’С‹Р±РѕСЂ РїР»Р°РЅС€РµС‚Р° РѕС‚РјРµРЅРµРЅ.");
 
                 showAll();
             }
@@ -96,9 +92,9 @@ public class CheckBoxDemo extends Application {
             @Override
             public void handle(ActionEvent actionEvent) {
                 if (cbNotebook.isSelected())
-                    response.setText("Был выбран ноутбук.");
+                    response.setText("Р‘С‹Р» РІС‹Р±СЂР°РЅ РЅРѕСѓС‚Р±СѓРє.");
                 else
-                    response.setText("Выбор ноутбука отменен.");
+                    response.setText("Р’С‹Р±РѕСЂ РЅРѕСѓС‚Р±СѓРєР° РѕС‚РјРµРЅРµРЅ.");
 
                 showAll();
             }
@@ -108,32 +104,32 @@ public class CheckBoxDemo extends Application {
             @Override
             public void handle(ActionEvent actionEvent) {
                 if (cbDesktop.isSelected())
-                    response.setText("Был выбран ПК.");
+                    response.setText("Р‘С‹Р» РІС‹Р±СЂР°РЅ РџРљ.");
                 else
-                    response.setText("Выбор ПК отменен.");
+                    response.setText("Р’С‹Р±РѕСЂ РџРљ РѕС‚РјРµРЅРµРЅ.");
 
                 showAll();
             }
         });
 
-        // Добавить копоненты в граф сцены
+        // Р”РѕР±Р°РІРёС‚СЊ РєРѕРјРїРѕРЅРµРЅС‚С‹ РІ РіСЂР°С„ СЃС†РµРЅС‹
         rootNode.getChildren().addAll(heading, cbSmartphone, cbTablet,
                 cbNotebook, cbDesktop, response, selected);
 
-        // Отобразить платформу вместе с ее сценой
+        // РћС‚РѕР±СЂР°Р·РёС‚СЊ РїР»Р°С‚С„РѕСЂРјСѓ РІРјРµСЃС‚Рµ СЃ РµРµ СЃС†РµРЅРѕР№
         myStage.show();
 
         showAll();
     }
 
-    // Обновить и отобразить варианты выбора
+    // РћР±РЅРѕРІРёС‚СЊ Рё РѕС‚РѕР±СЂР°Р·РёС‚СЊ РІР°СЂРёР°РЅС‚С‹ РІС‹Р±РѕСЂР°
     void showAll() {
         computers = "";
-        if (cbSmartphone.isSelected()) computers += "Смартфон ";
-        if (cbTablet.isSelected()) computers += "Планшет ";
-        if (cbNotebook.isSelected()) computers += "Ноутбук ";
-        if (cbDesktop.isSelected()) computers += "ПК";
+        if (cbSmartphone.isSelected()) computers += "РЎРјР°СЂС‚С„РѕРЅ ";
+        if (cbTablet.isSelected()) computers += "РџР»Р°РЅС€РµС‚ ";
+        if (cbNotebook.isSelected()) computers += "РќРѕСѓС‚Р±СѓРє ";
+        if (cbDesktop.isSelected()) computers += "РџРљ";
 
-        selected.setText("Выбраны устройства: " + computers);
+        selected.setText("Р’С‹Р±СЂР°РЅС‹ СѓСЃС‚СЂРѕР№СЃС‚РІР°: " + computers);
     }
 }

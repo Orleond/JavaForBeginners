@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp href="ButtonDemo.jnlp" spec="6.0+">
+
+    <!-- Описание приложения -->
+    <application-desc main-class="ButtonDemo">
+    </application-desc>
+
+    <!-- Ресурсы, требуемые приложению -->
+    <resources>
+        <!-- Здесь дается ссылка на jar-файл -->
+        <jar href="ButtonDemo.jar" main="true"/>
+
+        <!-- Определение минимальной версии Java -->
+        <java version="1.6+"/>
+    </resources>
+
+    <!-- Информация, относящаяся к приложению -->
+    <information>
+        <!-- Эти сведения отображаются в списке кэша
+             панели управления Java -->
+        <title>ButtonDemo Application</title>
+        <vendor>Self</vendor>
+
+        <!-- Разрешается запуск в автономном режиме -->
+        <offline-allowed/>
+    </information>
+
+</jnlp>

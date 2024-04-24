@@ -1,10 +1,8 @@
 package Chapters.Chapter16;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
+import java.awt.event.*;
+import javax.swing.*;
 /**
  * Демонстрация создания кнопки и обработки событий действий
  */

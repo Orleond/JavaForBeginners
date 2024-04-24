@@ -1,62 +1,61 @@
 package Exercises.Exercises16;
 
-/**
- * Упражнение 16.1
- *
- * Утилита сравнения файлов на основе swing
- */
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.io.*;
+/**
+ * РЈРїСЂР°Р¶РЅРµРЅРёРµ 16.1
+ *
+ * РЈС‚РёР»РёС‚Р° СЃСЂР°РІРЅРµРЅРёСЏ С„Р°Р№Р»РѕРІ РЅР° РѕСЃРЅРѕРІРµ swing
+ */
 public class SwingFC implements ActionListener {
 
-    JTextField jtfFirst;    // Хранит имя первого файла
-    JTextField jtfSecond;   // Хранит имя второго файла
+    JTextField jtfFirst;    // РҐСЂР°РЅРёС‚ РёРјСЏ РїРµСЂРІРѕРіРѕ С„Р°Р№Р»Р°
+    JTextField jtfSecond;   // РҐСЂР°РЅРёС‚ РёРјСЏ РІС‚РѕСЂРѕРіРѕ С„Р°Р№Р»Р°
 
-    JButton jbtnFirst;  // Кнопка для запуска операции сравнения файлов
+    JButton jbtnFirst;  // РљРЅРѕРїРєР° РґР»СЏ Р·Р°РїСѓСЃРєР° РѕРїРµСЂР°С†РёРё СЃСЂР°РІРЅРµРЅРёСЏ С„Р°Р№Р»РѕРІ
 
-    JLabel jlabFirst, jlabSecond;   // Метки, отображающие
-                                    // подсказки для пользователя
-    JLabel jlabResult;  // Метка для отображения результата
-                        // сравнения и сообщений об ошибках
+    JLabel jlabFirst, jlabSecond;   // РњРµС‚РєРё, РѕС‚РѕР±СЂР°Р¶Р°СЋС‰РёРµ
+    // РїРѕРґСЃРєР°Р·РєРё РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ
+    JLabel jlabResult;  // РњРµС‚РєР° РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ СЂРµР·СѓР»СЊС‚Р°С‚Р°
+    // СЃСЂР°РІРЅРµРЅРёСЏ Рё СЃРѕРѕР±С‰РµРЅРёР№ РѕР± РѕС€РёР±РєР°С…
 
     SwingFC() {
 
-        // Создать новй контейнер JFrame
-        JFrame jfrm = new JFrame("Сравнить файлы");
+        // РЎРѕР·РґР°С‚СЊ РЅРѕРІР№ РєРѕРЅС‚РµР№РЅРµСЂ JFrame
+        JFrame jfrm = new JFrame("РЎСЂР°РІРЅРёС‚СЊ С„Р°Р№Р»С‹");
 
-        // Задать объект FlowLayout для менеджера компоновки
+        // Р—Р°РґР°С‚СЊ РѕР±СЉРµРєС‚ FlowLayout РґР»СЏ РјРµРЅРµРґР¶РµСЂР° РєРѕРјРїРѕРЅРѕРІРєРё
         jfrm.setLayout(new FlowLayout());
 
-        // Задать исходные размеры фрейма
+        // Р—Р°РґР°С‚СЊ РёСЃС…РѕРґРЅС‹Рµ СЂР°Р·РјРµСЂС‹ С„СЂРµР№РјР°
         jfrm.setSize(200, 190);
 
-        // Прекратить работу программы, если
-        // пользователь закрывает приложение
+        // РџСЂРµРєСЂР°С‚РёС‚СЊ СЂР°Р±РѕС‚Сѓ РїСЂРѕРіСЂР°РјРјС‹, РµСЃР»Рё
+        // РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ Р·Р°РєСЂС‹РІР°РµС‚ РїСЂРёР»РѕР¶РµРЅРёРµ
         jfrm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Создать поля для ввода имен файлов
+        // РЎРѕР·РґР°С‚СЊ РїРѕР»СЏ РґР»СЏ РІРІРѕРґР° РёРјРµРЅ С„Р°Р№Р»РѕРІ
         jtfFirst = new JTextField(14);
         jtfSecond = new JTextField(14);
 
-        // Задать команды действия для текстовых полей
-        jtfFirst.setActionCommand("Файл А");
-        jtfSecond.setActionCommand("Файл Б");
+        // Р—Р°РґР°С‚СЊ РєРѕРјР°РЅРґС‹ РґРµР№СЃС‚РІРёСЏ РґР»СЏ С‚РµРєСЃС‚РѕРІС‹С… РїРѕР»РµР№
+        jtfFirst.setActionCommand("Р¤Р°Р№Р» Рђ");
+        jtfSecond.setActionCommand("Р¤Р°Р№Р» Р‘");
 
-        // Создать кнопку сравнения
-        JButton jbtnComp = new JButton("Сравнить");
+        // РЎРѕР·РґР°С‚СЊ РєРЅРѕРїРєСѓ СЃСЂР°РІРЅРµРЅРёСЏ
+        JButton jbtnComp = new JButton("РЎСЂР°РІРЅРёС‚СЊ");
 
-        // Добавить слушателя событий для кнопки
+        // Р”РѕР±Р°РІРёС‚СЊ СЃР»СѓС€Р°С‚РµР»СЏ СЃРѕР±С‹С‚РёР№ РґР»СЏ РєРЅРѕРїРєРё
         jbtnComp.addActionListener(this);
 
-        // Создать метки
-        jlabFirst = new JLabel("Первый файл:");
-        jlabSecond = new JLabel("Второй файл:");
+        // РЎРѕР·РґР°С‚СЊ РјРµС‚РєРё
+        jlabFirst = new JLabel("РџРµСЂРІС‹Р№ С„Р°Р№Р»:");
+        jlabSecond = new JLabel("Р’С‚РѕСЂРѕР№ С„Р°Р№Р»:");
         jlabResult = new JLabel("");
 
-        // Добавить компоненты на панель содержимого
+        // Р”РѕР±Р°РІРёС‚СЊ РєРѕРјРїРѕРЅРµРЅС‚С‹ РЅР° РїР°РЅРµР»СЊ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ
         jfrm.add(jlabFirst);
         jfrm.add(jtfFirst);
         jfrm.add(jlabSecond);
@@ -64,29 +63,29 @@ public class SwingFC implements ActionListener {
         jfrm.add(jbtnComp);
         jfrm.add(jlabResult);
 
-        // Отобразитьь фрейм
+        // РћС‚РѕР±СЂР°Р·РёС‚СЊСЊ С„СЂРµР№Рј
         jfrm.setVisible(true);
     }
 
-    // Сравнить файлы после щелчка на кнопке
+    // РЎСЂР°РІРЅРёС‚СЊ С„Р°Р№Р»С‹ РїРѕСЃР»Рµ С‰РµР»С‡РєР° РЅР° РєРЅРѕРїРєРµ
     @Override
     public void actionPerformed(ActionEvent e) {
         int i = 0, j = 0;
 
-        // Сначала убедимся в том, что введены имена обоих файлов
+        // РЎРЅР°С‡Р°Р»Р° СѓР±РµРґРёРјСЃСЏ РІ С‚РѕРј, С‡С‚Рѕ РІРІРµРґРµРЅС‹ РёРјРµРЅР° РѕР±РѕРёС… С„Р°Р№Р»РѕРІ
         if (jtfFirst.getText().equals("")) {
-            jlabResult.setText("Отсутствует имя первого файла.");
+            jlabResult.setText("РћС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РёРјСЏ РїРµСЂРІРѕРіРѕ С„Р°Р№Р»Р°.");
             return;
         }
         if (jtfSecond.getText().equals("")) {
-            jlabResult.setText("Отсутствует имя второго файла.");
+            jlabResult.setText("РћС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РёРјСЏ РІС‚РѕСЂРѕРіРѕ С„Р°Р№Р»Р°.");
             return;
         }
 
-        // Сравнить файлы, используя инструкцию try с ресурсами
+        // РЎСЂР°РІРЅРёС‚СЊ С„Р°Р№Р»С‹, РёСЃРїРѕР»СЊР·СѓСЏ РёРЅСЃС‚СЂСѓРєС†РёСЋ try СЃ СЂРµСЃСѓСЂСЃР°РјРё
         try (FileInputStream f1 = new FileInputStream(jtfFirst.getText());
              FileInputStream f2 = new FileInputStream(jtfSecond.getText())) {
-            // Сравнение содержимое обоих файлов
+            // РЎСЂР°РІРЅРµРЅРёРµ СЃРѕРґРµСЂР¶РёРјРѕРµ РѕР±РѕРёС… С„Р°Р№Р»РѕРІ
             do {
                 i = f1.read();
                 j = f2.read();
@@ -94,16 +93,16 @@ public class SwingFC implements ActionListener {
             } while (i != -1 && j != -1);
 
             if (i != j)
-                jlabResult.setText("Файлы отличаются");
+                jlabResult.setText("Р¤Р°Р№Р»С‹ РѕС‚Р»РёС‡Р°СЋС‚СЃСЏ");
             else
-                jlabResult.setText("Файлы одинаковы.");
+                jlabResult.setText("Р¤Р°Р№Р»С‹ РѕРґРёРЅР°РєРѕРІС‹.");
         } catch (IOException exc) {
-            jlabResult.setText("Ошибка файла");
+            jlabResult.setText("РћС€РёР±РєР° С„Р°Р№Р»Р°");
         }
     }
 
     public static void main(String[] args) {
-        // Создать фрейм в потоке диспетчеризации событий
+        // РЎРѕР·РґР°С‚СЊ С„СЂРµР№Рј РІ РїРѕС‚РѕРєРµ РґРёСЃРїРµС‚С‡РµСЂРёР·Р°С†РёРё СЃРѕР±С‹С‚РёР№
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {

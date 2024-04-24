@@ -1,10 +1,11 @@
-package Chapters.Chapter16;
+package SelfTests.SelfTests16;
 
 import javax.swing.*;
 import javax.swing.event.*;
 import java.awt.*;
 /**
- * Демонстрация использования простого списка JList
+ * Демонстрация выбора нескольких элементов из списка
+ * с помощью компонента JList
  */
 public class ListDemo implements ListSelectionListener {
 
@@ -35,8 +36,10 @@ public class ListDemo implements ListSelectionListener {
         // Создать объект JList
         jlist = new JList<>(names);
 
-        // Задать режим выбора одиночных элементов
-        jlist.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        // Удаление следующей строки кода задаст режим группового
+        // выбора элементов из списка (этот режим
+        // устанавливается для компонента JList по умолчанию)
+//        jlist.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
         // Добавить список на панель с полосами прокрутки
         jscrlp = new JScrollPane(jlist);
@@ -61,7 +64,7 @@ public class ListDemo implements ListSelectionListener {
     // Обработка событий списка
     @Override
     public void valueChanged(ListSelectionEvent e) {
-        // Получить индекс элемента, сосояние выбора
+        // Получить индекс элемента, состояние выбора
         // которого было изменено
         int idx = jlist.getSelectedIndex();
 

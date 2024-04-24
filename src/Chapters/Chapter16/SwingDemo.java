@@ -1,7 +1,6 @@
 package Chapters.Chapter16;
 
 import javax.swing.*;
-
 /**
  * Простая Swing-программа
  */

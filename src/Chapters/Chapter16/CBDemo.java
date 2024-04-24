@@ -1,10 +1,8 @@
 package Chapters.Chapter16;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-
+import java.awt.event.*;
+import javax.swing.*;
 /**
  * Демонстрация использования флажков
  */

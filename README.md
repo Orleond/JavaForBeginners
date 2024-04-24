@@ -22,6 +22,7 @@ ____
  - [Глава 17. Введение в JavaFX](#chapter17)
  - [Приложение Б. Применение документирующих комментариев в Java](#appendixb)
  - [Приложение B. Обзор технологии Java Web Start](#appendixc)
+ - [Приложение Е. Знакомство с JDK 10](#appendixf)
 
 &nbsp;
 ____
@@ -976,3 +977,17 @@ ____
 |[ButtonDemo.jnlp](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/Appendix%D0%A1/ButtonDemo.jnlp)|Файл, необходимый для запуска приложения|
 |[MyMan.txt](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/Appendix%D0%A1/MyMan.txt)|MANIFEST-файл|
 |[StartBD.html](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/Appendix%D0%A1/StartBD.html)|HTMLL-файл для загрузки приложения|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="appendixf">Приложение Е. Знакомство с JDK 10</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[VarDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/VarDemo.java)|Простая демонстрация выведения типа локальной переменной|
+|[MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/MyClass.java)|Выведение типов в случае пользовательского класса|
+|[VarDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/VarDemo2.java)|Выведение типов в случае пользовательского класса. Реализует класс [MyClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/MyClass.java)|
+|[VarDemo3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/VarDemo3.java)|При использовании наследования выведенный тип является объявленным типом инициализатора и может отличаться от типа объекта, на который в реальности ссылается инициализатор. Реализует классы [MyClass2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/MyClass2.java), [FirstDerivedClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/FirstDerivedClass.java) и [SecondDerivedClass](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/SecondDerivedClass.java)|
+|[VarDemo4](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/VarDemo4.java)|Использование выведения типов в циклах for|
+|[VarDemo5](https://github.com/Orleond/JavaForBeginners/blob/main/src/Appendixes/AppendixesF/VarDemo5.java)|Демонстрация использования счетчиков из класса Runtime.Version|

@@ -17,6 +17,7 @@ ____
  - [Глава 12. Перечисления, автоупаковка, статический импорт и аннотации](#chapter12)
  - [Глава 13. Обобщения](#chapter13)
  - [Глава 14. Лямбда-выражения и ссылки на методы](#chapter14)
+ - [Глава 15. Модули](#chapter15)
 
 &nbsp;
 ____
@@ -834,3 +835,41 @@ ____
 |Задание 16|[MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MyIntNum.java)|Добавление метода hasCommonFactor() в класс [MyIntNum](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter14/MyIntNum.java)|
 | |[IntPredicate](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/IntPredicate.java)|Функциональный интерфейс|
 | |[MethodRefDemo2](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks14/MethodRefDemo2.java)|Демонстрация работы метода hasCommonFactor() с использованием ссылки на метод|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter15">Глава 15. Модули</a>
+_Компилировать примеры рекомендуется вручную через командную строку без использования IDE_
+|Название класса|Описание|
+|-----------|-------------|
+|[SimpleMathFuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp/appsrc/appfuncs/appfuncs/simplefuncs/SimpleMathFuncs.java)|Несколько простых математических функций|
+|[MyModAppDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp/appsrc/appstart/appstart/mymodappdemo/MyModAppDemo.java)|Демонстрация простого модульного приложения|
+|[appfuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp/appsrc/appfuncs/module-info.java)|Определение модуля функций|
+|[appstart](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp/appsrc/appstart/module-info.java)|Определение главного модуля приложения|
+|[appfuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp2/appsrc/appfuncs/module-info.java)|Определение модуля, которое использует предложение to|
+|[BinaryFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncs/userfuncs/binaryfuncs/BinaryFunc.java)|Данный интерфейс определяет функцию, которая имеет два аргумента типа int и возвращает результат типа int. Это может быть любая бинарная операция с двумя аргументами типа int, которая возвращает результат типа int|
+|[BinFuncProvider](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncs/userfuncs/binaryfuncs/BinFuncProvider.java)|Этот интерфейс определяет структуру провайдера службы, который возвращает экземпляры [BinaryFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncs/userfuncs/binaryfuncs/BinaryFunc.java)|
+|[AbsPlus](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncsimp/userfuncsimp/binaryfuncsimp/AbsPlus.java)|Класс AbsPlus обеспечивает конкретную реализацию интерфейса [BinaryFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncs/userfuncs/binaryfuncs/BinaryFunc.java). Он возвращает результат abs(a) + abs(b)|
+|[AbsMinus](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncsimp/userfuncsimp/binaryfuncsimp/AbsMinus.java)|Класс AbsMinus обеспечивает конкретную реализацию интерфейса [BinaryFunc](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncs/userfuncs/binaryfuncs/BinaryFunc.java). Он возвращает результат abs(a) - abs(b)|
+|[AbsPlusProvider](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncsimp/userfuncsimp/binaryfuncsimp/AbsPlusProvider.java)|Провайдер для функции [AbsPlus](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncsimp/userfuncsimp/binaryfuncsimp/AbsPlus.java)|
+|[AbsMinusProvider](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncsimp/userfuncsimp/binaryfuncsimp/AbsMinusProvider.java)|Провайдер для функции [AbsMinus](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncsimp/userfuncsimp/binaryfuncsimp/AbsMinus.java)|
+|[userfuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncs/module-info.java)|Файл определения модуля userfuncs|
+|[userfuncsimp](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncsimp/module-info.java)|Файл определения модуля userfuncsimp|
+|[MyModAppDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/appstart/appstart/mymodappdemo/MyModAppDemo.java)|Модульное приложение, демонстрирующее использование служб и провайдеров служб|
+|[appstart](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/appstart/module-info.java)|Определение модуля для главного модуля приложения. Теперь используется интерфейс [BinFuncProvider](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter15/mymodapp3/appsrc/userfuncs/userfuncs/binaryfuncs/BinFuncProvider.java)|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 15.1|[appsupport](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises15/mymodapp/appsrc/appsupport/module-info.java)|Определение модуля appsupport|
+| |[SupportFuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises15/mymodapp/appsrc/appsupport/appsupport/supportfuncs/SupportFuncs.java)|Функции поддержки|
+| |[SimpleMathFuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises15/mymodapp/appsrc/appfuncs/appfuncs/simplefuncs/SimpleMathFuncs.java)|Несколько простых математических функций. На этот раз метод isFactor() удален|
+| |[appfuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises15/mymodapp/appsrc/appfuncs/module-info.java)|Определение модуля appfuncs|
+| |[MyModAppDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises15/mymodapp/appsrc/appstart/appstart/mymodappdemo/MyModAppDemo.java)|Обновлен для использования класса [SupportFuncs](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises15/mymodapp/appsrc/appsupport/appsupport/supportfuncs/SupportFuncs.java)|
+
+
+_В 15 главе отсутствуют упражнения для самопроверки, в которых необходимо писать код._

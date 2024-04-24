@@ -13,7 +13,6 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.transform.Rotate;
 import javafx.scene.transform.Scale;
 import javafx.stage.Stage;
-
 /**
  * Модифицируйте программу EffectsAndTransformsDemo таким образом,
  * чтобы размытие применялось также к кнопке Повернуть. Задайте для

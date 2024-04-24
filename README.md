@@ -19,6 +19,7 @@ ____
  - [Глава 14. Лямбда-выражения и ссылки на методы](#chapter14)
  - [Глава 15. Модули](#chapter15)
  - [Глава 16. Введение в Swing](#chapter16)
+ - [Глава 17. Введение в JavaFX](#chapter17)
 
 &nbsp;
 ____
@@ -912,3 +913,43 @@ ____
 |Задание 15|[SwingFC](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks16/SwingFC.java)|В этой версии предусмотрен флажок, установка которого задает отображение позиции первого расхождения в содержимом сравниваемых файлов|
 |Задание 16|[ListDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks16/ListDemo.java)|Демонстрация выбора нескольких элементов из списка с помощью компонента JList|
 |Задание 17|[Homework3](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks16/Homework3.java)|Задание повышенной сложности. Преобразование класса Help в программу Swing с графическим пользовательским интерфейсом|
+
+&nbsp;
+____
+
+&nbsp;
+### <a name="chapter17">Глава 17. Введение в JavaFX</a>
+|Название класса|Описание|
+|-----------|-------------|
+|[JavaFXSkel](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/JavaFXSkel.java)|Каркас приложения JavaFX|
+|[JavaFXLabelDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/JavaFXLabelDemo.java)|Демонстрация использования меток JavaFX|
+|[JavaFXEventDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/JavaFXEventDemo.java)|Демонстрация обработки событий JavaFX для кнопок|
+|[CheckBoxDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/CheckBoxDemo.java)|Демонстрация использования флажков|
+|[ListViewDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/ListViewDemo.java)|Демонстрация использования списка|
+|[TextFieldDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/TextFieldDemo.java)|Демонстрация использования текстового поля|
+|[EffectsAndTransformsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/EffectsAndTransformsDemo.java)|Демонстрация эффектов поворота, масштабирования, отражения и размытия компонента|
+
+
+&nbsp;
+#### Листинг упражнений
+|Номер упражнения|Название класса|Описание|
+|-----------|-------------|-------------|
+|Упражнение 17.1|[CheckBoxDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Exercises/Exercises17/CheckBoxDemo.java)|Демонстрация использования флажков|
+
+
+&nbsp;
+#### Листинг ответов на упражнения для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 10|[JavaFXEventDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests17/JavaFXEventDemo.java)|Демонстрация использования метода Platform.exit()|
+|Задание 13|[JavaFXFileComp](https://github.com/Orleond/JavaForBeginners/blob/main/src/SelfTests/SelfTests17/JavaFXFileComp.java)|Реализация средствами JavaFX версии утилиты сравнения файлов|
+
+
+
+&nbsp;
+#### Листинг моих решений упражнений для самопроверки из книги
+|Номер задания|Название класса|Описание|
+|-----------|-------------|-------------|
+|Задание 10|[JavaFXEventDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks17/JavaFXEventDemo.java)|Демонстрация использования метода Platform.exit()|
+|Задание 13|[JavaFXFC](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks17/JavaFXFC.java)|Реализация средствами JavaFX версии утилиты сравнения файлов|
+|Задание 14|[EffectsAndTransformsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Homeworks/Homeworks17/EffectsAndTransformsDemo.java)|Модификация программы [EffectsAndTransformsDemo](https://github.com/Orleond/JavaForBeginners/blob/main/src/Chapters/Chapter17/EffectsAndTransformsDemo.java) таким образом, чтобы размытие применялось также к кнопке "Повернуть"|
